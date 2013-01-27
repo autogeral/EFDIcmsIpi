@@ -56,8 +56,9 @@ public class R0000 extends LineArchetype {
         addFieldArchetype(IM, new FieldStringMaximumLengthArchetype(30));
         fa = new FieldStringMaximumLengthArchetype(9);
         fa.setNullableRepresentation("");
+        fa.setFullFillingNullable(false);
         addFieldArchetype(SUFRAMA, fa);
-        addFieldArchetype(IND_PERFIL, new FieldStringFixedLengthArchetype(2));
+        addFieldArchetype(IND_PERFIL, new FieldStringMaximumLengthArchetype(2));
         addFieldArchetype(IND_ATIV, new FieldIntegerFixedLengthArchetype(1));
     }
 

@@ -38,7 +38,7 @@ public class R0000Test {
 
         StringBuffer sb = line.getRepresentation();
         String result = sb.toString();
-        String expected = "|0000|006|0|01122012|31122012|AUTO GERAL DE ITU LTDA|05437537000137||SP|387034155115|3523909|2623||A|1|";
+        String expected = "|0000|006|0|01122012|31122012|AUTO GERAL DE ITU LTDA|05437537000137||SP|387034155115|3523909|12677||A|1|";
         assertEquals(expected, result);
         System.out.print(result);
     }

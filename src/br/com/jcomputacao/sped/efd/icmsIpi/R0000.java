@@ -23,6 +23,7 @@ public class R0000 extends LineArchetype {
     public final static String DT_FIN = "DT_FIN";
     public final static String NOME = "NOME";
     public final static String CNPJ = "CNPJ";
+    public final static String CPF = "CPF";
     public final static String UF = "UF";
     public final static String IE = "IE";
     public final static String COD_MUN = "COD_MUN";
@@ -41,7 +42,14 @@ public class R0000 extends LineArchetype {
         addFieldArchetype(DT_INI, fa);
         addFieldArchetype(DT_FIN, fa);
         addFieldArchetype(NOME, new FieldStringMaximumLengthArchetype(100));
-        addFieldArchetype(CNPJ, new FieldIntegerMaximumLengthArchetype(14));
+        fa = new FieldIntegerFixedLengthArchetype(14);
+        fa.setNullableRepresentation("");
+        fa.setFullFillingNullable(false);
+        addFieldArchetype(CNPJ, fa);
+        fa = new FieldIntegerFixedLengthArchetype(14);
+        fa.setNullableRepresentation("");
+        fa.setFullFillingNullable(false);
+        addFieldArchetype(CPF, fa);
         addFieldArchetype(UF, new FieldStringFixedLengthArchetype(2));
         addFieldArchetype(IE, new FieldStringMaximumLengthArchetype(14));
         addFieldArchetype(COD_MUN, new FieldIntegerMaximumLengthArchetype(7));

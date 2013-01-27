@@ -29,7 +29,7 @@ public class R0000Test {
         line.setFieldValue(R0000.DT_FIN, data);
         line.setFieldValue(R0000.NOME, "AUTO GERAL DE ITU LTDA");
         line.setFieldValue(R0000.CNPJ, 5437537000137L);
-        line.setFieldValue(R0000.IE, "387.34.155.115");
+        line.setFieldValue(R0000.IE, "387034155115");
         line.setFieldValue(R0000.UF, "SP");
         line.setFieldValue(R0000.COD_MUN, 3523909);
         line.setFieldValue(R0000.IM, "12677");

@@ -1,7 +1,7 @@
 package br.com.jcomputacao.sped.efd.icmsIpi;
 
 import br.com.jcomputacao.aristoteles.line.LineModel;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 /**

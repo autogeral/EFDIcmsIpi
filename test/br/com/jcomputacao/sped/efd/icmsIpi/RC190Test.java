@@ -15,7 +15,7 @@ public class RC190Test {
       RC190 r = new RC190();
       LineModel model = r.createModel();
       //2
-      model.setFieldValue(RC190.CST_ICMS, 061);
+      model.setFieldValue(RC190.CST_ICMS, 461);
       //3
       model.setFieldValue(RC190.CFOP, 1411);
       //4
@@ -39,7 +39,7 @@ public class RC190Test {
       
       StringBuffer sb = model.getRepresentation();
         String result = sb.toString();
-        String expected = "|C190|061|1411|0,00|96,43|0,00|0,00|0,00|0,00|0,00|0,00||";
+        String expected = "|C190|461|1411|0,00|96,43|0,00|0,00|0,00|0,00|0,00|0,00||";
         
         System.out.println("Excecting ....  : " + expected);
         System.out.println("Result    ....  : " + result);

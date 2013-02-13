@@ -96,7 +96,7 @@ public class RC190 extends LineArchetype {
     //3
     addFieldArchetype(CFOP, new FieldIntegerFixedLengthArchetype(4));
     //4
-     FieldDecimalMaximumLengthArchetype f1 = new FieldDecimalMaximumLengthArchetype(6,2);
+     FieldDecimalMaximumLengthArchetype f1 = new FieldDecimalMaximumLengthArchetype(9,2);
      f1.setFormat(fw);
      addFieldArchetype(ALIQ_ICMS, f1);
      //5

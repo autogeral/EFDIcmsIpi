@@ -61,7 +61,7 @@ public class RD197 extends LineArchetype{
         FieldDecimalMaximumLengthArchetype decimal = new FieldDecimalMaximumLengthArchetype(15,2);
         decimal.setFormat(fw);
         
-         FieldDecimalMaximumLengthArchetype f7 = new FieldDecimalMaximumLengthArchetype(6,2);
+         FieldDecimalMaximumLengthArchetype f7 = new FieldDecimalMaximumLengthArchetype(9,2);
          f7.setFormat(fw);
                 
         addFieldArchetype(REGISTRO, new FieldDefaultArchetype("D197"));

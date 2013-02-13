@@ -83,7 +83,7 @@ public class RD190 extends LineArchetype{
        FormatWrapper fw1 = FormatFactory.getFormat(FormatType.DECIMAL);
        fw1.setReplaceComa(false);
        
-       FieldDecimalMaximumLengthArchetype f5 = new FieldDecimalMaximumLengthArchetype(6,2);
+       FieldDecimalMaximumLengthArchetype f5 = new FieldDecimalMaximumLengthArchetype(9,2);
        f5.setFormat(fw1);       
        
        FormatWrapper fw = FormatFactory.getFormat(FormatType.DECIMAL);

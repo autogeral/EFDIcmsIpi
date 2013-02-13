@@ -115,7 +115,7 @@ public class RD300 extends LineArchetype{
         FormatWrapper fw = FormatFactory.getFormat(FormatType.DECIMAL);
         fw.setReplaceComa(false);
         
-        FieldDecimalMaximumLengthArchetype f9 = new FieldDecimalMaximumLengthArchetype(6,2);
+        FieldDecimalMaximumLengthArchetype f9 = new FieldDecimalMaximumLengthArchetype(9,2);
         f9.setFormat(fw);
    
         FieldDecimalMaximumLengthArchetype decimal = new FieldDecimalMaximumLengthArchetype(15,2);

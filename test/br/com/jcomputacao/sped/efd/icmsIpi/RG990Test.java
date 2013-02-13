@@ -11,7 +11,7 @@ import org.junit.Test;
 public class RG990Test {
 
      @Test
-    public void RD990Test() {
+    public void RG990Test() {
         
         RG990 r = new RG990();
        

@@ -6,7 +6,6 @@ import br.com.jcomputacao.aristoteles.format.FormatFactory;
 import br.com.jcomputacao.aristoteles.format.FormatType;
 import br.com.jcomputacao.aristoteles.format.FormatWrapper;
 import br.com.jcomputacao.aristoteles.line.LineArchetype;
-import javax.sound.sampled.spi.FormatConversionProvider;
 
 
 /**

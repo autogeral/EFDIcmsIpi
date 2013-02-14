@@ -1,6 +1,9 @@
 package br.com.jcomputacao.sped.efd.icmsIpi;
 
-import br.com.jcomputacao.aristoteles.field.*;
+import br.com.jcomputacao.aristoteles.field.FieldDecimalMaximumLengthArchetype;
+import br.com.jcomputacao.aristoteles.field.FieldDefaultArchetype;
+import br.com.jcomputacao.aristoteles.field.FieldIntegerFixedLengthArchetype;
+import br.com.jcomputacao.aristoteles.field.FieldStringMaximumLengthArchetype;
 import br.com.jcomputacao.aristoteles.format.FormatFactory;
 import br.com.jcomputacao.aristoteles.format.FormatType;
 import br.com.jcomputacao.aristoteles.format.FormatWrapper;

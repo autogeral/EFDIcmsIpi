@@ -1,19 +1,14 @@
 package br.com.jcomputacao.sped.efd.icmsIpi;
 
-import static org.junit.Assert.*;
-import br.com.jcomputacao.aristoteles.Model;
 import br.com.jcomputacao.aristoteles.line.LineModel;
-import java.text.Format;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 /**
  * 13/02/2013 10:50:41
  * @author Thiago Balthazar
  */
 public class RC170Test {
-	
+	 
     @Test
     public void RC170Test(){
         

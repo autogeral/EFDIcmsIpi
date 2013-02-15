@@ -8,6 +8,9 @@ import br.com.jcomputacao.aristoteles.field.FieldIntegerFixedLengthArchetype;
 import br.com.jcomputacao.aristoteles.field.FieldIntegerMaximumLengthArchetype;
 import br.com.jcomputacao.aristoteles.field.FieldStringFixedLengthArchetype;
 import br.com.jcomputacao.aristoteles.field.FieldStringMaximumLengthArchetype;
+import br.com.jcomputacao.aristoteles.format.FormatFactory;
+import br.com.jcomputacao.aristoteles.format.FormatType;
+import br.com.jcomputacao.aristoteles.format.FormatWrapper;
 import br.com.jcomputacao.aristoteles.line.LineArchetype;
 
 /**
@@ -194,35 +197,43 @@ public class RC100 extends LineArchetype {
     public RC100() {
         setName("Registro C100 - Nota fiscal 01, Nota fiscal avulsta 1B, Nota fiscal de produtor 4 e NF-e 55");
         setDelimiter("|");
-        addFieldArchetype(REGISTRO,   new FieldDefaultArchetype("0600"));
-        addFieldArchetype(IND_OPER,   new FieldIntegerFixedLengthArchetype(1));
-        addFieldArchetype(IND_EMIT,   new FieldIntegerFixedLengthArchetype(1));
-        addFieldArchetype(COD_PART,   new FieldStringMaximumLengthArchetype(60));
-        addFieldArchetype(COD_MOD,    new FieldStringMaximumLengthArchetype(2));
-        addFieldArchetype(COD_SIT,    new FieldIntegerFixedLengthArchetype(2));
-        addFieldArchetype(SER,        new FieldStringMaximumLengthArchetype(3));
-        addFieldArchetype(NUM_DOC,    new FieldIntegerMaximumLengthArchetype(9));
-        addFieldArchetype(CHV_NFE,    new FieldStringFixedLengthArchetype(44));
-        addFieldArchetype(DT_DOC,     new FieldDateFixedLengthArchetype());
-        addFieldArchetype(DT_E_S,     new FieldDateFixedLengthArchetype());
-        addFieldArchetype(VL_DOC,     new FieldDecimalMaximumLengthArchetype(15,2));
-        addFieldArchetype(IND_PGTO,   new FieldIntegerFixedLengthArchetype(1));
-        addFieldArchetype(VL_DESC,    new FieldDecimalMaximumLengthArchetype(15,2));
-        addFieldArchetype(VL_ABAT_NT, new FieldDecimalMaximumLengthArchetype(15,2));
-        addFieldArchetype(VL_MERC,    new FieldDecimalMaximumLengthArchetype(15,2));
-        addFieldArchetype(IND_EMIT,   new FieldIntegerFixedLengthArchetype(1));
-        addFieldArchetype(VL_FRT,     new FieldDecimalMaximumLengthArchetype(15,2));
-        addFieldArchetype(VL_SEG,     new FieldDecimalMaximumLengthArchetype(15,2));
-        addFieldArchetype(VL_OUT_DA,  new FieldDecimalMaximumLengthArchetype(15,2));
-        addFieldArchetype(VL_BC_ICMS, new FieldDecimalMaximumLengthArchetype(15,2));
-        addFieldArchetype(VL_ICMS,    new FieldDecimalMaximumLengthArchetype(15,2));
-        addFieldArchetype(VL_BC_ICMS_ST, new FieldDecimalMaximumLengthArchetype(15,2));
-        addFieldArchetype(VL_ICMS_ST, new FieldDecimalMaximumLengthArchetype(15,2));
-        addFieldArchetype(VL_IPI,     new FieldDecimalMaximumLengthArchetype(15,2));
-        addFieldArchetype(VL_PIS,     new FieldDecimalMaximumLengthArchetype(15,2));
-        addFieldArchetype(VL_COFINS,  new FieldDecimalMaximumLengthArchetype(15,2));
-        addFieldArchetype(VL_PIS_ST,  new FieldDecimalMaximumLengthArchetype(15,2));
-        addFieldArchetype(VL_COFINS_ST, new FieldDecimalMaximumLengthArchetype(15,2));
+        
+        
+       FormatWrapper fw = FormatFactory.getFormat(FormatType.DECIMAL);
+       fw.setReplaceComa(false);
+     
+       FieldDecimalMaximumLengthArchetype decimal = new FieldDecimalMaximumLengthArchetype(15,2);
+       decimal.setFormat(fw);
+       
+        addFieldArchetype(REGISTRO,   new FieldDefaultArchetype("C100"));//1
+        addFieldArchetype(IND_OPER,   new FieldStringFixedLengthArchetype(1));//2
+        addFieldArchetype(IND_EMIT,   new FieldStringFixedLengthArchetype(1));//3
+        addFieldArchetype(COD_PART,   new FieldStringMaximumLengthArchetype(60));//4
+        addFieldArchetype(COD_MOD,    new FieldStringFixedLengthArchetype(2));//5
+        addFieldArchetype(COD_SIT,    new FieldIntegerFixedLengthArchetype(2));//6
+        addFieldArchetype(SER,        new FieldStringMaximumLengthArchetype(3));//7
+        addFieldArchetype(NUM_DOC,    new FieldIntegerMaximumLengthArchetype(9));//8
+        addFieldArchetype(CHV_NFE,    new FieldStringFixedLengthArchetype(44));//9
+        addFieldArchetype(DT_DOC,     new FieldDateFixedLengthArchetype("ddMMyyyy"));//10
+        addFieldArchetype(DT_E_S,     new FieldDateFixedLengthArchetype("ddMMyyyy"));//11
+        addFieldArchetype(VL_DOC,     decimal);//12
+        addFieldArchetype(IND_PGTO,   new FieldStringFixedLengthArchetype(1));//13
+        addFieldArchetype(VL_DESC,    decimal);//14
+        addFieldArchetype(VL_ABAT_NT, decimal);//15
+        addFieldArchetype(VL_MERC,    decimal);//16
+        addFieldArchetype(IND_EMIT,   new FieldStringFixedLengthArchetype(1));//17
+        addFieldArchetype(VL_FRT,     decimal);//18
+        addFieldArchetype(VL_SEG,     decimal);//19
+        addFieldArchetype(VL_OUT_DA,  decimal);//20
+        addFieldArchetype(VL_BC_ICMS, decimal);//21
+        addFieldArchetype(VL_ICMS,    decimal);//22
+        addFieldArchetype(VL_BC_ICMS_ST, decimal);//23
+        addFieldArchetype(VL_ICMS_ST, decimal);//24
+        addFieldArchetype(VL_IPI,     decimal);//25
+        addFieldArchetype(VL_PIS,     decimal);//26
+        addFieldArchetype(VL_COFINS,  decimal);//27
+        addFieldArchetype(VL_PIS_ST,  decimal);//28
+        addFieldArchetype(VL_COFINS_ST, decimal);//29
     }
 
 }

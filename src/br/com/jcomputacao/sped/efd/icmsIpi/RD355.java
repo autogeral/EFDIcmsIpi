@@ -1,13 +1,13 @@
 package br.com.jcomputacao.sped.efd.icmsIpi;
 
-
-import br.com.jcomputacao.aristoteles.field.*;
+import br.com.jcomputacao.aristoteles.field.FieldDateFixedLengthArchetype;
+import br.com.jcomputacao.aristoteles.field.FieldDecimalMaximumLengthArchetype;
+import br.com.jcomputacao.aristoteles.field.FieldDefaultArchetype;
+import br.com.jcomputacao.aristoteles.field.FieldIntegerMaximumLengthArchetype;
 import br.com.jcomputacao.aristoteles.format.FormatFactory;
 import br.com.jcomputacao.aristoteles.format.FormatType;
 import br.com.jcomputacao.aristoteles.format.FormatWrapper;
 import br.com.jcomputacao.aristoteles.line.LineArchetype;
-import java.lang.reflect.Field;
-import javax.sound.sampled.spi.FormatConversionProvider;
 /**
  * 08/02/2013 08:09:37
  * @author Thiago Balthazar

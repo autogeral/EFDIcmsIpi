@@ -65,7 +65,12 @@ public class R0150 extends LineArchetype {
         addFieldArchetype(SUFRAMA, fa);
         
         addFieldArchetype(END,      new FieldStringMaximumLengthArchetype(255));
-        addFieldArchetype(END_NUM,  new FieldIntegerMaximumLengthArchetype(6));
+        
+        fa = new FieldIntegerMaximumLengthArchetype(6);
+        fa.setNullableRepresentation("");
+        fa.setFullFillingNullable(false);
+        addFieldArchetype(END_NUM,  fa);
+        
         fa = new FieldStringMaximumLengthArchetype(255);
         fa.setNullableRepresentation("");
         fa.setFullFillingNullable(false);

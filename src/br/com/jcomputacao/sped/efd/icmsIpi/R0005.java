@@ -39,8 +39,14 @@ public class R0005  extends LineArchetype {
         addFieldArchetype(END_COMP, fa);
         addFieldArchetype(BAIRRO,   new FieldStringMaximumLengthArchetype(255));
         addFieldArchetype(FONE,     new FieldStringMaximumLengthArchetype(10));
-        addFieldArchetype(FAX,      new FieldStringMaximumLengthArchetype(11));
-        addFieldArchetype(EMAIL,    new FieldStringMaximumLengthArchetype(255));
+        fa = new FieldStringMaximumLengthArchetype(11);
+        fa.setNullableRepresentation("");
+        fa.setFullFillingNullable(false);
+        addFieldArchetype(FAX,      fa);
+        fa = new FieldStringMaximumLengthArchetype(255);
+        fa.setNullableRepresentation("");
+        fa.setFullFillingNullable(false);
+        addFieldArchetype(EMAIL,    fa);
      }
 
 }

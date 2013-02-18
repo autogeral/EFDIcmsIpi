@@ -12,7 +12,7 @@ import br.com.jcomputacao.aristoteles.line.LineArchetype;
 
 /**
  * 25/01/2013 17:14:28
- * @author murilodemoraestuvani
+ * @author Murilo
  */
 public class R0000 extends LineArchetype {
     

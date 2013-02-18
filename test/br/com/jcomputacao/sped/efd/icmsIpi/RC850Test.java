@@ -1,0 +1,38 @@
+package br.com.jcomputacao.sped.efd.icmsIpi;
+
+import br.com.jcomputacao.aristoteles.line.LineModel;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+
+/**
+ * 18/02/2013 16:18:14
+ * @author Thiago Balthazar
+ */
+public class RC850Test {
+    
+    @Test
+    public void RC850Test() {
+        
+        RC850 r = new RC850();
+               
+        LineModel model = r.createModel();
+        
+       model.setFieldValue(RC850.CST_ICMS , 123);
+       model.setFieldValue(RC850.CFOP , 1234 );
+       model.setFieldValue(RC850.ALIQ_ICMS , 123456.12 );
+       model.setFieldValue(RC850.VL_OPR , 120.00);
+       model.setFieldValue(RC850.VL_BC_ICMS , 120.00 );
+       model.setFieldValue(RC850.VL_ICMS , 120.00 );
+       model.setFieldValue(RC850.COD_OBS , "0012AV" );
+       
+       
+        StringBuffer sb = model.getRepresentation();
+        String result = sb.toString();
+        String expected = "|C850|123|1234|123456,12|120,00|120,00|120,00|0012AV|";
+                         
+        System.out.println("Excecting ....  : " + expected);
+        System.out.println("Result    ....  : " + result);
+        assertEquals(expected, result);
+    }
+
+}

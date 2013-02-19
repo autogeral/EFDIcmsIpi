@@ -49,6 +49,7 @@ public class RH020 extends LineArchetype {
          FieldDecimalMaximumLengthArchetype f2 = new FieldDecimalMaximumLengthArchetype(15,2);
         f2.setFormat(fw);
         addFieldArchetype(VL_ICMS, f2);
+        
     }
  
  

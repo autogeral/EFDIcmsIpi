@@ -40,7 +40,7 @@ public class RG110Test  {
         
         StringBuffer st = model.getRepresentation();
         String result = st.toString();
-         String expected = "|G110|04082012|15082012|155,12|155,12|155,12|155,12|155,12|155,12|155,12|";
+         String expected = "|G110|04082012|15082012|155,12|155,12|155,12|155,12|155,12222222|155,12|155,12|";
         System.out.println("Excecting ....  : " + expected);
          System.out.println("Result    ....  : " + result);
          assertEquals(expected, result);

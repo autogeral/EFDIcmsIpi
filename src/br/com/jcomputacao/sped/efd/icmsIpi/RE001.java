@@ -22,7 +22,7 @@ public class RE001 extends LineArchetype {
     public RE001() {
         setName("Registro E001 - Aberturado do bloco e identificaca as informacoes do bloco");
         setDelimiter("|");
-        addFieldArchetype(REGISTRO, new FieldDefaultArchetype("C001"));
+        addFieldArchetype(REGISTRO, new FieldDefaultArchetype("E001"));
         addFieldArchetype(IND_MOV, new FieldIntegerFixedLengthArchetype(1));
     }
 

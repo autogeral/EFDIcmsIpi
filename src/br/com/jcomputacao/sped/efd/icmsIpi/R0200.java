@@ -817,7 +817,7 @@ tomador do serviço).</p>
         addFieldArchetype(COD_ITEM,     new FieldStringMaximumLengthArchetype(60));
         //3
         addFieldArchetype(DESCR_ITEM,   new FieldStringMaximumLengthArchetype(255));
-        FieldArchetype fa = new FieldStringMaximumLengthArchetype(128);
+        FieldArchetype fa = new FieldStringMaximumLengthArchetype(14);
         fa.setNullableRepresentation("");
         fa.setFullFillingNullable(false);
         //4
@@ -832,7 +832,11 @@ tomador do serviço).</p>
         //7
         addFieldArchetype(TIPO_ITEM,    new FieldIntegerFixedLengthArchetype(2));
         //8
-        addFieldArchetype(COD_NCM,      new FieldStringFixedLengthArchetype(8));
+        fa = new FieldStringFixedLengthArchetype(8);
+        fa.setFullFillingNullable(false);
+        fa.setNullableRepresentation("");
+        addFieldArchetype(COD_NCM,      fa);
+        
         fa = new FieldStringMaximumLengthArchetype(3);
         fa.setFullFillingNullable(false);
         fa.setNullableRepresentation("");

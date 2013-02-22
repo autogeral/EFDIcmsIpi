@@ -8,9 +8,10 @@ import br.com.jcomputacao.aristoteles.line.LineArchetype;
 
 /**
  * 18/02/2013 13:52:37
+ *
  * @author Thiago Balthazar
  */
-public class RC460 extends LineArchetype{
+public class RC460 extends LineArchetype {
 
     public static final String REGISTRO = "REG";
     /*
@@ -24,7 +25,7 @@ public class RC460 extends LineArchetype{
     public static final String COD_SIT = "COD_SIT";
     /*
      * Código da situação do documento fiscal,
-       conforme a Tabela 4.1.2
+     conforme a Tabela 4.1.2
      */
     public static final String NUM_DOC = "NUM_DOC";
     /*
@@ -56,16 +57,16 @@ public class RC460 extends LineArchetype{
      */
 
     public RC460() {
-    
+
         setName("REGISTRO C460: DOCUMENTO FISCAL EMITIDO POR ECF (CODIGO 02 e 2D)");
         setDelimiter("|");
-        
-       FormatWrapper fw = FormatFactory.getFormat(FormatType.DECIMAL);
-       fw.setReplaceComa(false);
-     
-       FieldDecimalMaximumLengthArchetype decimal = new FieldDecimalMaximumLengthArchetype(15,2);
-       decimal.setFormat(fw);
-        
+
+        FormatWrapper fw = FormatFactory.getFormat(FormatType.DECIMAL);
+        fw.setReplaceComa(false);
+
+        FieldDecimalMaximumLengthArchetype decimal = new FieldDecimalMaximumLengthArchetype(15, 2);
+        decimal.setFormat(fw);
+
         addFieldArchetype(REGISTRO, new FieldDefaultArchetype("C460"));
         addFieldArchetype(COD_MOD, new FieldStringFixedLengthArchetype(2));
         addFieldArchetype(COD_SIT, new FieldIntegerFixedLengthArchetype(2));
@@ -74,9 +75,13 @@ public class RC460 extends LineArchetype{
         addFieldArchetype(VL_DOC, decimal);
         addFieldArchetype(VL_PIS, decimal);
         addFieldArchetype(VL_COFINS, decimal);
-        addFieldArchetype(CPF_CNPJ, new FieldIntegerMaximumLengthArchetype(14));
-        addFieldArchetype(NOM_ADQ, new FieldStringMaximumLengthArchetype(60));
+        FieldArchetype fa = new FieldIntegerMaximumLengthArchetype(14);
+        fa.setNullableRepresentation("");
+        fa.setFullFillingNullable(false);
+        addFieldArchetype(CPF_CNPJ, fa);
+        fa = new FieldStringMaximumLengthArchetype(60);
+        fa.setNullableRepresentation("");
+        fa.setFullFillingNullable(false);
+        addFieldArchetype(NOM_ADQ, fa);
     }
-
-    
 }

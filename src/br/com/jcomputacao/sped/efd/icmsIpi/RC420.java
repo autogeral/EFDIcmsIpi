@@ -1,5 +1,6 @@
 package br.com.jcomputacao.sped.efd.icmsIpi;
 
+import br.com.jcomputacao.aristoteles.field.FieldArchetype;
 import br.com.jcomputacao.aristoteles.field.FieldDecimalMaximumLengthArchetype;
 import br.com.jcomputacao.aristoteles.field.FieldDefaultArchetype;
 import br.com.jcomputacao.aristoteles.field.FieldIntegerMaximumLengthArchetype;
@@ -55,6 +56,9 @@ public class RC420 extends LineArchetype {
         addFieldArchetype(COD_TOT_PAR, new FieldStringMaximumLengthArchetype(7));
         addFieldArchetype(VLR_ACUM_TOT, decimal);
         addFieldArchetype(NR_TOT, new FieldIntegerMaximumLengthArchetype(2));
-        addFieldArchetype(DESCR_NR_TOT, new FieldStringMaximumLengthArchetype(255));
+        FieldArchetype fa = new FieldStringMaximumLengthArchetype(255);
+        fa.setNullableRepresentation("");
+        fa.setFullFillingNullable(false);
+        addFieldArchetype(DESCR_NR_TOT, fa);
     }
 }

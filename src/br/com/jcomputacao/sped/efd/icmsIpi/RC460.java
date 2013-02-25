@@ -13,51 +13,50 @@ import br.com.jcomputacao.aristoteles.line.LineArchetype;
  */
 public class RC460 extends LineArchetype {
 
-    public static final String REGISTRO = "REG";
     /*
      * Texto fixo contendo "C460"
      */
-    public static final String COD_MOD = "COD_MOD";
+    public static final String REGISTRO = "REG";
     /*
      * Código do modelo do documento fiscal,
      * conforme a Tabela 4.1.1
      */
-    public static final String COD_SIT = "COD_SIT";
+    public static final String COD_MOD = "COD_MOD";
     /*
      * Código da situação do documento fiscal,
      conforme a Tabela 4.1.2
      */
-    public static final String NUM_DOC = "NUM_DOC";
+    public static final String COD_SIT = "COD_SIT";
     /*
      * Número do documento fiscal (COO)
      */
-    public static final String DT_DOC = "DT_DOC";
+    public static final String NUM_DOC = "NUM_DOC";
     /*
      * Data da emissão do documento fiscal
      */
-    public static final String VL_DOC = "VL_DOC";
+    public static final String DT_DOC = "DT_DOC";
     /*
      * Valor total do documento fiscal
      */
-    public static final String VL_PIS = "VL_PIS";
+    public static final String VL_DOC = "VL_DOC";
     /*
      * Valor do PIS
      */
-    public static final String VL_COFINS = "VL_COFINS";
+    public static final String VL_PIS = "VL_PIS";
     /*
      * Valor da COFINS
      */
-    public static final String CPF_CNPJ = "CPF_CNPJ";
+    public static final String VL_COFINS = "VL_COFINS";
     /*
      * CPF ou CNPJ do adquirente
      */
-    public static final String NOM_ADQ = "NOM_ADQ";
+    public static final String CPF_CNPJ = "CPF_CNPJ";
     /*
      * Nome do adquirente
      */
+    public static final String NOM_ADQ = "NOM_ADQ";
 
     public RC460() {
-
         setName("REGISTRO C460: DOCUMENTO FISCAL EMITIDO POR ECF (CODIGO 02 e 2D)");
         setDelimiter("|");
 
@@ -75,7 +74,7 @@ public class RC460 extends LineArchetype {
         addFieldArchetype(VL_DOC, decimal);
         addFieldArchetype(VL_PIS, decimal);
         addFieldArchetype(VL_COFINS, decimal);
-        FieldArchetype fa = new FieldIntegerMaximumLengthArchetype(14);
+        FieldArchetype fa = new FieldStringMaximumLengthArchetype(14);
         fa.setNullableRepresentation("");
         fa.setFullFillingNullable(false);
         addFieldArchetype(CPF_CNPJ, fa);

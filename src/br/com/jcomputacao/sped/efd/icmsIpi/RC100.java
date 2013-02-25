@@ -1,6 +1,7 @@
 
 package br.com.jcomputacao.sped.efd.icmsIpi;
 
+import br.com.jcomputacao.aristoteles.field.FieldArchetype;
 import br.com.jcomputacao.aristoteles.field.FieldDateFixedLengthArchetype;
 import br.com.jcomputacao.aristoteles.field.FieldDecimalMaximumLengthArchetype;
 import br.com.jcomputacao.aristoteles.field.FieldDefaultArchetype;
@@ -88,7 +89,7 @@ public class RC100 extends LineArchetype {
      * <tr><td>02</td><td>Documento cancelado</td></tr>
      * <tr><td>03</td><td>Documento cancelado extemporaneo</td></tr>
      * <tr><td>04</td><td>NFe denegada</td></tr>
-     * <tr><td>05</td><td>Nfe Numeracao inutilizada</td></tr
+     * <tr><td>05</td><td>Nfe Numeracao inutilizada</td></tr>
      * <tr><td>06</td><td>Documento Fiscal Complementar</td></tr>
      * <tr><td>07</td><td>Documento Fiscal Complementar extemporaneo.</td></tr>
      * <tr><td>08</td><td>Documento Fiscal emitido com base em Regime Especial ou Norma Especifica</td></tr>
@@ -213,7 +214,11 @@ public class RC100 extends LineArchetype {
         addFieldArchetype(COD_SIT,    new FieldIntegerFixedLengthArchetype(2));//6
         addFieldArchetype(SER,        new FieldStringMaximumLengthArchetype(3));//7
         addFieldArchetype(NUM_DOC,    new FieldIntegerMaximumLengthArchetype(9));//8
-        addFieldArchetype(CHV_NFE,    new FieldStringFixedLengthArchetype(44));//9
+        
+        FieldArchetype fa = new FieldStringFixedLengthArchetype(44);
+        fa.setNullableRepresentation("");
+        fa.setFullFillingNullable(false);
+        addFieldArchetype(CHV_NFE,    fa);//9
         addFieldArchetype(DT_DOC,     new FieldDateFixedLengthArchetype("ddMMyyyy"));//10
         addFieldArchetype(DT_E_S,     new FieldDateFixedLengthArchetype("ddMMyyyy"));//11
         addFieldArchetype(VL_DOC,     decimal);//12

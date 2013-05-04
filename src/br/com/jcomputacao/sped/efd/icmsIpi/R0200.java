@@ -847,7 +847,7 @@ tomador do serviço).</p>
         fa.setNullableRepresentation("");
         //10
         addFieldArchetype(COD_GEN,      fa);
-        fa = new FieldIntegerFixedLengthArchetype(2);
+        fa = new FieldIntegerFixedLengthArchetype(4);
         fa.setFullFillingNullable(false);
         fa.setNullableRepresentation("0000");
         //11
@@ -857,6 +857,7 @@ tomador do serviço).</p>
         FormatWrapper fw = FormatFactory.getFormat(FormatType.DECIMAL);
         fw.setReplaceComa(false);
         FieldDecimalMaximumLengthArchetype fda = new FieldDecimalMaximumLengthArchetype(6, 2);
+        fda.setFullFillingNullable(false);
         fda.setNullableRepresentation("0,00");
         fda.setFormat(fw);
         addFieldArchetype(ALIQ_ICMS,    fda);

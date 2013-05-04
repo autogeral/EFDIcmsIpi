@@ -1,7 +1,7 @@
 package br.com.jcomputacao.sped.efd.icmsIpi;
 
 import br.com.jcomputacao.aristoteles.line.LineModel;
-import org.junit.AfterClass;
+import java.text.ParseException;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.junit.BeforeClass;
@@ -11,6 +11,11 @@ import org.junit.BeforeClass;
  * @author Thiago Balthazar
  */
 public class R0200Test {
+    
+    @BeforeClass
+    public static void configure() {
+        System.setProperty("fileGenerator.debug", "true");
+    }
 
     @Test
     public void testSemCodigoBarras() {
@@ -53,6 +58,30 @@ public class R0200Test {
         System.out.println("Excecting ....  : " + expected);
         System.out.println("Result    ....  : " + result);
         assertEquals(expected, result);
+    }
+    
+        
+    @Test
+    public void testR200Picanha() throws ParseException {
+        String linha = "|0200|0000371|MALZBIER BRAHMA LONG NECK 355ML SIX-PACK BANDEJA C|7891149040360||CX|00|22030000||22|0000|0,00|";
+        R0200 r = new R0200();
+        LineModel model = r.createModel();
+        model.setRepresentation(linha);
+        
+        String a = model.getFieldValueString(R0200.DESCR_ITEM);
+        assertEquals("MALZBIER BRAHMA LONG NECK 355ML SIX-PACK BANDEJA C", a);
+        a = model.getFieldValueString(R0200.COD_BARRA);
+        assertEquals("7891149040360", a);
+        a = model.getFieldValueString(R0200.COD_NCM);
+        assertEquals("22030000", a);
+        a = model.getFieldValueNumber(R0200.COD_GEN).toString();
+        assertEquals("22", a);
+        Object o = model.getFieldValue(R0200.COD_LST);
+        assertEquals(null, o);
+        o = model.getFieldValue(R0200.ALIQ_ICMS);
+        assertEquals(null, o);
+        
+        assertEquals(linha, model.getRepresentation().toString());
     }
 
 }

@@ -14,51 +14,38 @@ import br.com.jcomputacao.aristoteles.line.LineArchetype;
  * @author Thiago Balthazar
  */
 public class RC120 extends LineArchetype{
-
-    public static final String REGISTRO = "REG";
-    /*
+    
+    /**
      * Texto fixo contendo "C120"
      */
+    public static final String REGISTRO = "REG";
     
-    
-    
-    public static final String COD_DOC_IMP = "COD_DOC_IMP";
-    /*
+    /**
      * Documento de importação: apresentar
-    0 ? Declaração de Importação;
-    1 ? Declaração Simplificada de Importação.
+     * 0 ? Declaração de Importação;
+     * 1 ? Declaração Simplificada de Importação.
      */
+    public static final String COD_DOC_IMP = "COD_DOC_IMP";
     
-    
-    
-    public static final String NUM_DOC__IMP = "NUM_DOC__IMP";
-    /*
+    /**
      * Número do documento de Importação.
      */
+    public static final String NUM_DOC__IMP = "NUM_DOC__IMP";
     
-    
-    
-    public static final String PIS_IMP = "PIS_IMP";
-    /*
+    /**
      * Valor pago de PIS na importação
      */
+    public static final String PIS_IMP = "PIS_IMP";
     
-    
-    
+    /**
+    * Valor pago de COFINS na importação
+    */
     public static final String COFINS_IMP = "COFINS_IMP";
-    /*
-     * Valor pago de COFINS na importação
-     */
-    
-    
-    
+   
+    /**
+    * Número do Ato Concessório do regime Drawback
+    */
     public static final String NUM_ACDRAW = "NUM_ACDRAW";
-    /*
-     * Número do Ato Concessório do regime Drawback
-     */
-
-    
-    
     
     public RC120() {
     
@@ -66,8 +53,8 @@ public class RC120 extends LineArchetype{
         setDelimiter("|");
     
         FormatWrapper fw = FormatFactory.getFormat(FormatType.DECIMAL);
-        fw.setReplaceComa(false);
-     
+        fw.setReplaceComa(false);     
+        
         FieldDecimalMaximumLengthArchetype decimal = new FieldDecimalMaximumLengthArchetype(15,2);
         decimal.setFormat(fw);
         

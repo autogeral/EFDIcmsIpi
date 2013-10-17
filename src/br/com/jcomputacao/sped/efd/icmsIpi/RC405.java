@@ -17,32 +17,32 @@ import br.com.jcomputacao.aristoteles.line.LineArchetype;
 public class RC405 extends LineArchetype{
 
     public static final String REGISTRO = "REG";
-    /*
+    /**
      * Texto fixo contendo "C405"
      */
     public static final String DT_DOC = "DT_DOC";
-    /*
+    /**
      * Data do movimento a que se refere a Redução Z
      */
     public static final String CRO = "CRO";
-    /*
+    /**
      * Posição do Contador de Reinício de Operação
      */
     public static final String CRZ = "CRZ";
-    /*
+    /**
      * Posição do Contador de Redução Z
      */
     public static final String NUM_COO_FIN = "NUM_COO_FIN";
-    /*
+    /**
      * Número do Contador de Ordem de Operação do último documento emitido no dia. 
      * (Número do COO na Redução Z)
      */
     public static final String GT_FIN = "GT_FIN";
-    /*
+    /**
      * Valor do Grande Total final
      */
     public static final String VL_BRT = "VL_BRT";
-    /*
+    /**
      * Valor da venda bruta
      */
 

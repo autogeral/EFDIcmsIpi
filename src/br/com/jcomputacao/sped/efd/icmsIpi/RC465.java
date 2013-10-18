@@ -12,10 +12,12 @@ public class RC465 extends LineArchetype {
     
     public static final String REGISTRO = "REG";
     /**
+     * Chave do CF-e
      * Digito verificador (DV) da chave do CF-e.
      */
     public static final String CHV_CFE = "CHV_CFE";
     /**
+     * Numero do contador de Cupom Fiscal
      * Campo deve ser maior que 0 (zero)
      */
     public static final String NUM_CCF = "NUM_CCF";

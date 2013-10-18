@@ -11,52 +11,52 @@ import br.com.jcomputacao.aristoteles.line.LineArchetype;
  * @author Thiago Balthazar
  */
 public class RC300 extends LineArchetype{
-
-public static final String REGISTRO = "REG";
-/*
+/**
  * Texto fixo contendo "C300"
  */
-public static final String COD_MOD = "COD_MOD";
-/*
+public static final String REGISTRO = "REG";
+/**
  * Código do modelo do documento fiscal, 
  * conforme a Tabela 4.1.1
  */
-public static final String SER = "SER";
-/*
+public static final String COD_MOD = "COD_MOD";
+/**
  * Série do documento fiscal
  */
-public static final String SUB = "SUB";
-/*
+public static final String SER = "SER";
+/**
  * Subsérie do documento fiscal
  */
-public static final String NUM_DOC_INI = "NUM_DOC_INI";
-/*
+public static final String SUB = "SUB";
+/**
  * Número do documento fiscal inicial
  */
-public static final String NUM_DOC_FIN = "NUM_DOC_FIN";
-/*
+public static final String NUM_DOC_INI = "NUM_DOC_INI";
+/**
  * Número do documento fiscal final
  */
-public static final String DT_DOC = "DT_DOC";
-/*
+public static final String NUM_DOC_FIN = "NUM_DOC_FIN";
+/**
  * Data da emissão dos documentos fiscais
  */
-public static final String VL_DOC = "VL_DOC";
-/*
+public static final String DT_DOC = "DT_DOC";
+/**
  * Valor total dos documentos
  */
-public static final String VL_PIS = "VL_PIS";
-/*
+public static final String VL_DOC = "VL_DOC";
+/**
  * Valor total do PIS
  */
-public static final String VL_COFINS = "VL_COFINS";
-/*
+public static final String VL_PIS = "VL_PIS";
+/**
  * Valor total da COFINS
  */
-public static final String COD_CTA = "COD_CTA";
-/*
+public static final String VL_COFINS = "VL_COFINS";
+/**
  * Código da conta analítica contábil debitada/creditada
  */
+public static final String COD_CTA = "COD_CTA";
+
 
     public RC300() {
         

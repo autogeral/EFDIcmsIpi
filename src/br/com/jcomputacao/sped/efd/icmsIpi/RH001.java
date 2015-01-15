@@ -1,7 +1,7 @@
 package br.com.jcomputacao.sped.efd.icmsIpi;
 
 import br.com.jcomputacao.aristoteles.field.FieldDefaultArchetype;
-import br.com.jcomputacao.aristoteles.field.FieldStringFixedLengthArchetype;
+import br.com.jcomputacao.aristoteles.field.FieldIntegerFixedLengthArchetype;
 import br.com.jcomputacao.aristoteles.line.LineArchetype;
 
 /**
@@ -27,7 +27,7 @@ public class RH001 extends LineArchetype{
         //1
         addFieldArchetype(REGISTRO, new FieldDefaultArchetype("H001"));
         //2
-        addFieldArchetype(IND_MOV, new FieldStringFixedLengthArchetype(1));
+        addFieldArchetype(IND_MOV, new FieldIntegerFixedLengthArchetype(1));
     }
  
  

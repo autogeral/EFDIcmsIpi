@@ -808,6 +808,7 @@ tomador do serviço).</p>
      */
     public static final String COD_LST      = "COD_LST";
     public static final String ALIQ_ICMS    = "ALIQ_ICMS";
+    public static final String CEST         = "CEST";
     
     public R0200() {
         setName("Registro 0200 - Identificacao dos itens");
@@ -861,5 +862,11 @@ tomador do serviço).</p>
         fda.setNullableRepresentation("0,00");
         fda.setFormat(fw);
         addFieldArchetype(ALIQ_ICMS,    fda);
+        
+        fa = new FieldIntegerFixedLengthArchetype(7);
+        fa.setFullFillingNullable(false);
+        fa.setNullableRepresentation("");
+        //13
+        addFieldArchetype(CEST,      fa);
     }
 }

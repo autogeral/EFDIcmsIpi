@@ -848,9 +848,9 @@ tomador do serviço).</p>
         fa.setNullableRepresentation("");
         //10
         addFieldArchetype(COD_GEN,      fa);
-        fa = new FieldIntegerFixedLengthArchetype(4);
+        fa = new FieldIntegerFixedLengthArchetype(5);
         fa.setFullFillingNullable(false);
-        fa.setNullableRepresentation("0000");
+        fa.setNullableRepresentation("00.00");
         //11
         addFieldArchetype(COD_LST,      fa);
         //12

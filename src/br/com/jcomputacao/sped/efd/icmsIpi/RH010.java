@@ -58,6 +58,10 @@ public class RH010 extends LineArchetype {
      * 10 - Código da conta analítica contábil debitada/creditada 
      */
     public static final String COD_CTA = " COD_CTA ";
+    /*
+     * 11 -  Valor do item para efeitos do Imposto de Renda 
+     */
+    public static final String  VL_ITEM_IR = "VL_ITEM_IR";
 
     public RH010() {
         setName("Registro H010 - inventario");
@@ -102,6 +106,10 @@ public class RH010 extends LineArchetype {
         fa.setNullableRepresentation("");
         fa.setFullFillingNullable(false);
         addFieldArchetype(COD_CTA, fa);
+        //11
+        FieldDecimalMaximumLengthArchetype f4 = new FieldDecimalMaximumLengthArchetype(15, 2);
+        f4.setFormat(fw);
+        addFieldArchetype(VL_ITEM_IR, f4);
 
 
 

@@ -23,6 +23,11 @@ public class RC800 extends LineArchetype{
     public static final String COD_SIT = "COD_SIT";
     /*
      * Código da situação do documento fiscal, conforme a Tabela 4.1.2
+     * Código Descrição 
+     * 00 Documento regular 
+     * 01 Escrituração extemporânea de documento regular 
+     * 02 Documento cancelado 
+     * 03 Escrituração extemporânea de documento cancelado 
      */
     public static final String NUM_CFE = "NUM_CFE";
     /*
@@ -94,14 +99,14 @@ public class RC800 extends LineArchetype{
        
         addFieldArchetype(REGISTRO, new FieldDefaultArchetype("C800"));
         addFieldArchetype(COD_MOD, new FieldStringMaximumLengthArchetype(2));
-        addFieldArchetype(COD_SIT, new FieldIntegerMaximumLengthArchetype(2));
-        addFieldArchetype(NUM_CFE, new FieldIntegerMaximumLengthArchetype(6));
+        addFieldArchetype(COD_SIT, new FieldStringMaximumLengthArchetype(2));
+        addFieldArchetype(NUM_CFE, new FieldStringMaximumLengthArchetype(6));
         addFieldArchetype(DT_DOC, new FieldDateFixedLengthArchetype("ddMMyyyy"));
         addFieldArchetype(VL_CFE, decimal);
         addFieldArchetype(VL_PIS, decimal);
         addFieldArchetype(VL_COFINS, decimal);
-        addFieldArchetype(CNPJ_CPF, new FieldIntegerMaximumLengthArchetype(14));
-        addFieldArchetype(NR_SAT, new FieldIntegerMaximumLengthArchetype(9));
+        addFieldArchetype(CNPJ_CPF, new FieldStringMaximumLengthArchetype(14));
+        addFieldArchetype(NR_SAT, new FieldStringMaximumLengthArchetype(9));
         addFieldArchetype(CHV_CFE, new FieldStringMaximumLengthArchetype(44));
         addFieldArchetype(VL_DESC, decimal);
         addFieldArchetype(VL_MERC, decimal);

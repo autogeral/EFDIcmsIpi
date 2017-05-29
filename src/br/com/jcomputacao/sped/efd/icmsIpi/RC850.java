@@ -3,11 +3,13 @@ package br.com.jcomputacao.sped.efd.icmsIpi;
 import br.com.jcomputacao.aristoteles.field.FieldDecimalMaximumLengthArchetype;
 import br.com.jcomputacao.aristoteles.field.FieldDefaultArchetype;
 import br.com.jcomputacao.aristoteles.field.FieldIntegerMaximumLengthArchetype;
+import br.com.jcomputacao.aristoteles.field.FieldStringFixedLengthArchetype;
 import br.com.jcomputacao.aristoteles.field.FieldStringMaximumLengthArchetype;
 import br.com.jcomputacao.aristoteles.format.FormatFactory;
 import br.com.jcomputacao.aristoteles.format.FormatType;
 import br.com.jcomputacao.aristoteles.format.FormatWrapper;
 import br.com.jcomputacao.aristoteles.line.LineArchetype;
+import static br.com.jcomputacao.sped.efd.icmsIpi.R0200.COD_NCM;
 
 /**
  * 18/02/2013 16:10:28
@@ -66,8 +68,10 @@ public class RC850 extends LineArchetype{
        FieldDecimalMaximumLengthArchetype d2 = new FieldDecimalMaximumLengthArchetype(9,2);
        d2.setFormat(fw);
        
+             
+       
         addFieldArchetype(REGISTRO, new FieldDefaultArchetype("C850"));
-        addFieldArchetype(CST_ICMS, new FieldIntegerMaximumLengthArchetype(3));
+        addFieldArchetype(CST_ICMS, new FieldStringFixedLengthArchetype(3));
         addFieldArchetype(CFOP, new FieldIntegerMaximumLengthArchetype(4));
         addFieldArchetype(ALIQ_ICMS, d1 );
         addFieldArchetype(VL_OPR, d2);    

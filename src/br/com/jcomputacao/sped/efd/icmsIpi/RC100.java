@@ -205,13 +205,21 @@ public class RC100 extends LineArchetype {
      
        FieldDecimalMaximumLengthArchetype decimal = new FieldDecimalMaximumLengthArchetype(15,2);
        decimal.setFormat(fw);
+       decimal.setNullableRepresentation("");
+       decimal.setFullFillingNullable(false);
        
         addFieldArchetype(REGISTRO,   new FieldDefaultArchetype("C100"));//1
         addFieldArchetype(IND_OPER,   new FieldStringFixedLengthArchetype(1));//2
         addFieldArchetype(IND_EMIT,   new FieldStringFixedLengthArchetype(1));//3
-        addFieldArchetype(COD_PART,   new FieldStringMaximumLengthArchetype(60));//4
+        
+        
+        FieldStringMaximumLengthArchetype fa60 = new FieldStringMaximumLengthArchetype(60);
+        fa60.setNullableRepresentation("");
+        fa60.setFullFillingNullable(false);
+        
+        addFieldArchetype(COD_PART,   fa60);//4
         addFieldArchetype(COD_MOD,    new FieldStringFixedLengthArchetype(2));//5
-        addFieldArchetype(COD_SIT,    new FieldIntegerFixedLengthArchetype(2));//6
+        addFieldArchetype(COD_SIT,    new FieldStringFixedLengthArchetype(2));//6
         addFieldArchetype(SER,        new FieldStringMaximumLengthArchetype(3));//7
         addFieldArchetype(NUM_DOC,    new FieldIntegerMaximumLengthArchetype(9));//8
         
@@ -219,14 +227,25 @@ public class RC100 extends LineArchetype {
         fa.setNullableRepresentation("");
         fa.setFullFillingNullable(false);
         addFieldArchetype(CHV_NFE,    fa);//9
-        addFieldArchetype(DT_DOC,     new FieldDateFixedLengthArchetype("ddMMyyyy"));//10
-        addFieldArchetype(DT_E_S,     new FieldDateFixedLengthArchetype("ddMMyyyy"));//11
+        
+        FieldDateFixedLengthArchetype dataddMMyyyy = new FieldDateFixedLengthArchetype("ddMMyyyy");       
+        dataddMMyyyy.setNullableRepresentation("");
+        dataddMMyyyy.setFullFillingNullable(false);
+       
+        addFieldArchetype(DT_DOC,     dataddMMyyyy);//10
+        addFieldArchetype(DT_E_S,     dataddMMyyyy);//11
         addFieldArchetype(VL_DOC,     decimal);//12
-        addFieldArchetype(IND_PGTO,   new FieldStringFixedLengthArchetype(1));//13
+        
+        FieldStringFixedLengthArchetype fa1 = new FieldStringFixedLengthArchetype(1);
+        fa1.setNullableRepresentation("");
+        fa1.setFullFillingNullable(false);
+        
+        addFieldArchetype(IND_PGTO,   fa1);//13
         addFieldArchetype(VL_DESC,    decimal);//14
         addFieldArchetype(VL_ABAT_NT, decimal);//15
         addFieldArchetype(VL_MERC,    decimal);//16
-        addFieldArchetype(IND_EMIT,   new FieldStringFixedLengthArchetype(1));//17
+        addFieldArchetype(IND_FRT,    fa1);
+        addFieldArchetype(IND_EMIT,   fa1);//17        
         addFieldArchetype(VL_FRT,     decimal);//18
         addFieldArchetype(VL_SEG,     decimal);//19
         addFieldArchetype(VL_OUT_DA,  decimal);//20
@@ -240,5 +259,4 @@ public class RC100 extends LineArchetype {
         addFieldArchetype(VL_PIS_ST,  decimal);//28
         addFieldArchetype(VL_COFINS_ST, decimal);//29
     }
-
 }

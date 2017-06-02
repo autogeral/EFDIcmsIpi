@@ -215,7 +215,7 @@ public class RC170 extends LineArchetype {
         addFieldArchetype(VL_ITEM, d2);//7
         addFieldArchetype(VL_DESC, d2);//8
         addFieldArchetype(IND_MOV, new FieldStringFixedLengthArchetype(1));//9
-        addFieldArchetype(CST_ICMS, new FieldIntegerFixedLengthArchetype(3));//10
+        addFieldArchetype(CST_ICMS, new FieldStringFixedLengthArchetype(3));//10
         addFieldArchetype(CFOP, new FieldIntegerFixedLengthArchetype(4));//11
         addFieldArchetype(COD_NAT, new FieldStringMaximumLengthArchetype(10));//12
         addFieldArchetype(VL_BC_ICMS, d2);//13

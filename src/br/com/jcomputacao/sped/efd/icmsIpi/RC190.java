@@ -4,6 +4,7 @@ import br.com.jcomputacao.aristoteles.field.FieldArchetype;
 import br.com.jcomputacao.aristoteles.field.FieldDecimalMaximumLengthArchetype;
 import br.com.jcomputacao.aristoteles.field.FieldDefaultArchetype;
 import br.com.jcomputacao.aristoteles.field.FieldIntegerFixedLengthArchetype;
+import br.com.jcomputacao.aristoteles.field.FieldStringFixedLengthArchetype;
 import br.com.jcomputacao.aristoteles.field.FieldStringMaximumLengthArchetype;
 import br.com.jcomputacao.aristoteles.format.FormatFactory;
 import br.com.jcomputacao.aristoteles.format.FormatType;
@@ -74,7 +75,7 @@ public class RC190 extends LineArchetype {
         //1
         addFieldArchetype(REGISTRO, new FieldDefaultArchetype("C190"));
         //2
-        addFieldArchetype(CST_ICMS, new FieldIntegerFixedLengthArchetype(3));
+        addFieldArchetype(CST_ICMS, new FieldStringFixedLengthArchetype(3));
         //3
         addFieldArchetype(CFOP, new FieldIntegerFixedLengthArchetype(4));
         //4

@@ -3,11 +3,13 @@ package br.com.jcomputacao.sped.efd.icmsIpi;
 import br.com.jcomputacao.aristoteles.field.FieldDecimalMaximumLengthArchetype;
 import br.com.jcomputacao.aristoteles.field.FieldDefaultArchetype;
 import br.com.jcomputacao.aristoteles.field.FieldIntegerFixedLengthArchetype;
+import br.com.jcomputacao.aristoteles.field.FieldStringFixedLengthArchetype;
 import br.com.jcomputacao.aristoteles.field.FieldStringMaximumLengthArchetype;
 import br.com.jcomputacao.aristoteles.format.FormatFactory;
 import br.com.jcomputacao.aristoteles.format.FormatType;
 import br.com.jcomputacao.aristoteles.format.FormatWrapper;
 import br.com.jcomputacao.aristoteles.line.LineArchetype;
+import static br.com.jcomputacao.sped.efd.icmsIpi.RC190.CST_ICMS;
 
 /**
  * 07/02/2013 08:37:27
@@ -93,7 +95,7 @@ public class RD190 extends LineArchetype{
        decimal.setFormat(fw);
        
        addFieldArchetype(REGISTRO, new FieldDefaultArchetype("D190"));
-       addFieldArchetype(CST_ICMS, new FieldIntegerFixedLengthArchetype(3));
+       addFieldArchetype(CST_ICMS, new FieldStringFixedLengthArchetype(3));
        addFieldArchetype(CFOP, new FieldIntegerFixedLengthArchetype(4));
        addFieldArchetype(ALIQ_ICMS, f5);
        addFieldArchetype(VL_OPR, decimal);

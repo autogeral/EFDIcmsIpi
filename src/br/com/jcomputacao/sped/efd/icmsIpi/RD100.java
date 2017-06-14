@@ -186,7 +186,7 @@ public class RD100 extends LineArchetype {
         addFieldArchetype(IND_EMIT, new FieldStringFixedLengthArchetype(1));
         addFieldArchetype(COD_PART, new FieldStringMaximumLengthArchetype(60));
         addFieldArchetype(COD_MOD, new FieldStringFixedLengthArchetype(2));
-        addFieldArchetype(COD_SIT, new FieldIntegerFixedLengthArchetype(2));
+        addFieldArchetype(COD_SIT, new FieldStringFixedLengthArchetype(2));
         addFieldArchetype(SER,  new FieldStringMaximumLengthArchetype(4));
         addFieldArchetype(SUB, new FieldStringMaximumLengthArchetype(3));
         addFieldArchetype(NUM_DOC, new FieldIntegerMaximumLengthArchetype(9));

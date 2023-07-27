@@ -65,29 +65,29 @@ public class R0200 extends LineArchetype {
      * <li>16 Preparacoes de carne, de peixes ou de crustaceos, de moluscos ou de outros invertebrados aquaticos</li>
      * <li>17 Acucares e produtos de confeitaria</li>
      * <li>18 Cacau e suas preparacoes</li>
-     * <li>19 Preparacoes à base de cereais, farinhas, amidos, feculas ou de leite; produtos de pastelaria</li>
+     * <li>19 Preparacoes Ã  base de cereais, farinhas, amidos, feculas ou de leite; produtos de pastelaria</li>
      * <li>20 Preparacoes de produtos horticolas, de frutas ou de outras partes de plantas</li>
      * <li>21 Preparacoes alimenticias diversas</li>
      * <li>22 Bebidas, liquidos alcoolicos e vinagres</li>
      * <li>23 Residuos e desperdicios das industrias alimentares; alimentos preparados para animais</li>
-     * <li>24 Fumo (tabaco) e seus sucedâneos, manufaturados</li>
+     * <li>24 Fumo (tabaco) e seus sucedï¿½neos, manufaturados</li>
      * <li>25 Sal; enxofre; terras e pedras; gesso, cal e cimento</li>
      * <li>26 Minerios, escorias e cinzas</li>
      * <li>27 Combustiveis minerais, oleos minerais e produtos de sua destilacao; materias betuminosas; ceras minerais</li>
-     * <li>28 Produtos quimicos inorgânicos; compostos inorgânicos ou orgânicos de metais preciosos, de elementos radioativos, de metais das terras raras ou de isotopos</li>
-     * <li>29 Produtos quimicos orgânicos</li>
-     * <li>30 Produtos farmacêuticos</li>
+     * <li>28 Produtos quimicos inorgï¿½nicos; compostos inorgï¿½nicos ou orgï¿½nicos de metais preciosos, de elementos radioativos, de metais das terras raras ou de isotopos</li>
+     * <li>29 Produtos quimicos orgï¿½nicos</li>
+     * <li>30 Produtos farmacï¿½uticos</li>
      * <li>31 Adubos ou fertilizantes</li>
      * <li>32 Extratos tanantes e tintoriais; taninos e seus derivados; pigmentos e outras materias corantes, tintas e vernizes, mastiques; tintas de escrever</li>
      * <li>33 Oleos essenciais e resinoides; produtos de perfumaria ou de toucador preparados e preparacoes cosmeticas</li>
-     * <li>34 Saboes, agentes orgânicos de superficie, preparacoes para lavagem, preparacoes lubrificantes, ceras artificiais, ceras preparadas, produtos de conservacao e limpeza, velas e artigos semelhantes, massas ou pastas para modelar, "ceras para dentistas" e composicoes para dentistas à base de gesso</li>
-     * <li>35 Materias albuminoides; produtos à base de amidos ou de feculas modificados; colas; enzimas</li>
+     * <li>34 Saboes, agentes orgï¿½nicos de superficie, preparacoes para lavagem, preparacoes lubrificantes, ceras artificiais, ceras preparadas, produtos de conservacao e limpeza, velas e artigos semelhantes, massas ou pastas para modelar, "ceras para dentistas" e composicoes para dentistas ï¿½ base de gesso</li>
+     * <li>35 Materias albuminoides; produtos ï¿½ base de amidos ou de feculas modificados; colas; enzimas</li>
      * <li>36 Polvoras e explosivos; artigos de pirotecnia; fosforos; ligas piroforicas; materias inflamaveis</li>
      * <li>37 Produtos para fotografia e cinematografia</li>
      * <li>38 Produtos diversos das industrias quimicas</li>
      * <li>39 Plasticos e suas obras</li>
      * <li>40 Borracha e suas obras</li>
-     * <li>41 Peles, exceto a peleteria (peles com pêlo*), e couros</li>
+     * <li>41 Peles, exceto a peleteria (peles com pï¿½lo*), e couros</li>
      * <li>42 Obras de couro; artigos de correeiro ou de seleiro; artigos de viagem, bolsas e artefatos semelhantes; obras de tripa</li>
      * <li>43 Peleteria (peles com pelo*) e suas obras; peleteria (peles com pelo*) artificial</li>
      * <li>44 Madeira, carvao vegetal e obras de madeira</li>
@@ -99,23 +99,23 @@ public class R0200 extends LineArchetype {
      * <li>50 Seda</li>
      * <li>51 La e pelos finos ou grosseiros; fios e tecidos de crina</li>
      * <li>52 Algodao</li>
-     * <li>53 Outras fibras têxteis vegetais; fios de papel e tecido de fios de papel</li>
+     * <li>53 Outras fibras tï¿½xteis vegetais; fios de papel e tecido de fios de papel</li>
      * <li>54 Filamentos sinteticos ou artificiais</li>
      * <li>55 Fibras sinteticas ou artificiais, descontinuas</li>
      * <li>56 Pastas ("ouates"), feltros e falsos tecidos; fios especiais; cordeis, cordas e cabos; artigos de cordoaria</li>
-     * <li>57 Tapetes e outros revestimentos para pavimentos, de materias têxteis</li>
+     * <li>57 Tapetes e outros revestimentos para pavimentos, de materias tï¿½xteis</li>
      * <li>58 Tecidos especiais; tecidos tufados; rendas; tapecarias; passamanarias; bordados</li>
-     * <li>59 Tecidos impregnados, revestidos, recobertos ou estratificados; artigos para usos tecnicos de materias têxteis</li>
+     * <li>59 Tecidos impregnados, revestidos, recobertos ou estratificados; artigos para usos tecnicos de materias tï¿½xteis</li>
      * <li>60 Tecidos de malha</li>
      * <li>61 Vestuario e seus acessorios, de malha</li>
      * <li>62 Vestuario e seus acessorios, exceto de malha</li>
-     * <li>63 Outros artefatos têxteis confeccionados; sortidos; artefatos de materias têxteis, calcados, chapeus e artefatos de uso semelhante, usados; trapos</li>
+     * <li>63 Outros artefatos tï¿½xteis confeccionados; sortidos; artefatos de materias tï¿½xteis, calcados, chapeus e artefatos de uso semelhante, usados; trapos</li>
      * <li>64 Calcados, polainas e artefatos semelhantes, e suas partes</li>
      * <li>65 Chapeus e artefatos de uso semelhante, e suas partes</li>
      * <li>66 Guarda-chuvas, sombrinhas, guarda-sois, bengalas, bengalas-assentos, chicotes, e suas partes</li>
      * <li>67 Penas e penugem preparadas, e suas obras; flores artificiais; obras de cabelo</li>
      * <li>68 Obras de pedra, gesso, cimento, amianto, mica ou de materias semelhantes</li>
-     * <li>69 Produtos cerâmicos</li>
+     * <li>69 Produtos cerï¿½micos</li>
      * <li>70 Vidro e suas obras</li>
      * <li>71 Perolas naturais ou cultivadas, pedras preciosas ou semipreciosas e semelhantes, metais preciosos, metais folheados ou chapeados de metais preciosos, e suas obras; bijuterias; moedas</li>
      * <li>72 Ferro fundido, ferro e aco</li>
@@ -130,9 +130,9 @@ public class R0200 extends LineArchetype {
      * <li>81 Outros metais comuns; ceramais ("cermets"); obras dessas materias</li>
      * <li>82 Ferramentas, artefatos de cutelaria e talheres, e suas partes, de metais comuns</li>
      * <li>83 Obras diversas de metais comuns</li>
-     * <li>84 Reatores nucleares, caldeiras, maquinas, aparelhos e instrumentos mecânicos, e suas partes</li>
+     * <li>84 Reatores nucleares, caldeiras, maquinas, aparelhos e instrumentos mecï¿½nicos, e suas partes</li>
      * <li>85 Maquinas, aparelhos e materiais eletricos, e suas partes; aparelhos de gravacao ou de reproducao de som, aparelhos de gravacao ou de reproducao de imagens e de som em televisao, e suas partes e acessorios</li>
-     * <li>86 Veiculos e material para vias ferreas ou semelhantes, e suas partes; aparelhos mecânicos (incluidos os eletromecânicos) de sinalizacao para vias de comunicacao</li>
+     * <li>86 Veiculos e material para vias ferreas ou semelhantes, e suas partes; aparelhos mecï¿½nicos (incluidos os eletromecï¿½nicos) de sinalizacao para vias de comunicacao</li>
      * <li>87 Veiculos automoveis, tratores, ciclos e outros veiculos terrestres, suas partes e acessorios</li>
      * <li>88 Aeronaves e aparelhos espaciais, e suas partes</li>
      * <li>89 Embarcacoes e estruturas flutuantes</li>
@@ -150,659 +150,659 @@ public class R0200 extends LineArchetype {
      */
     public static final String COD_GEN      = "COD_GEN";
     /**
-     * <p ALIGN="CENTER">&nbsp;<font face="Arial" size="2"><a name="anexo"></a>Lista de serviços anexa à Lei
-Complementar nº 116, de 31 de julho de 2003.</p>
+     * <p ALIGN="CENTER">&nbsp;<font face="Arial" size="2"><a name="anexo"></a>Lista de serviï¿½os anexa ï¿½ Lei
+Complementar nï¿½ 116, de 31 de julho de 2003.</p>
 </b>
 
-<p>1 &#150; Serviços de informática e congêneres.</p>
+<p>1 &#150; Serviï¿½os de informï¿½tica e congï¿½neres.</p>
 
-<p>1.01 &#150; Análise e desenvolvimento de sistemas.</p>
+<p>1.01 &#150; Anï¿½lise e desenvolvimento de sistemas.</p>
 
-<p>1.02 &#150; Programação.</p>
+<p>1.02 &#150; Programaï¿½ï¿½o.</p>
 
-<p>1.03 &#150; Processamento de dados e congêneres.</p>
+<p>1.03 &#150; Processamento de dados e congï¿½neres.</p>
 
-<p>1.04 &#150; Elaboração de programas de computadores, inclusive de jogos eletrônicos.</p>
+<p>1.04 &#150; Elaboraï¿½ï¿½o de programas de computadores, inclusive de jogos eletrï¿½nicos.</p>
 
-<p>1.05 &#150; Licenciamento ou cessão de direito de uso de programas de computação.</p>
+<p>1.05 &#150; Licenciamento ou cessï¿½o de direito de uso de programas de computaï¿½ï¿½o.</p>
 
-<p>1.06 &#150; Assessoria e consultoria em informática.</p>
+<p>1.06 &#150; Assessoria e consultoria em informï¿½tica.</p>
 
-<p>1.07 &#150; Suporte técnico em informática, inclusive instalação, configuração e
-manutenção de programas de computação e bancos de dados.</p>
+<p>1.07 &#150; Suporte tï¿½cnico em informï¿½tica, inclusive instalaï¿½ï¿½o, configuraï¿½ï¿½o e
+manutenï¿½ï¿½o de programas de computaï¿½ï¿½o e bancos de dados.</p>
 
-<p>1.08 &#150; Planejamento, confecção, manutenção e atualização de páginas
-eletrônicas.</p>
+<p>1.08 &#150; Planejamento, confecï¿½ï¿½o, manutenï¿½ï¿½o e atualizaï¿½ï¿½o de pï¿½ginas
+eletrï¿½nicas.</p>
 
-<p>2 &#150; Serviços de pesquisas e desenvolvimento de qualquer natureza.</p>
+<p>2 &#150; Serviï¿½os de pesquisas e desenvolvimento de qualquer natureza.</p>
 
-<p>2.01 &#150; Serviços de pesquisas e desenvolvimento de qualquer natureza.</p>
+<p>2.01 &#150; Serviï¿½os de pesquisas e desenvolvimento de qualquer natureza.</p>
 
-<p>3 &#150; Serviços prestados mediante locação, cessão de direito de uso e congêneres.</p>
+<p>3 &#150; Serviï¿½os prestados mediante locaï¿½ï¿½o, cessï¿½o de direito de uso e congï¿½neres.</p>
 
 <p>3.01 &#150; (<a href="../Mensagem_Veto/2003/Mv362-03.htm">VETADO</a>)</p>
 
-<p>3.02 &#150; Cessão de direito de uso de marcas e de sinais de propaganda.</p>
+<p>3.02 &#150; Cessï¿½o de direito de uso de marcas e de sinais de propaganda.</p>
 
-<p>3.03 &#150; Exploração de salões de festas, centro de convenções, escritórios
-virtuais, <b>stands</b><i>, </i>quadras esportivas, estádios, ginásios, auditórios,
-casas de espetáculos, parques de diversões, canchas e congêneres, para realização de
-eventos ou negócios de qualquer natureza.</p>
+<p>3.03 &#150; Exploraï¿½ï¿½o de salï¿½es de festas, centro de convenï¿½ï¿½es, escritï¿½rios
+virtuais, <b>stands</b><i>, </i>quadras esportivas, estï¿½dios, ginï¿½sios, auditï¿½rios,
+casas de espetï¿½culos, parques de diversï¿½es, canchas e congï¿½neres, para realizaï¿½ï¿½o de
+eventos ou negï¿½cios de qualquer natureza.</p>
 
-<p>3.04 &#150; Locação, sublocação, arrendamento, direito de passagem ou permissão de
-uso, compartilhado ou não, de ferrovia, rodovia, postes, cabos, dutos e condutos de
+<p>3.04 &#150; Locaï¿½ï¿½o, sublocaï¿½ï¿½o, arrendamento, direito de passagem ou permissï¿½o de
+uso, compartilhado ou nï¿½o, de ferrovia, rodovia, postes, cabos, dutos e condutos de
 qualquer natureza.</p>
 
-<p>3.05 &#150; Cessão de andaimes, palcos, coberturas e outras estruturas de uso
-temporário.</p>
+<p>3.05 &#150; Cessï¿½o de andaimes, palcos, coberturas e outras estruturas de uso
+temporï¿½rio.</p>
 
-<p>4 &#150; Serviços de saúde, assistência médica e congêneres.</p>
+<p>4 &#150; Serviï¿½os de saï¿½de, assistï¿½ncia mï¿½dica e congï¿½neres.</p>
 
 <p>4.01 &#150; Medicina e biomedicina.</p>
 
-<p>4.02 &#150; Análises clínicas, patologia, eletricidade médica, radioterapia,
-quimioterapia, ultra-sonografia, ressonância magnética, radiologia, tomografia e
-congêneres.</p>
+<p>4.02 &#150; Anï¿½lises clï¿½nicas, patologia, eletricidade mï¿½dica, radioterapia,
+quimioterapia, ultra-sonografia, ressonï¿½ncia magnï¿½tica, radiologia, tomografia e
+congï¿½neres.</p>
 
-<p>4.03 &#150; Hospitais, clínicas, laboratórios, sanatórios, manicômios, casas de
-saúde, prontos-socorros, ambulatórios e
-congêneres.</p>
+<p>4.03 &#150; Hospitais, clï¿½nicas, laboratï¿½rios, sanatï¿½rios, manicï¿½mios, casas de
+saï¿½de, prontos-socorros, ambulatï¿½rios e
+congï¿½neres.</p>
 
-<p>4.04 &#150; Instrumentação cirúrgica.</p>
+<p>4.04 &#150; Instrumentaï¿½ï¿½o cirï¿½rgica.</p>
 
 <p>4.05 &#150; Acupuntura.</p>
 
-<p>4.06 &#150; Enfermagem, inclusive serviços auxiliares.</p>
+<p>4.06 &#150; Enfermagem, inclusive serviï¿½os auxiliares.</p>
 
-<p>4.07 &#150; Serviços farmacêuticos.</p>
+<p>4.07 &#150; Serviï¿½os farmacï¿½uticos.</p>
 
 <p>4.08 &#150; Terapia ocupacional, fisioterapia e fonoaudiologia.</p>
 
-<p>4.09 &#150; Terapias de qualquer espécie destinadas ao tratamento físico, orgânico e
+<p>4.09 &#150; Terapias de qualquer espï¿½cie destinadas ao tratamento fï¿½sico, orgï¿½nico e
 mental.</p>
 
-<p>4.10 &#150; Nutrição.</p>
+<p>4.10 &#150; Nutriï¿½ï¿½o.</p>
 
-<p>4.11 &#150; Obstetrícia.</p>
+<p>4.11 &#150; Obstetrï¿½cia.</p>
 
 <p>4.12 &#150; Odontologia.</p>
 
-<p>4.13 &#150; Ortóptica.</p>
+<p>4.13 &#150; Ortï¿½ptica.</p>
 
-<p>4.14 &#150; Próteses sob encomenda.</p>
+<p>4.14 &#150; Prï¿½teses sob encomenda.</p>
 
-<p>4.15 &#150; Psicanálise.</p>
+<p>4.15 &#150; Psicanï¿½lise.</p>
 
 <p>4.16 &#150; Psicologia.</p>
 
-<p>4.17 &#150; Casas de repouso e de recuperação, creches, asilos e congêneres.</p>
+<p>4.17 &#150; Casas de repouso e de recuperaï¿½ï¿½o, creches, asilos e congï¿½neres.</p>
 
-<p>4.18 &#150; Inseminação artificial, fertilização <b>in vitro</b><i> </i>e congêneres.</p>
+<p>4.18 &#150; Inseminaï¿½ï¿½o artificial, fertilizaï¿½ï¿½o <b>in vitro</b><i> </i>e congï¿½neres.</p>
 
-<p>4.19 &#150; Bancos de sangue, leite, pele, olhos, óvulos, sêmen e congêneres.</p>
+<p>4.19 &#150; Bancos de sangue, leite, pele, olhos, ï¿½vulos, sï¿½men e congï¿½neres.</p>
 
-<p>4.20 &#150; Coleta de sangue, leite, tecidos, sêmen, órgãos e materiais biológicos de
-qualquer espécie.</p>
+<p>4.20 &#150; Coleta de sangue, leite, tecidos, sï¿½men, ï¿½rgï¿½os e materiais biolï¿½gicos de
+qualquer espï¿½cie.</p>
 
-<p>4.21 &#150; Unidade de atendimento, assistência ou tratamento móvel e congêneres.</p>
+<p>4.21 &#150; Unidade de atendimento, assistï¿½ncia ou tratamento mï¿½vel e congï¿½neres.</p>
 
-<p>4.22 &#150; Planos de medicina de grupo ou individual e convênios para prestação de
-assistência médica, hospitalar, odontológica e congêneres.</p>
+<p>4.22 &#150; Planos de medicina de grupo ou individual e convï¿½nios para prestaï¿½ï¿½o de
+assistï¿½ncia mï¿½dica, hospitalar, odontolï¿½gica e congï¿½neres.</p>
 
-<p>4.23 &#150; Outros planos de saúde que se cumpram através de serviços de terceiros
+<p>4.23 &#150; Outros planos de saï¿½de que se cumpram atravï¿½s de serviï¿½os de terceiros
 contratados, credenciados, cooperados ou apenas pagos pelo operador do plano mediante
-indicação do beneficiário.</p>
+indicaï¿½ï¿½o do beneficiï¿½rio.</p>
 
-<p>5 &#150; Serviços de medicina e assistência veterinária e congêneres.</p>
+<p>5 &#150; Serviï¿½os de medicina e assistï¿½ncia veterinï¿½ria e congï¿½neres.</p>
 
-<p>5.01 &#150; Medicina veterinária e zootecnia.</p>
+<p>5.01 &#150; Medicina veterinï¿½ria e zootecnia.</p>
 
-<p>5.02 &#150; Hospitais, clínicas, ambulatórios, prontos-socorros e congêneres, na área
-veterinária.</p>
+<p>5.02 &#150; Hospitais, clï¿½nicas, ambulatï¿½rios, prontos-socorros e congï¿½neres, na ï¿½rea
+veterinï¿½ria.</p>
 
-<p>5.03 &#150; Laboratórios de análise na área veterinária.</p>
+<p>5.03 &#150; Laboratï¿½rios de anï¿½lise na ï¿½rea veterinï¿½ria.</p>
 
-<p>5.04 &#150; Inseminação artificial, fertilização <b>in vitro</b> e congêneres.</p>
+<p>5.04 &#150; Inseminaï¿½ï¿½o artificial, fertilizaï¿½ï¿½o <b>in vitro</b> e congï¿½neres.</p>
 
-<p>5.05 &#150; Bancos de sangue e de órgãos e congêneres.</p>
+<p>5.05 &#150; Bancos de sangue e de ï¿½rgï¿½os e congï¿½neres.</p>
 
-<p>5.06 &#150; Coleta de sangue, leite, tecidos, sêmen, órgãos e materiais biológicos de
-qualquer espécie.</p>
+<p>5.06 &#150; Coleta de sangue, leite, tecidos, sï¿½men, ï¿½rgï¿½os e materiais biolï¿½gicos de
+qualquer espï¿½cie.</p>
 
-<p>5.07 &#150; Unidade de atendimento, assistência ou tratamento móvel e congêneres.</p>
+<p>5.07 &#150; Unidade de atendimento, assistï¿½ncia ou tratamento mï¿½vel e congï¿½neres.</p>
 
-<p>5.08 &#150; Guarda, tratamento, amestramento, embelezamento, alojamento e congêneres.</p>
+<p>5.08 &#150; Guarda, tratamento, amestramento, embelezamento, alojamento e congï¿½neres.</p>
 
-<p>5.09 &#150; Planos de atendimento e assistência médico-veterinária.</p>
+<p>5.09 &#150; Planos de atendimento e assistï¿½ncia mï¿½dico-veterinï¿½ria.</p>
 
-<p>6 &#150; Serviços de cuidados pessoais, estética, atividades físicas e congêneres.</p>
+<p>6 &#150; Serviï¿½os de cuidados pessoais, estï¿½tica, atividades fï¿½sicas e congï¿½neres.</p>
 
-<p>6.01 &#150; Barbearia, cabeleireiros, manicuros, pedicuros e congêneres.</p>
+<p>6.01 &#150; Barbearia, cabeleireiros, manicuros, pedicuros e congï¿½neres.</p>
 
-<p>6.02 &#150; Esteticistas, tratamento de pele, depilação e congêneres.</p>
+<p>6.02 &#150; Esteticistas, tratamento de pele, depilaï¿½ï¿½o e congï¿½neres.</p>
 
-<p>6.03 &#150; Banhos, duchas, sauna, massagens e congêneres.</p>
+<p>6.03 &#150; Banhos, duchas, sauna, massagens e congï¿½neres.</p>
 
-<p>6.04 &#150; Ginástica, dança, esportes, natação, artes marciais e demais atividades
-físicas.</p>
+<p>6.04 &#150; Ginï¿½stica, danï¿½a, esportes, nataï¿½ï¿½o, artes marciais e demais atividades
+fï¿½sicas.</p>
 
-<p>6.05 &#150; Centros de emagrecimento, <b>spa </b>e congêneres.</p>
+<p>6.05 &#150; Centros de emagrecimento, <b>spa </b>e congï¿½neres.</p>
 
-<p>7 &#150; Serviços relativos a engenharia, arquitetura, geologia, urbanismo, construção
-civil, manutenção, limpeza, meio ambiente, saneamento e congêneres.</p>
+<p>7 &#150; Serviï¿½os relativos a engenharia, arquitetura, geologia, urbanismo, construï¿½ï¿½o
+civil, manutenï¿½ï¿½o, limpeza, meio ambiente, saneamento e congï¿½neres.</p>
 
 <p>7.01 &#150; Engenharia, agronomia, agrimensura, arquitetura, geologia, urbanismo,
-paisagismo e congêneres.</p>
+paisagismo e congï¿½neres.</p>
 
-<p>7.02 &#150; Execução, por administração, empreitada ou subempreitada, de obras de
-construção civil, hidráulica ou elétrica e de outras obras semelhantes, inclusive
-sondagem, perfuração de poços, escavação, drenagem e irrigação, terraplanagem,
-pavimentação, concretagem e a instalação e montagem de produtos, peças e equipamentos
-(exceto o fornecimento de mercadorias produzidas pelo prestador de serviços fora do local
-da prestação dos serviços, que fica sujeito ao ICMS).</p>
+<p>7.02 &#150; Execuï¿½ï¿½o, por administraï¿½ï¿½o, empreitada ou subempreitada, de obras de
+construï¿½ï¿½o civil, hidrï¿½ulica ou elï¿½trica e de outras obras semelhantes, inclusive
+sondagem, perfuraï¿½ï¿½o de poï¿½os, escavaï¿½ï¿½o, drenagem e irrigaï¿½ï¿½o, terraplanagem,
+pavimentaï¿½ï¿½o, concretagem e a instalaï¿½ï¿½o e montagem de produtos, peï¿½as e equipamentos
+(exceto o fornecimento de mercadorias produzidas pelo prestador de serviï¿½os fora do local
+da prestaï¿½ï¿½o dos serviï¿½os, que fica sujeito ao ICMS).</p>
 
-<p>7.03 &#150; Elaboração de planos diretores, estudos de viabilidade, estudos
-organizacionais e outros, relacionados com obras e serviços de engenharia; elaboração
-de anteprojetos, projetos básicos e projetos executivos para trabalhos de engenharia.</p>
+<p>7.03 &#150; Elaboraï¿½ï¿½o de planos diretores, estudos de viabilidade, estudos
+organizacionais e outros, relacionados com obras e serviï¿½os de engenharia; elaboraï¿½ï¿½o
+de anteprojetos, projetos bï¿½sicos e projetos executivos para trabalhos de engenharia.</p>
 
-<p>7.04 &#150; Demolição.</p>
+<p>7.04 &#150; Demoliï¿½ï¿½o.</p>
 
-<p>7.05 &#150; Reparação, conservação e reforma de edifícios, estradas, pontes, portos e
-congêneres (exceto o fornecimento de mercadorias produzidas pelo prestador dos serviços,
-fora do local da prestação dos serviços, que fica sujeito ao ICMS).</p>
+<p>7.05 &#150; Reparaï¿½ï¿½o, conservaï¿½ï¿½o e reforma de edifï¿½cios, estradas, pontes, portos e
+congï¿½neres (exceto o fornecimento de mercadorias produzidas pelo prestador dos serviï¿½os,
+fora do local da prestaï¿½ï¿½o dos serviï¿½os, que fica sujeito ao ICMS).</p>
 
-<p>7.06 &#150; Colocação e instalação de tapetes, carpetes, assoalhos, cortinas,
-revestimentos de parede, vidros, divisórias, placas de gesso e congêneres, com material
-fornecido pelo tomador do serviço.</p>
+<p>7.06 &#150; Colocaï¿½ï¿½o e instalaï¿½ï¿½o de tapetes, carpetes, assoalhos, cortinas,
+revestimentos de parede, vidros, divisï¿½rias, placas de gesso e congï¿½neres, com material
+fornecido pelo tomador do serviï¿½o.</p>
 
-<p>7.07 &#150; Recuperação, raspagem, polimento e lustração de pisos e congêneres.</p>
+<p>7.07 &#150; Recuperaï¿½ï¿½o, raspagem, polimento e lustraï¿½ï¿½o de pisos e congï¿½neres.</p>
 
-<p>7.08 &#150; Calafetação.</p>
+<p>7.08 &#150; Calafetaï¿½ï¿½o.</p>
 
-<p>7.09 &#150; Varrição, coleta, remoção, incineração, tratamento, reciclagem,
-separação e destinação final de lixo, rejeitos e outros resíduos quaisquer.</p>
+<p>7.09 &#150; Varriï¿½ï¿½o, coleta, remoï¿½ï¿½o, incineraï¿½ï¿½o, tratamento, reciclagem,
+separaï¿½ï¿½o e destinaï¿½ï¿½o final de lixo, rejeitos e outros resï¿½duos quaisquer.</p>
 
-<p>7.10 &#150; Limpeza, manutenção e conservação de vias e logradouros públicos,
-imóveis, chaminés, piscinas, parques, jardins e congêneres.</p>
+<p>7.10 &#150; Limpeza, manutenï¿½ï¿½o e conservaï¿½ï¿½o de vias e logradouros pï¿½blicos,
+imï¿½veis, chaminï¿½s, piscinas, parques, jardins e congï¿½neres.</p>
 
-<p>7.11 &#150; Decoração e jardinagem, inclusive corte e poda de árvores.</p>
+<p>7.11 &#150; Decoraï¿½ï¿½o e jardinagem, inclusive corte e poda de ï¿½rvores.</p>
 
-<p>7.12 &#150; Controle e tratamento de efluentes de qualquer natureza e de agentes físicos,
-químicos e biológicos.</p>
+<p>7.12 &#150; Controle e tratamento de efluentes de qualquer natureza e de agentes fï¿½sicos,
+quï¿½micos e biolï¿½gicos.</p>
 
-<p>7.13 &#150; Dedetização, desinfecção, desinsetização, imunização, higienização,
-desratização, pulverização e congêneres.</p>
+<p>7.13 &#150; Dedetizaï¿½ï¿½o, desinfecï¿½ï¿½o, desinsetizaï¿½ï¿½o, imunizaï¿½ï¿½o, higienizaï¿½ï¿½o,
+desratizaï¿½ï¿½o, pulverizaï¿½ï¿½o e congï¿½neres.</p>
 
 <p>7.14 &#150; (<a href="../Mensagem_Veto/2003/Mv362-03.htm">VETADO</a>)</p>
 
 <p>7.15 &#150; (<a href="../Mensagem_Veto/2003/Mv362-03.htm">VETADO</a>)</p>
 
-<p>7.16 &#150; Florestamento, reflorestamento, semeadura, adubação e congêneres.</p>
+<p>7.16 &#150; Florestamento, reflorestamento, semeadura, adubaï¿½ï¿½o e congï¿½neres.</p>
 
-<p>7.17 &#150; Escoramento, contenção de encostas e serviços congêneres.</p>
+<p>7.17 &#150; Escoramento, contenï¿½ï¿½o de encostas e serviï¿½os congï¿½neres.</p>
 
-<p>7.18 &#150; Limpeza e dragagem de rios, portos, canais, baías, lagos, lagoas, represas,
-açudes e congêneres.</p>
+<p>7.18 &#150; Limpeza e dragagem de rios, portos, canais, baï¿½as, lagos, lagoas, represas,
+aï¿½udes e congï¿½neres.</p>
 
-<p>7.19 &#150; Acompanhamento e fiscalização da execução de obras de engenharia,
+<p>7.19 &#150; Acompanhamento e fiscalizaï¿½ï¿½o da execuï¿½ï¿½o de obras de engenharia,
 arquitetura e urbanismo.</p>
 
-<p>7.20 &#150; Aerofotogrametria (inclusive interpretação), cartografia, mapeamento,
-levantamentos topográficos, batimétricos, geográficos, geodésicos, geológicos,
-geofísicos e congêneres.</p>
+<p>7.20 &#150; Aerofotogrametria (inclusive interpretaï¿½ï¿½o), cartografia, mapeamento,
+levantamentos topogrï¿½ficos, batimï¿½tricos, geogrï¿½ficos, geodï¿½sicos, geolï¿½gicos,
+geofï¿½sicos e congï¿½neres.</p>
 
-<p>7.21 &#150; Pesquisa, perfuração, cimentação, mergulho, perfilagem, concretação,
-testemunhagem, pescaria, estimulação e outros serviços relacionados com a exploração
-e explotação de petróleo, gás natural e de outros recursos minerais.</p>
+<p>7.21 &#150; Pesquisa, perfuraï¿½ï¿½o, cimentaï¿½ï¿½o, mergulho, perfilagem, concretaï¿½ï¿½o,
+testemunhagem, pescaria, estimulaï¿½ï¿½o e outros serviï¿½os relacionados com a exploraï¿½ï¿½o
+e explotaï¿½ï¿½o de petrï¿½leo, gï¿½s natural e de outros recursos minerais.</p>
 
-<p>7.22 &#150; Nucleação e bombardeamento de nuvens e congêneres.</p>
+<p>7.22 &#150; Nucleaï¿½ï¿½o e bombardeamento de nuvens e congï¿½neres.</p>
 
-<p>8 &#150; Serviços de educação, ensino, orientação pedagógica e educacional,
-instrução, treinamento e avaliação pessoal de qualquer grau ou natureza.</p>
+<p>8 &#150; Serviï¿½os de educaï¿½ï¿½o, ensino, orientaï¿½ï¿½o pedagï¿½gica e educacional,
+instruï¿½ï¿½o, treinamento e avaliaï¿½ï¿½o pessoal de qualquer grau ou natureza.</p>
 
-<p>8.01 &#150; Ensino regular pré-escolar, fundamental, médio e superior.</p>
+<p>8.01 &#150; Ensino regular prï¿½-escolar, fundamental, mï¿½dio e superior.</p>
 
-<p>8.02 &#150; Instrução, treinamento, orientação pedagógica e educacional, avaliação
+<p>8.02 &#150; Instruï¿½ï¿½o, treinamento, orientaï¿½ï¿½o pedagï¿½gica e educacional, avaliaï¿½ï¿½o
 de conhecimentos de qualquer natureza.</p>
 
-<p>9 &#150; Serviços relativos a hospedagem, turismo, viagens e congêneres.</p>
+<p>9 &#150; Serviï¿½os relativos a hospedagem, turismo, viagens e congï¿½neres.</p>
 
-<p>9.01 &#150; Hospedagem de qualquer natureza em hotéis, <b>apart-service</b> condominiais,
-<b>flat</b>, apart-hotéis, hotéis residência, <b>residence-service</b>, <b>suite
-service</b>, hotelaria marítima, motéis, pensões e congêneres; ocupação por
-temporada com fornecimento de serviço (o valor da alimentação e gorjeta, quando
-incluído no preço da diária, fica sujeito ao Imposto Sobre Serviços).</p>
+<p>9.01 &#150; Hospedagem de qualquer natureza em hotï¿½is, <b>apart-service</b> condominiais,
+<b>flat</b>, apart-hotï¿½is, hotï¿½is residï¿½ncia, <b>residence-service</b>, <b>suite
+service</b>, hotelaria marï¿½tima, motï¿½is, pensï¿½es e congï¿½neres; ocupaï¿½ï¿½o por
+temporada com fornecimento de serviï¿½o (o valor da alimentaï¿½ï¿½o e gorjeta, quando
+incluï¿½do no preï¿½o da diï¿½ria, fica sujeito ao Imposto Sobre Serviï¿½os).</p>
 
-<p>9.02 &#150; Agenciamento, organização, promoção, intermediação e execução de
-programas de turismo, passeios, viagens, excursões, hospedagens e congêneres.</p>
+<p>9.02 &#150; Agenciamento, organizaï¿½ï¿½o, promoï¿½ï¿½o, intermediaï¿½ï¿½o e execuï¿½ï¿½o de
+programas de turismo, passeios, viagens, excursï¿½es, hospedagens e congï¿½neres.</p>
 
 <p>9.03 &#150; Guias de turismo.</p>
 
-<p>10 &#150; Serviços de intermediação e congêneres.</p>
+<p>10 &#150; Serviï¿½os de intermediaï¿½ï¿½o e congï¿½neres.</p>
 
-<p>10.01 &#150; Agenciamento, corretagem ou intermediação de câmbio, de seguros, de
-cartões de crédito, de planos de saúde e de planos de previdência privada.</p>
+<p>10.01 &#150; Agenciamento, corretagem ou intermediaï¿½ï¿½o de cï¿½mbio, de seguros, de
+cartï¿½es de crï¿½dito, de planos de saï¿½de e de planos de previdï¿½ncia privada.</p>
 
-<p>10.02 &#150; Agenciamento, corretagem ou intermediação de títulos em geral, valores
-mobiliários e contratos quaisquer.</p>
+<p>10.02 &#150; Agenciamento, corretagem ou intermediaï¿½ï¿½o de tï¿½tulos em geral, valores
+mobiliï¿½rios e contratos quaisquer.</p>
 
-<p>10.03 &#150; Agenciamento, corretagem ou intermediação de direitos de propriedade
-industrial, artística ou literária.</p>
+<p>10.03 &#150; Agenciamento, corretagem ou intermediaï¿½ï¿½o de direitos de propriedade
+industrial, artï¿½stica ou literï¿½ria.</p>
 
-<p>10.04 &#150; Agenciamento, corretagem ou intermediação de contratos de arrendamento
-mercantil (<b>leasing</b>), de franquia (<b>franchising</b>) e de faturização (<b>factoring</b>).</p>
+<p>10.04 &#150; Agenciamento, corretagem ou intermediaï¿½ï¿½o de contratos de arrendamento
+mercantil (<b>leasing</b>), de franquia (<b>franchising</b>) e de faturizaï¿½ï¿½o (<b>factoring</b>).</p>
 
-<p>10.05 &#150; Agenciamento, corretagem ou intermediação de bens móveis ou imóveis, não
-abrangidos em outros itens ou subitens, inclusive aqueles realizados no âmbito de Bolsas
+<p>10.05 &#150; Agenciamento, corretagem ou intermediaï¿½ï¿½o de bens mï¿½veis ou imï¿½veis, nï¿½o
+abrangidos em outros itens ou subitens, inclusive aqueles realizados no ï¿½mbito de Bolsas
 de Mercadorias e Futuros, por quaisquer meios.</p>
 
-<p>10.06 &#150; Agenciamento marítimo.</p>
+<p>10.06 &#150; Agenciamento marï¿½timo.</p>
 
-<p>10.07 &#150; Agenciamento de notícias.</p>
+<p>10.07 &#150; Agenciamento de notï¿½cias.</p>
 
 <p>10.08 &#150; Agenciamento de publicidade e propaganda, inclusive o agenciamento de
-veiculação por quaisquer meios.</p>
+veiculaï¿½ï¿½o por quaisquer meios.</p>
 
-<p>10.09 &#150; Representação de qualquer natureza, inclusive comercial.</p>
+<p>10.09 &#150; Representaï¿½ï¿½o de qualquer natureza, inclusive comercial.</p>
 
-<p>10.10 &#150; Distribuição de bens de terceiros.</p>
+<p>10.10 &#150; Distribuiï¿½ï¿½o de bens de terceiros.</p>
 
-<p>11 &#150; Serviços de guarda, estacionamento, armazenamento, vigilância e congêneres.</p>
+<p>11 &#150; Serviï¿½os de guarda, estacionamento, armazenamento, vigilï¿½ncia e congï¿½neres.</p>
 
-<p>11.01 &#150; Guarda e estacionamento de veículos terrestres automotores, de aeronaves e
-de embarcações.</p>
+<p>11.01 &#150; Guarda e estacionamento de veï¿½culos terrestres automotores, de aeronaves e
+de embarcaï¿½ï¿½es.</p>
 
-<p>11.02 &#150; Vigilância, segurança ou monitoramento de bens e pessoas.</p>
+<p>11.02 &#150; Vigilï¿½ncia, seguranï¿½a ou monitoramento de bens e pessoas.</p>
 
-<p>11.03 &#150; Escolta, inclusive de veículos e cargas.</p>
+<p>11.03 &#150; Escolta, inclusive de veï¿½culos e cargas.</p>
 
-<p>11.04 &#150; Armazenamento, depósito, carga, descarga, arrumação e guarda de bens de
-qualquer espécie.</p>
+<p>11.04 &#150; Armazenamento, depï¿½sito, carga, descarga, arrumaï¿½ï¿½o e guarda de bens de
+qualquer espï¿½cie.</p>
 
-<p>12 &#150; Serviços de diversões, lazer, entretenimento e congêneres.</p>
+<p>12 &#150; Serviï¿½os de diversï¿½es, lazer, entretenimento e congï¿½neres.</p>
 
-<p>12.01 &#150; Espetáculos teatrais.</p>
+<p>12.01 &#150; Espetï¿½culos teatrais.</p>
 
-<p>12.02 &#150; Exibições cinematográficas.</p>
+<p>12.02 &#150; Exibiï¿½ï¿½es cinematogrï¿½ficas.</p>
 
-<p>12.03 &#150; Espetáculos circenses.</p>
+<p>12.03 &#150; Espetï¿½culos circenses.</p>
 
-<p>12.04 &#150; Programas de auditório.</p>
+<p>12.04 &#150; Programas de auditï¿½rio.</p>
 
-<p>12.05 &#150; Parques de diversões, centros de lazer e congêneres.</p>
+<p>12.05 &#150; Parques de diversï¿½es, centros de lazer e congï¿½neres.</p>
 
-<p>12.06 &#150; Boates, <b>taxi-dancing</b> e congêneres.</p>
+<p>12.06 &#150; Boates, <b>taxi-dancing</b> e congï¿½neres.</p>
 
-<p>12.07 &#150; <b>Shows</b><i>, </i><b>ballet</b>, danças, desfiles, bailes, óperas,
-concertos, recitais, festivais e congêneres.</p>
+<p>12.07 &#150; <b>Shows</b><i>, </i><b>ballet</b>, danï¿½as, desfiles, bailes, ï¿½peras,
+concertos, recitais, festivais e congï¿½neres.</p>
 
-<p>12.08 &#150; Feiras, exposições, congressos e congêneres.</p>
+<p>12.08 &#150; Feiras, exposiï¿½ï¿½es, congressos e congï¿½neres.</p>
 
-<p>12.09 &#150; Bilhares, boliches e diversões eletrônicas ou não.</p>
+<p>12.09 &#150; Bilhares, boliches e diversï¿½es eletrï¿½nicas ou nï¿½o.</p>
 
-<p>12.10 &#150; Corridas e competições de animais.</p>
+<p>12.10 &#150; Corridas e competiï¿½ï¿½es de animais.</p>
 
-<p>12.11 &#150; Competições esportivas ou de destreza física ou intelectual, com ou sem a
-participação do espectador.</p>
+<p>12.11 &#150; Competiï¿½ï¿½es esportivas ou de destreza fï¿½sica ou intelectual, com ou sem a
+participaï¿½ï¿½o do espectador.</p>
 
-<p>12.12 &#150; Execução de música.</p>
+<p>12.12 &#150; Execuï¿½ï¿½o de mï¿½sica.</p>
 
-<p>12.13 &#150; Produção, mediante ou sem encomenda prévia, de eventos, espetáculos,
-entrevistas, <b>shows</b><i>, </i><b>ballet</b>, danças, desfiles, bailes, teatros,
-óperas, concertos, recitais, festivais e congêneres.</p>
+<p>12.13 &#150; Produï¿½ï¿½o, mediante ou sem encomenda prï¿½via, de eventos, espetï¿½culos,
+entrevistas, <b>shows</b><i>, </i><b>ballet</b>, danï¿½as, desfiles, bailes, teatros,
+ï¿½peras, concertos, recitais, festivais e congï¿½neres.</p>
 
-<p>12.14 &#150; Fornecimento de música para ambientes fechados ou não, mediante
-transmissão por qualquer processo.</p>
+<p>12.14 &#150; Fornecimento de mï¿½sica para ambientes fechados ou nï¿½o, mediante
+transmissï¿½o por qualquer processo.</p>
 
-<p>12.15 &#150; Desfiles de blocos carnavalescos ou folclóricos, trios elétricos e
-congêneres.</p>
+<p>12.15 &#150; Desfiles de blocos carnavalescos ou folclï¿½ricos, trios elï¿½tricos e
+congï¿½neres.</p>
 
-<p>12.16 &#150; Exibição de filmes, entrevistas, musicais, espetáculos, <b>shows</b>,
-concertos, desfiles, óperas, competições esportivas, de destreza intelectual ou
-congêneres.</p>
+<p>12.16 &#150; Exibiï¿½ï¿½o de filmes, entrevistas, musicais, espetï¿½culos, <b>shows</b>,
+concertos, desfiles, ï¿½peras, competiï¿½ï¿½es esportivas, de destreza intelectual ou
+congï¿½neres.</p>
 
-<p>12.17 &#150; Recreação e animação, inclusive em festas e eventos de qualquer natureza.</p>
+<p>12.17 &#150; Recreaï¿½ï¿½o e animaï¿½ï¿½o, inclusive em festas e eventos de qualquer natureza.</p>
 
-<p>13 &#150; Serviços relativos a fonografia, fotografia, cinematografia e reprografia.</p>
+<p>13 &#150; Serviï¿½os relativos a fonografia, fotografia, cinematografia e reprografia.</p>
 
 <p>13.01 &#150; (<a href="../Mensagem_Veto/2003/Mv362-03.htm">VETADO</a>)</p>
 
-<p>13.02 &#150; Fonografia ou gravação de sons, inclusive trucagem, dublagem, mixagem e
-congêneres.</p>
+<p>13.02 &#150; Fonografia ou gravaï¿½ï¿½o de sons, inclusive trucagem, dublagem, mixagem e
+congï¿½neres.</p>
 
-<p>13.03 &#150; Fotografia e cinematografia, inclusive revelação, ampliação, cópia,
-reprodução, trucagem e congêneres.</p>
+<p>13.03 &#150; Fotografia e cinematografia, inclusive revelaï¿½ï¿½o, ampliaï¿½ï¿½o, cï¿½pia,
+reproduï¿½ï¿½o, trucagem e congï¿½neres.</p>
 
-<p>13.04 &#150; Reprografia, microfilmagem e digitalização.</p>
+<p>13.04 &#150; Reprografia, microfilmagem e digitalizaï¿½ï¿½o.</p>
 
-<p>13.05 &#150; Composição gráfica, fotocomposição, clicheria, zincografia, litografia,
+<p>13.05 &#150; Composiï¿½ï¿½o grï¿½fica, fotocomposiï¿½ï¿½o, clicheria, zincografia, litografia,
 fotolitografia.</p>
 
-<p>14 &#150; Serviços relativos a bens de terceiros.</p>
+<p>14 &#150; Serviï¿½os relativos a bens de terceiros.</p>
 
-<p>14.01 &#150; Lubrificação, limpeza, lustração, revisão, carga e recarga, conserto,
-restauração, blindagem, manutenção e conservação de máquinas, veículos, aparelhos,
-equipamentos, motores, elevadores ou de qualquer objeto (exceto peças e partes
+<p>14.01 &#150; Lubrificaï¿½ï¿½o, limpeza, lustraï¿½ï¿½o, revisï¿½o, carga e recarga, conserto,
+restauraï¿½ï¿½o, blindagem, manutenï¿½ï¿½o e conservaï¿½ï¿½o de mï¿½quinas, veï¿½culos, aparelhos,
+equipamentos, motores, elevadores ou de qualquer objeto (exceto peï¿½as e partes
 empregadas, que ficam sujeitas ao ICMS).</p>
 
-<p>14.02 &#150; Assistência técnica.</p>
+<p>14.02 &#150; Assistï¿½ncia tï¿½cnica.</p>
 
-<p>14.03 &#150; Recondicionamento de motores (exceto peças e partes empregadas, que ficam
+<p>14.03 &#150; Recondicionamento de motores (exceto peï¿½as e partes empregadas, que ficam
 sujeitas ao ICMS).</p>
 
-<p>14.04 &#150; Recauchutagem ou regeneração de pneus.</p>
+<p>14.04 &#150; Recauchutagem ou regeneraï¿½ï¿½o de pneus.</p>
 
-<p>14.05 &#150; Restauração, recondicionamento, acondicionamento, pintura, beneficiamento,
-lavagem, secagem, tingimento, galvanoplastia, anodização, corte, recorte, polimento,
-plastificação e congêneres, de objetos quaisquer.</p>
+<p>14.05 &#150; Restauraï¿½ï¿½o, recondicionamento, acondicionamento, pintura, beneficiamento,
+lavagem, secagem, tingimento, galvanoplastia, anodizaï¿½ï¿½o, corte, recorte, polimento,
+plastificaï¿½ï¿½o e congï¿½neres, de objetos quaisquer.</p>
 
-<p>14.06 &#150; Instalação e montagem de aparelhos, máquinas e equipamentos, inclusive
-montagem industrial, prestados ao usuário final, exclusivamente com material por ele
+<p>14.06 &#150; Instalaï¿½ï¿½o e montagem de aparelhos, mï¿½quinas e equipamentos, inclusive
+montagem industrial, prestados ao usuï¿½rio final, exclusivamente com material por ele
 fornecido.</p>
 
-<p>14.07 &#150; Colocação de molduras e congêneres.</p>
+<p>14.07 &#150; Colocaï¿½ï¿½o de molduras e congï¿½neres.</p>
 
-<p>14.08 &#150; Encadernação, gravação e douração de livros, revistas e congêneres.</p>
+<p>14.08 &#150; Encadernaï¿½ï¿½o, gravaï¿½ï¿½o e douraï¿½ï¿½o de livros, revistas e congï¿½neres.</p>
 
-<p>14.09 &#150; Alfaiataria e costura, quando o material for fornecido pelo usuário final,
+<p>14.09 &#150; Alfaiataria e costura, quando o material for fornecido pelo usuï¿½rio final,
 exceto aviamento.</p>
 
 <p>14.10 &#150; Tinturaria e lavanderia.</p>
 
-<p>14.11 &#150; Tapeçaria e reforma de estofamentos em geral.</p>
+<p>14.11 &#150; Tapeï¿½aria e reforma de estofamentos em geral.</p>
 
 <p>14.12 &#150; Funilaria e lanternagem.</p>
 
 <p>14.13 &#150; Carpintaria e serralheria.</p>
 
-<p>15 &#150; Serviços relacionados ao setor bancário ou financeiro, inclusive aqueles
-prestados por instituições financeiras autorizadas a funcionar pela União ou por quem
+<p>15 &#150; Serviï¿½os relacionados ao setor bancï¿½rio ou financeiro, inclusive aqueles
+prestados por instituiï¿½ï¿½es financeiras autorizadas a funcionar pela Uniï¿½o ou por quem
 de direito.</p>
 
-<p>15.01 &#150; Administração de fundos quaisquer, de consórcio, de cartão de crédito ou
-débito e congêneres, de carteira de clientes, de cheques pré-datados e congêneres.</p>
+<p>15.01 &#150; Administraï¿½ï¿½o de fundos quaisquer, de consï¿½rcio, de cartï¿½o de crï¿½dito ou
+dï¿½bito e congï¿½neres, de carteira de clientes, de cheques prï¿½-datados e congï¿½neres.</p>
 
 <p>15.02 &#150; Abertura de contas em geral, inclusive conta-corrente, conta de investimentos
-e aplicação e caderneta de poupança, no País e no exterior, bem como a manutenção
+e aplicaï¿½ï¿½o e caderneta de poupanï¿½a, no Paï¿½s e no exterior, bem como a manutenï¿½ï¿½o
 das referidas contas ativas e inativas.</p>
 
-<p>15.03 &#150; Locação e manutenção de cofres particulares, de terminais eletrônicos,
+<p>15.03 &#150; Locaï¿½ï¿½o e manutenï¿½ï¿½o de cofres particulares, de terminais eletrï¿½nicos,
 de terminais de atendimento e de bens e equipamentos em geral.</p>
 
-<p>15.04 &#150; Fornecimento ou emissão de atestados em geral, inclusive atestado de
-idoneidade, atestado de capacidade financeira e congêneres.</p>
+<p>15.04 &#150; Fornecimento ou emissï¿½o de atestados em geral, inclusive atestado de
+idoneidade, atestado de capacidade financeira e congï¿½neres.</p>
 
-<p>15.05 &#150; Cadastro, elaboração de ficha cadastral, renovação cadastral e
-congêneres, inclusão ou exclusão no Cadastro de Emitentes de Cheques sem Fundos &#150;
+<p>15.05 &#150; Cadastro, elaboraï¿½ï¿½o de ficha cadastral, renovaï¿½ï¿½o cadastral e
+congï¿½neres, inclusï¿½o ou exclusï¿½o no Cadastro de Emitentes de Cheques sem Fundos &#150;
 CCF ou em quaisquer outros bancos cadastrais.</p>
 
-<p>15.06 &#150; Emissão, reemissão e fornecimento de avisos, comprovantes e documentos em
-geral; abono de firmas; coleta e entrega de documentos, bens e valores; comunicação com
-outra agência ou com a administração central; licenciamento eletrônico de veículos;
-transferência de veículos; agenciamento fiduciário ou depositário; devolução de bens
-em custódia.</p>
+<p>15.06 &#150; Emissï¿½o, reemissï¿½o e fornecimento de avisos, comprovantes e documentos em
+geral; abono de firmas; coleta e entrega de documentos, bens e valores; comunicaï¿½ï¿½o com
+outra agï¿½ncia ou com a administraï¿½ï¿½o central; licenciamento eletrï¿½nico de veï¿½culos;
+transferï¿½ncia de veï¿½culos; agenciamento fiduciï¿½rio ou depositï¿½rio; devoluï¿½ï¿½o de bens
+em custï¿½dia.</p>
 
-<p>15.07 &#150; Acesso, movimentação, atendimento e consulta a contas em geral, por
-qualquer meio ou processo, inclusive por telefone, fac-símile, internet e telex, acesso a
+<p>15.07 &#150; Acesso, movimentaï¿½ï¿½o, atendimento e consulta a contas em geral, por
+qualquer meio ou processo, inclusive por telefone, fac-sï¿½mile, internet e telex, acesso a
 terminais de atendimento, inclusive vinte e quatro horas; acesso a outro banco e a rede
-compartilhada; fornecimento de saldo, extrato e demais informações relativas a contas em
+compartilhada; fornecimento de saldo, extrato e demais informaï¿½ï¿½es relativas a contas em
 geral, por qualquer meio ou processo.</p>
 
-<p>15.08 &#150; Emissão, reemissão, alteração, cessão, substituição, cancelamento e
-registro de contrato de crédito; estudo, análise e avaliação de operações de
-crédito; emissão, concessão, alteração ou contratação de aval, fiança, anuência e
-congêneres; serviços relativos a abertura de crédito, para quaisquer fins.</p>
+<p>15.08 &#150; Emissï¿½o, reemissï¿½o, alteraï¿½ï¿½o, cessï¿½o, substituiï¿½ï¿½o, cancelamento e
+registro de contrato de crï¿½dito; estudo, anï¿½lise e avaliaï¿½ï¿½o de operaï¿½ï¿½es de
+crï¿½dito; emissï¿½o, concessï¿½o, alteraï¿½ï¿½o ou contrataï¿½ï¿½o de aval, fianï¿½a, anuï¿½ncia e
+congï¿½neres; serviï¿½os relativos a abertura de crï¿½dito, para quaisquer fins.</p>
 
-<p>15.09 &#150; Arrendamento mercantil (<b>leasing</b>) de quaisquer bens, inclusive cessão
-de direitos e obrigações, substituição de garantia, alteração, cancelamento e
-registro de contrato, e demais serviços relacionados ao arrendamento mercantil (<b>leasing</b>).</p>
+<p>15.09 &#150; Arrendamento mercantil (<b>leasing</b>) de quaisquer bens, inclusive cessï¿½o
+de direitos e obrigaï¿½ï¿½es, substituiï¿½ï¿½o de garantia, alteraï¿½ï¿½o, cancelamento e
+registro de contrato, e demais serviï¿½os relacionados ao arrendamento mercantil (<b>leasing</b>).</p>
 
-<p>15.10 &#150; Serviços relacionados a cobranças, recebimentos ou pagamentos em geral, de
-títulos quaisquer, de contas ou carnês, de câmbio, de tributos e por conta de
-terceiros, inclusive os efetuados por meio eletrônico, automático ou por máquinas de
-atendimento; fornecimento de posição de cobrança, recebimento ou pagamento; emissão de
-carnês, fichas de compensação, impressos e documentos em geral.</p>
+<p>15.10 &#150; Serviï¿½os relacionados a cobranï¿½as, recebimentos ou pagamentos em geral, de
+tï¿½tulos quaisquer, de contas ou carnï¿½s, de cï¿½mbio, de tributos e por conta de
+terceiros, inclusive os efetuados por meio eletrï¿½nico, automï¿½tico ou por mï¿½quinas de
+atendimento; fornecimento de posiï¿½ï¿½o de cobranï¿½a, recebimento ou pagamento; emissï¿½o de
+carnï¿½s, fichas de compensaï¿½ï¿½o, impressos e documentos em geral.</p>
 
-<p>15.11 &#150; Devolução de títulos, protesto de títulos, sustação de protesto,
-manutenção de títulos, reapresentação de títulos, e demais serviços a eles
+<p>15.11 &#150; Devoluï¿½ï¿½o de tï¿½tulos, protesto de tï¿½tulos, sustaï¿½ï¿½o de protesto,
+manutenï¿½ï¿½o de tï¿½tulos, reapresentaï¿½ï¿½o de tï¿½tulos, e demais serviï¿½os a eles
 relacionados.</p>
 
-<p>15.12 &#150; Custódia em geral, inclusive de títulos e valores mobiliários.</p>
+<p>15.12 &#150; Custï¿½dia em geral, inclusive de tï¿½tulos e valores mobiliï¿½rios.</p>
 
-<p>15.13 &#150; Serviços relacionados a operações de câmbio em geral, edição,
-alteração, prorrogação, cancelamento e baixa de contrato de câmbio; emissão de
-registro de exportação ou de crédito; cobrança ou depósito no exterior; emissão,
-fornecimento e cancelamento de cheques de viagem; fornecimento, transferência,
-cancelamento e demais serviços relativos a carta de crédito de importação,
-exportação e garantias recebidas; envio e recebimento de mensagens em geral relacionadas
-a operações de câmbio.</p>
+<p>15.13 &#150; Serviï¿½os relacionados a operaï¿½ï¿½es de cï¿½mbio em geral, ediï¿½ï¿½o,
+alteraï¿½ï¿½o, prorrogaï¿½ï¿½o, cancelamento e baixa de contrato de cï¿½mbio; emissï¿½o de
+registro de exportaï¿½ï¿½o ou de crï¿½dito; cobranï¿½a ou depï¿½sito no exterior; emissï¿½o,
+fornecimento e cancelamento de cheques de viagem; fornecimento, transferï¿½ncia,
+cancelamento e demais serviï¿½os relativos a carta de crï¿½dito de importaï¿½ï¿½o,
+exportaï¿½ï¿½o e garantias recebidas; envio e recebimento de mensagens em geral relacionadas
+a operaï¿½ï¿½es de cï¿½mbio.</p>
 
-<p>15.14 &#150; Fornecimento, emissão, reemissão, renovação e manutenção de cartão
-magnético, cartão de crédito, cartão de débito, cartão salário e congêneres.</p>
+<p>15.14 &#150; Fornecimento, emissï¿½o, reemissï¿½o, renovaï¿½ï¿½o e manutenï¿½ï¿½o de cartï¿½o
+magnï¿½tico, cartï¿½o de crï¿½dito, cartï¿½o de dï¿½bito, cartï¿½o salï¿½rio e congï¿½neres.</p>
 
-<p>15.15 &#150; Compensação de cheques e títulos quaisquer; serviços relacionados a
-depósito, inclusive depósito identificado, a saque de contas quaisquer, por qualquer
-meio ou processo, inclusive em terminais eletrônicos e de atendimento.</p>
+<p>15.15 &#150; Compensaï¿½ï¿½o de cheques e tï¿½tulos quaisquer; serviï¿½os relacionados a
+depï¿½sito, inclusive depï¿½sito identificado, a saque de contas quaisquer, por qualquer
+meio ou processo, inclusive em terminais eletrï¿½nicos e de atendimento.</p>
 
-<p>15.16 &#150; Emissão, reemissão, liquidação, alteração, cancelamento e baixa de
-ordens de pagamento, ordens de crédito e similares, por qualquer meio ou processo;
-serviços relacionados à transferência de valores, dados, fundos, pagamentos e
+<p>15.16 &#150; Emissï¿½o, reemissï¿½o, liquidaï¿½ï¿½o, alteraï¿½ï¿½o, cancelamento e baixa de
+ordens de pagamento, ordens de crï¿½dito e similares, por qualquer meio ou processo;
+serviï¿½os relacionados ï¿½ transferï¿½ncia de valores, dados, fundos, pagamentos e
 similares, inclusive entre contas em geral.</p>
 
-<p>15.17 &#150; Emissão, fornecimento, devolução, sustação, cancelamento e oposição de
-cheques quaisquer, avulso ou por talão.</p>
+<p>15.17 &#150; Emissï¿½o, fornecimento, devoluï¿½ï¿½o, sustaï¿½ï¿½o, cancelamento e oposiï¿½ï¿½o de
+cheques quaisquer, avulso ou por talï¿½o.</p>
 
-<p>15.18 &#150; Serviços relacionados a crédito imobiliário, avaliação e vistoria de
-imóvel ou obra, análise técnica e jurídica, emissão, reemissão, alteração,
-transferência e renegociação de contrato, emissão e reemissão do termo de quitação
-e demais serviços relacionados a crédito imobiliário.</p>
+<p>15.18 &#150; Serviï¿½os relacionados a crï¿½dito imobiliï¿½rio, avaliaï¿½ï¿½o e vistoria de
+imï¿½vel ou obra, anï¿½lise tï¿½cnica e jurï¿½dica, emissï¿½o, reemissï¿½o, alteraï¿½ï¿½o,
+transferï¿½ncia e renegociaï¿½ï¿½o de contrato, emissï¿½o e reemissï¿½o do termo de quitaï¿½ï¿½o
+e demais serviï¿½os relacionados a crï¿½dito imobiliï¿½rio.</p>
 
-<p>16 &#150; Serviços de transporte de natureza municipal.</p>
+<p>16 &#150; Serviï¿½os de transporte de natureza municipal.</p>
 
-<p>16.01 &#150; Serviços de transporte de natureza municipal.</p>
+<p>16.01 &#150; Serviï¿½os de transporte de natureza municipal.</p>
 
-<p>17 &#150; Serviços de apoio técnico, administrativo, jurídico, contábil, comercial e
-congêneres.</p>
+<p>17 &#150; Serviï¿½os de apoio tï¿½cnico, administrativo, jurï¿½dico, contï¿½bil, comercial e
+congï¿½neres.</p>
 
-<p>17.01 &#150; Assessoria ou consultoria de qualquer natureza, não contida em outros itens
-desta lista; análise, exame, pesquisa, coleta, compilação e fornecimento de dados e
-informações de qualquer natureza, inclusive cadastro e similares.</p>
+<p>17.01 &#150; Assessoria ou consultoria de qualquer natureza, nï¿½o contida em outros itens
+desta lista; anï¿½lise, exame, pesquisa, coleta, compilaï¿½ï¿½o e fornecimento de dados e
+informaï¿½ï¿½es de qualquer natureza, inclusive cadastro e similares.</p>
 
-<p>17.02 &#150; Datilografia, digitação, estenografia, expediente, secretaria em geral,
-resposta audível, redação, edição, interpretação, revisão, tradução, apoio e
-infra-estrutura administrativa e congêneres.</p>
+<p>17.02 &#150; Datilografia, digitaï¿½ï¿½o, estenografia, expediente, secretaria em geral,
+resposta audï¿½vel, redaï¿½ï¿½o, ediï¿½ï¿½o, interpretaï¿½ï¿½o, revisï¿½o, traduï¿½ï¿½o, apoio e
+infra-estrutura administrativa e congï¿½neres.</p>
 
-<p>17.03 &#150; Planejamento, coordenação, programação ou organização técnica,
+<p>17.03 &#150; Planejamento, coordenaï¿½ï¿½o, programaï¿½ï¿½o ou organizaï¿½ï¿½o tï¿½cnica,
 financeira ou administrativa.</p>
 
-<p>17.04 &#150; Recrutamento, agenciamento, seleção e colocação de mão-de-obra.</p>
+<p>17.04 &#150; Recrutamento, agenciamento, seleï¿½ï¿½o e colocaï¿½ï¿½o de mï¿½o-de-obra.</p>
 
-<p>17.05 &#150; Fornecimento de mão-de-obra, mesmo em caráter temporário, inclusive de
-empregados ou trabalhadores, avulsos ou temporários, contratados pelo prestador de
-serviço.</p>
+<p>17.05 &#150; Fornecimento de mï¿½o-de-obra, mesmo em carï¿½ter temporï¿½rio, inclusive de
+empregados ou trabalhadores, avulsos ou temporï¿½rios, contratados pelo prestador de
+serviï¿½o.</p>
 
-<p>17.06 &#150; Propaganda e publicidade, inclusive promoção de vendas, planejamento de
-campanhas ou sistemas de publicidade, elaboração de desenhos, textos e demais materiais
-publicitários.</p>
+<p>17.06 &#150; Propaganda e publicidade, inclusive promoï¿½ï¿½o de vendas, planejamento de
+campanhas ou sistemas de publicidade, elaboraï¿½ï¿½o de desenhos, textos e demais materiais
+publicitï¿½rios.</p>
 
 <p>17.07 &#150; (<a href="../Mensagem_Veto/2003/Mv362-03.htm">VETADO</a>)</p>
 
 <p>17.08 &#150; Franquia (<b>franchising</b>).</p>
 
-<p>17.09 &#150; Perícias, laudos, exames técnicos e análises técnicas.</p>
+<p>17.09 &#150; Perï¿½cias, laudos, exames tï¿½cnicos e anï¿½lises tï¿½cnicas.</p>
 
-<p>17.10 &#150; Planejamento, organização e administração de feiras, exposições,
-congressos e congêneres.</p>
+<p>17.10 &#150; Planejamento, organizaï¿½ï¿½o e administraï¿½ï¿½o de feiras, exposiï¿½ï¿½es,
+congressos e congï¿½neres.</p>
 
-<p>17.11 &#150; Organização de festas e recepções; bufê (exceto o fornecimento de
-alimentação e bebidas, que fica sujeito ao ICMS).</p>
+<p>17.11 &#150; Organizaï¿½ï¿½o de festas e recepï¿½ï¿½es; bufï¿½ (exceto o fornecimento de
+alimentaï¿½ï¿½o e bebidas, que fica sujeito ao ICMS).</p>
 
-<p>17.12 &#150; Administração em geral, inclusive de bens e negócios de terceiros.</p>
+<p>17.12 &#150; Administraï¿½ï¿½o em geral, inclusive de bens e negï¿½cios de terceiros.</p>
 
-<p>17.13 &#150; Leilão e congêneres.</p>
+<p>17.13 &#150; Leilï¿½o e congï¿½neres.</p>
 
 <p>17.14 &#150; Advocacia.</p>
 
-<p>17.15 &#150; Arbitragem de qualquer espécie, inclusive jurídica.</p>
+<p>17.15 &#150; Arbitragem de qualquer espï¿½cie, inclusive jurï¿½dica.</p>
 
 <p>17.16 &#150; Auditoria.</p>
 
-<p>17.17 &#150; Análise de Organização e Métodos.</p>
+<p>17.17 &#150; Anï¿½lise de Organizaï¿½ï¿½o e Mï¿½todos.</p>
 
-<p>17.18 &#150; Atuária e cálculos técnicos de qualquer natureza.</p>
+<p>17.18 &#150; Atuï¿½ria e cï¿½lculos tï¿½cnicos de qualquer natureza.</p>
 
-<p>17.19 &#150; Contabilidade, inclusive serviços técnicos e auxiliares.</p>
+<p>17.19 &#150; Contabilidade, inclusive serviï¿½os tï¿½cnicos e auxiliares.</p>
 
-<p>17.20 &#150; Consultoria e assessoria econômica ou financeira.</p>
+<p>17.20 &#150; Consultoria e assessoria econï¿½mica ou financeira.</p>
 
-<p>17.21 &#150; Estatística.</p>
+<p>17.21 &#150; Estatï¿½stica.</p>
 
-<p>17.22 &#150; Cobrança em geral.</p>
+<p>17.22 &#150; Cobranï¿½a em geral.</p>
 
-<p>17.23 &#150; Assessoria, análise, avaliação, atendimento, consulta, cadastro,
-seleção, gerenciamento de informações, administração de contas a receber ou a pagar
-e em geral, relacionados a operações de faturização (<b>factoring</b>).</p>
+<p>17.23 &#150; Assessoria, anï¿½lise, avaliaï¿½ï¿½o, atendimento, consulta, cadastro,
+seleï¿½ï¿½o, gerenciamento de informaï¿½ï¿½es, administraï¿½ï¿½o de contas a receber ou a pagar
+e em geral, relacionados a operaï¿½ï¿½es de faturizaï¿½ï¿½o (<b>factoring</b>).</p>
 
-<p>17.24 &#150; Apresentação de palestras, conferências, seminários e congêneres.</p>
+<p>17.24 &#150; Apresentaï¿½ï¿½o de palestras, conferï¿½ncias, seminï¿½rios e congï¿½neres.</p>
 
-<p>18 &#150; Serviços de regulação de sinistros vinculados a contratos de seguros;
-inspeção e avaliação de riscos para cobertura de contratos de seguros; prevenção e
-gerência de riscos seguráveis e congêneres.</p>
+<p>18 &#150; Serviï¿½os de regulaï¿½ï¿½o de sinistros vinculados a contratos de seguros;
+inspeï¿½ï¿½o e avaliaï¿½ï¿½o de riscos para cobertura de contratos de seguros; prevenï¿½ï¿½o e
+gerï¿½ncia de riscos segurï¿½veis e congï¿½neres.</p>
 
-<p>18.01 - Serviços de regulação de sinistros vinculados a contratos de seguros;
-inspeção e avaliação de riscos para cobertura de contratos de seguros; prevenção e
-gerência de riscos seguráveis e congêneres.</p>
+<p>18.01 - Serviï¿½os de regulaï¿½ï¿½o de sinistros vinculados a contratos de seguros;
+inspeï¿½ï¿½o e avaliaï¿½ï¿½o de riscos para cobertura de contratos de seguros; prevenï¿½ï¿½o e
+gerï¿½ncia de riscos segurï¿½veis e congï¿½neres.</p>
 
-<p>19 &#150; Serviços de distribuição e venda de bilhetes e demais produtos de loteria,
-bingos, cartões, pules ou cupons de apostas, sorteios, prêmios, inclusive os decorrentes
-de títulos de capitalização e congêneres.</p>
+<p>19 &#150; Serviï¿½os de distribuiï¿½ï¿½o e venda de bilhetes e demais produtos de loteria,
+bingos, cartï¿½es, pules ou cupons de apostas, sorteios, prï¿½mios, inclusive os decorrentes
+de tï¿½tulos de capitalizaï¿½ï¿½o e congï¿½neres.</p>
 
-<p>19.01 - Serviços de distribuição e venda de bilhetes e demais produtos de loteria,
-bingos, cartões, pules ou cupons de apostas, sorteios, prêmios, inclusive os decorrentes
-de títulos de capitalização e congêneres.</p>
+<p>19.01 - Serviï¿½os de distribuiï¿½ï¿½o e venda de bilhetes e demais produtos de loteria,
+bingos, cartï¿½es, pules ou cupons de apostas, sorteios, prï¿½mios, inclusive os decorrentes
+de tï¿½tulos de capitalizaï¿½ï¿½o e congï¿½neres.</p>
 
-<p>20 &#150; Serviços portuários, aeroportuários, ferroportuários, de terminais
-rodoviários, ferroviários e metroviários.</p>
+<p>20 &#150; Serviï¿½os portuï¿½rios, aeroportuï¿½rios, ferroportuï¿½rios, de terminais
+rodoviï¿½rios, ferroviï¿½rios e metroviï¿½rios.</p>
 
-<p>20.01 &#150; Serviços portuários, ferroportuários, utilização de porto,
-movimentação de passageiros, reboque de embarcações, rebocador escoteiro, atracação,
-desatracação, serviços de praticagem, capatazia, armazenagem de qualquer natureza,
-serviços acessórios, movimentação de mercadorias, serviços de apoio marítimo, de
-movimentação ao largo, serviços de armadores, estiva, conferência, logística e
-congêneres.</p>
+<p>20.01 &#150; Serviï¿½os portuï¿½rios, ferroportuï¿½rios, utilizaï¿½ï¿½o de porto,
+movimentaï¿½ï¿½o de passageiros, reboque de embarcaï¿½ï¿½es, rebocador escoteiro, atracaï¿½ï¿½o,
+desatracaï¿½ï¿½o, serviï¿½os de praticagem, capatazia, armazenagem de qualquer natureza,
+serviï¿½os acessï¿½rios, movimentaï¿½ï¿½o de mercadorias, serviï¿½os de apoio marï¿½timo, de
+movimentaï¿½ï¿½o ao largo, serviï¿½os de armadores, estiva, conferï¿½ncia, logï¿½stica e
+congï¿½neres.</p>
 
-<p>20.02 &#150; Serviços aeroportuários, utilização de aeroporto, movimentação de
-passageiros, armazenagem de qualquer natureza, capatazia, movimentação de aeronaves,
-serviços de apoio aeroportuários, serviços acessórios, movimentação de mercadorias,
-logística e congêneres.</p>
+<p>20.02 &#150; Serviï¿½os aeroportuï¿½rios, utilizaï¿½ï¿½o de aeroporto, movimentaï¿½ï¿½o de
+passageiros, armazenagem de qualquer natureza, capatazia, movimentaï¿½ï¿½o de aeronaves,
+serviï¿½os de apoio aeroportuï¿½rios, serviï¿½os acessï¿½rios, movimentaï¿½ï¿½o de mercadorias,
+logï¿½stica e congï¿½neres.</p>
 
-<p>20.03 &#150; Serviços de terminais rodoviários, ferroviários, metroviários,
-movimentação de passageiros, mercadorias, inclusive&nbsp;&nbsp;&nbsp;&nbsp; suas
-operações, logística e congêneres.</p>
+<p>20.03 &#150; Serviï¿½os de terminais rodoviï¿½rios, ferroviï¿½rios, metroviï¿½rios,
+movimentaï¿½ï¿½o de passageiros, mercadorias, inclusive&nbsp;&nbsp;&nbsp;&nbsp; suas
+operaï¿½ï¿½es, logï¿½stica e congï¿½neres.</p>
 
-<p>21 &#150; Serviços de registros públicos, cartorários e notariais.</p>
+<p>21 &#150; Serviï¿½os de registros pï¿½blicos, cartorï¿½rios e notariais.</p>
 
-<p>21.01 - Serviços de registros públicos, cartorários e notariais.</p>
+<p>21.01 - Serviï¿½os de registros pï¿½blicos, cartorï¿½rios e notariais.</p>
 
-<p>22 &#150; Serviços de exploração de rodovia. </p>
+<p>22 &#150; Serviï¿½os de exploraï¿½ï¿½o de rodovia. </p>
 
-<p>22.01 &#150; Serviços de exploração de rodovia mediante cobrança de preço ou pedágio
-dos usuários, envolvendo execução de serviços de conservação, manutenção,
-melhoramentos para adequação de capacidade e segurança de trânsito, operação,
-monitoração, assistência aos usuários e outros serviços definidos em contratos, atos
-de concessão ou de permissão ou em &nbsp;&nbsp;&nbsp;&nbsp; normas oficiais.</p>
+<p>22.01 &#150; Serviï¿½os de exploraï¿½ï¿½o de rodovia mediante cobranï¿½a de preï¿½o ou pedï¿½gio
+dos usuï¿½rios, envolvendo execuï¿½ï¿½o de serviï¿½os de conservaï¿½ï¿½o, manutenï¿½ï¿½o,
+melhoramentos para adequaï¿½ï¿½o de capacidade e seguranï¿½a de trï¿½nsito, operaï¿½ï¿½o,
+monitoraï¿½ï¿½o, assistï¿½ncia aos usuï¿½rios e outros serviï¿½os definidos em contratos, atos
+de concessï¿½o ou de permissï¿½o ou em &nbsp;&nbsp;&nbsp;&nbsp; normas oficiais.</p>
 
-<p>23 &#150; Serviços de programação e comunicação visual, desenho industrial e
-congêneres. </p>
+<p>23 &#150; Serviï¿½os de programaï¿½ï¿½o e comunicaï¿½ï¿½o visual, desenho industrial e
+congï¿½neres. </p>
 
-<p>23.01 &#150; Serviços de programação e comunicação visual, desenho industrial e
-congêneres.</p>
+<p>23.01 &#150; Serviï¿½os de programaï¿½ï¿½o e comunicaï¿½ï¿½o visual, desenho industrial e
+congï¿½neres.</p>
 
-<p>24 &#150; Serviços de chaveiros, confecção de carimbos, placas, sinalização visual, <b>banners</b>,
-adesivos e congêneres. </p>
+<p>24 &#150; Serviï¿½os de chaveiros, confecï¿½ï¿½o de carimbos, placas, sinalizaï¿½ï¿½o visual, <b>banners</b>,
+adesivos e congï¿½neres. </p>
 
-<p>24.01 - Serviços de chaveiros, confecção de carimbos, placas, sinalização visual, <b>banners</b>,
-adesivos e congêneres.</p>
+<p>24.01 - Serviï¿½os de chaveiros, confecï¿½ï¿½o de carimbos, placas, sinalizaï¿½ï¿½o visual, <b>banners</b>,
+adesivos e congï¿½neres.</p>
 
-<p>25 - Serviços funerários. </p>
+<p>25 - Serviï¿½os funerï¿½rios. </p>
 
-<p>25.01 &#150; Funerais, inclusive fornecimento de caixão, urna ou esquifes; aluguel de
-capela; transporte do corpo cadavérico; fornecimento de flores, coroas e outros
-paramentos; desembaraço de certidão de óbito; fornecimento de véu, essa e outros
-adornos; embalsamento, embelezamento, conservação ou restauração de cadáveres.</p>
+<p>25.01 &#150; Funerais, inclusive fornecimento de caixï¿½o, urna ou esquifes; aluguel de
+capela; transporte do corpo cadavï¿½rico; fornecimento de flores, coroas e outros
+paramentos; desembaraï¿½o de certidï¿½o de ï¿½bito; fornecimento de vï¿½u, essa e outros
+adornos; embalsamento, embelezamento, conservaï¿½ï¿½o ou restauraï¿½ï¿½o de cadï¿½veres.</p>
 
-<p>25.02 &#150; Cremação de corpos e partes de corpos cadavéricos.</p>
+<p>25.02 &#150; Cremaï¿½ï¿½o de corpos e partes de corpos cadavï¿½ricos.</p>
 
-<p>25.03 &#150; Planos ou convênio funerários.</p>
+<p>25.03 &#150; Planos ou convï¿½nio funerï¿½rios.</p>
 
-<p>25.04 &#150; Manutenção e conservação de jazigos e cemitérios.</p>
+<p>25.04 &#150; Manutenï¿½ï¿½o e conservaï¿½ï¿½o de jazigos e cemitï¿½rios.</p>
 
-<p>26 &#150; Serviços de coleta, remessa ou entrega de correspondências, documentos,
-objetos, bens ou valores, inclusive pelos correios e suas agências franqueadas; <b>courrier</b><i>
-</i>e congêneres.</p>
+<p>26 &#150; Serviï¿½os de coleta, remessa ou entrega de correspondï¿½ncias, documentos,
+objetos, bens ou valores, inclusive pelos correios e suas agï¿½ncias franqueadas; <b>courrier</b><i>
+</i>e congï¿½neres.</p>
 
-<p>26.01 &#150; Serviços de coleta, remessa ou entrega de correspondências, documentos,
-objetos, bens ou valores, inclusive pelos correios e suas agências franqueadas; <b>courrier
-</b>e congêneres.</p>
+<p>26.01 &#150; Serviï¿½os de coleta, remessa ou entrega de correspondï¿½ncias, documentos,
+objetos, bens ou valores, inclusive pelos correios e suas agï¿½ncias franqueadas; <b>courrier
+</b>e congï¿½neres.</p>
 
-<p>27 &#150; Serviços de assistência social.</p>
+<p>27 &#150; Serviï¿½os de assistï¿½ncia social.</p>
 
-<p>27.01 &#150; Serviços de assistência social.</p>
+<p>27.01 &#150; Serviï¿½os de assistï¿½ncia social.</p>
 
-<p>28 &#150; Serviços de avaliação de bens e serviços de qualquer natureza.</p>
+<p>28 &#150; Serviï¿½os de avaliaï¿½ï¿½o de bens e serviï¿½os de qualquer natureza.</p>
 
-<p>28.01 &#150; Serviços de avaliação de bens e serviços de qualquer natureza.</p>
+<p>28.01 &#150; Serviï¿½os de avaliaï¿½ï¿½o de bens e serviï¿½os de qualquer natureza.</p>
 
-<p>29 &#150; Serviços de biblioteconomia.</p>
+<p>29 &#150; Serviï¿½os de biblioteconomia.</p>
 
-<p>29.01 &#150; Serviços de biblioteconomia.</p>
+<p>29.01 &#150; Serviï¿½os de biblioteconomia.</p>
 
-<p>30 &#150; Serviços de biologia, biotecnologia e química.</p>
+<p>30 &#150; Serviï¿½os de biologia, biotecnologia e quï¿½mica.</p>
 
-<p>30.01 &#150; Serviços de biologia, biotecnologia e química.</p>
+<p>30.01 &#150; Serviï¿½os de biologia, biotecnologia e quï¿½mica.</p>
 
-<p>31 &#150; Serviços técnicos em edificações, eletrônica, eletrotécnica, mecânica,
-telecomunicações e congêneres.</p>
+<p>31 &#150; Serviï¿½os tï¿½cnicos em edificaï¿½ï¿½es, eletrï¿½nica, eletrotï¿½cnica, mecï¿½nica,
+telecomunicaï¿½ï¿½es e congï¿½neres.</p>
 
-<p>31.01 - Serviços técnicos em edificações, eletrônica, eletrotécnica, mecânica,
-telecomunicações e congêneres.</p>
+<p>31.01 - Serviï¿½os tï¿½cnicos em edificaï¿½ï¿½es, eletrï¿½nica, eletrotï¿½cnica, mecï¿½nica,
+telecomunicaï¿½ï¿½es e congï¿½neres.</p>
 
-<p>32 &#150; Serviços de desenhos técnicos.</p>
+<p>32 &#150; Serviï¿½os de desenhos tï¿½cnicos.</p>
 
-<p>32.01 - Serviços de desenhos técnicos.</p>
+<p>32.01 - Serviï¿½os de desenhos tï¿½cnicos.</p>
 
-<p>33 &#150; Serviços de desembaraço aduaneiro, comissários, despachantes e congêneres.</p>
+<p>33 &#150; Serviï¿½os de desembaraï¿½o aduaneiro, comissï¿½rios, despachantes e congï¿½neres.</p>
 
-<p>33.01 - Serviços de desembaraço aduaneiro, comissários, despachantes e congêneres.</p>
+<p>33.01 - Serviï¿½os de desembaraï¿½o aduaneiro, comissï¿½rios, despachantes e congï¿½neres.</p>
 
-<p>34 &#150; Serviços de investigações particulares, detetives e congêneres.</p>
+<p>34 &#150; Serviï¿½os de investigaï¿½ï¿½es particulares, detetives e congï¿½neres.</p>
 
-<p>34.01 - Serviços de investigações particulares, detetives e congêneres.</p>
+<p>34.01 - Serviï¿½os de investigaï¿½ï¿½es particulares, detetives e congï¿½neres.</p>
 
-<p>35 &#150; Serviços de reportagem, assessoria de imprensa, jornalismo e relações
-públicas.</p>
+<p>35 &#150; Serviï¿½os de reportagem, assessoria de imprensa, jornalismo e relaï¿½ï¿½es
+pï¿½blicas.</p>
 
-<p>35.01 - Serviços de reportagem, assessoria de imprensa, jornalismo e relações
-públicas.</p>
+<p>35.01 - Serviï¿½os de reportagem, assessoria de imprensa, jornalismo e relaï¿½ï¿½es
+pï¿½blicas.</p>
 
-<p>36 &#150; Serviços de meteorologia.</p>
+<p>36 &#150; Serviï¿½os de meteorologia.</p>
 
-<p>36.01 &#150; Serviços de meteorologia.</p>
+<p>36.01 &#150; Serviï¿½os de meteorologia.</p>
 
-<p>37 &#150; Serviços de artistas, atletas, modelos e manequins.</p>
+<p>37 &#150; Serviï¿½os de artistas, atletas, modelos e manequins.</p>
 
-<p>37.01 - Serviços de artistas, atletas, modelos e manequins.</p>
+<p>37.01 - Serviï¿½os de artistas, atletas, modelos e manequins.</p>
 
-<p>38 &#150; Serviços de museologia.</p>
+<p>38 &#150; Serviï¿½os de museologia.</p>
 
-<p>38.01 &#150; Serviços de museologia.</p>
+<p>38.01 &#150; Serviï¿½os de museologia.</p>
 
-<p>39 &#150; Serviços de ourivesaria e lapidação.</p>
+<p>39 &#150; Serviï¿½os de ourivesaria e lapidaï¿½ï¿½o.</p>
 
-<p>39.01 - Serviços de ourivesaria e lapidação (quando o material for fornecido pelo
-tomador do serviço).</p>
+<p>39.01 - Serviï¿½os de ourivesaria e lapidaï¿½ï¿½o (quando o material for fornecido pelo
+tomador do serviï¿½o).</p>
 
-<p>40 &#150; Serviços relativos a obras de arte sob encomenda.</p>
+<p>40 &#150; Serviï¿½os relativos a obras de arte sob encomenda.</p>
 
 <p>40.01 - Obras de arte sob encomenda.</p>
      */

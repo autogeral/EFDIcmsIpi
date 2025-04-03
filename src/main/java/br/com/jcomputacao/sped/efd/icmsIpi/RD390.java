@@ -22,37 +22,37 @@ public class RD390 extends LineArchetype  {
     
     public static final String CST_ICMS = "CST_ICMS";
      /*
-     * Código da Situação Tributária, conforme a Tabela indicada no item 4.3.1.
-     o código de Situação Tributária é composto de três dígitos na forma ABB, 
-     onde o 1º dígito deve ser sempre 0 (zero), para este registro,
-     e os 2º e 3º dígitos indicam a tributação pelo ICMS, 
-     com base na Tabela B constante no Anexo do Convênio SN/70.
+     * CÃ³digo da SituaÃ§Ã£o TributÃ¡ria, conforme a Tabela indicada no item 4.3.1.
+     o cÃ³digo de SituaÃ§Ã£o TributÃ¡ria Ã© composto de trÃªs dÃ­gitos na forma ABB, 
+     onde o 1Âº dÃ­gito deve ser sempre 0 (zero), para este registro,
+     e os 2Âº e 3Âº dÃ­gitos indicam a tributaÃ§Ã£o pelo ICMS, 
+     com base na Tabela B constante no Anexo do ConvÃªnio SN/70.
      */
     
     public static final String CFOP = "CFOP";
      /*
-     * Código Fiscal de Operação e Prestação
+     * CÃ³digo Fiscal de OperaÃ§Ã£o e PrestaÃ§Ã£o
      */
     
     public static final String ALIQ_ICMS = "ALIQ_ICMS";
      /*
-     * Alíquota do ICMS
+     * AlÃ­quota do ICMS
      */
     
     public static final String VL_OPR = "VL_OPR";
      /*
-     * Valor da operação correspondente à combinação de CST_ICMS, CFOP, e alíquota do ICMS,
-      incluídas as despesas acessórias e acréscimos
+     * Valor da operaÃ§Ã£o correspondente Ã  combinaÃ§Ã£o de CST_ICMS, CFOP, e alÃ­quota do ICMS,
+      incluÃ­das as despesas acessÃ³rias e acrÃ©scimos
      */
     
     public static final String VL_BC_ISSQN = "VL_BC_ISSQN";
      /*
-     * Valor da base de cálculo do ISSQN
+     * Valor da base de cÃ¡lculo do ISSQN
      */
     
     public static final String ALIQ_ISSQN = "ALIQ_ISSQN";
      /*
-     * Alíquota do ISSQN
+     * AlÃ­quota do ISSQN
      */
     
     public static final String VL_ISSQN = "VL_ISSQN";
@@ -62,17 +62,17 @@ public class RD390 extends LineArchetype  {
     
     public static final String VL_BC_ICMS = "VL_BC_ICMS";
      /*
-     * Base de cálculo do ICMS acumulada relativa à alíquota informada
+     * Base de cÃ¡lculo do ICMS acumulada relativa Ã  alÃ­quota informada
      */
     
     public static final String VL_ICMS = "VL_ICMS";
      /*
-     * Valor do ICMS acumulado relativo à alíquota informada
+     * Valor do ICMS acumulado relativo Ã  alÃ­quota informada
      */
     
     public static final String COD_OBS = "COD_OBS";
      /*
-     * Código da observação do lançamento fiscal (campo 02 do Registro 0460)
+     * CÃ³digo da observaÃ§Ã£o do lanÃ§amento fiscal (campo 02 do Registro 0460)
      */
 
     public RD390() {

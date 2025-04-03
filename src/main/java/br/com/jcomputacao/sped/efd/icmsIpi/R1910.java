@@ -19,7 +19,7 @@ public class R1910 extends LineArchetype {
     
     
     /*
-     * 2 -  Data inicial da sub-apuraÁ„o
+     * 2 -  Data inicial da sub-apura√ß√£o
      */
     public static final String DT_INI = "DT_INI";
     
@@ -30,7 +30,7 @@ public class R1910 extends LineArchetype {
     
     
     /*
-     * 3 - Data final da sub-apuraÁ„o
+     * 3 - Data final da sub-apura√ß√£o
      */
     public static final String  DT_FIN = " DT_FIN";
     
@@ -40,7 +40,7 @@ public class R1910 extends LineArchetype {
     
 
     public R1910() {
-        setName("REGISTRO 1910: PERÕODO DA SUB-APURA«√O DO ICMS ");
+        setName("REGISTRO 1910: PER√çODO DA SUB-APURA√á√ÉO DO ICMS ");
         setDelimiter("|");
         //1
         addFieldArchetype(REGISTRO, new FieldDefaultArchetype("1910"));

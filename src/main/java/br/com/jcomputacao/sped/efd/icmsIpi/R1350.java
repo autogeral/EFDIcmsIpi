@@ -19,7 +19,7 @@ public class R1350 extends LineArchetype{
     
     public static final String SERIE = "SERIE";
     /*
-     * Número de Série da Bomba
+     * NÃºmero de SÃ©rie da Bomba
      */
     
     
@@ -40,8 +40,8 @@ public class R1350 extends LineArchetype{
     
     public static final String TIPO_MEDICAO = "TIPO_MEDICAO";
     /*
-     * Identificador de medição:
-        0 - analógico;
+     * Identificador de mediÃ§Ã£o:
+        0 - analÃ³gico;
         1 ? digital
      */
 

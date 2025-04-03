@@ -17,38 +17,38 @@ public class R1105 extends LineArchetype{
     
     public static final String COD_MOD = "COD_MOD";
     /*
-     * Código do modelo da NF, conforme tabela 4.1.1
+     * CÃ³digo do modelo da NF, conforme tabela 4.1.1
      */
     
     
     public static final String SERIE = "SERIE";
     /*
-     * Série da Nota Fiscal
+     * SÃ©rie da Nota Fiscal
      */
     
     
      public static final String NUM_DOC = "NUM_DOC";
     /*
-     * Número de Nota Fiscal de Exportação emitida pelo Exportador
+     * NÃºmero de Nota Fiscal de ExportaÃ§Ã£o emitida pelo Exportador
      */
      
      
     public static final String CHV_NFE = "CHV_NFE";
     /*
-     * Chave da Nota Fiscal Eletrônica
+     * Chave da Nota Fiscal EletrÃ´nica
      */
     
     
     public static final String DT_DOC = "DT_DOC";
     /*
-     * Data da emissão da NF de exportação
+     * Data da emissÃ£o da NF de exportaÃ§Ã£o
      */
     
         
     
     public static final String COD_ITEM = "COD_ITEM";
     /*
-     * Código do item (campo 02 do Registro 0200)
+     * CÃ³digo do item (campo 02 do Registro 0200)
      */
     
 

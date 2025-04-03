@@ -28,14 +28,14 @@ public class R1320 extends LineArchetype{
     
     public static final String NR_INTERV = "NR_INTERV";
     /*
-     * Número da intervenção
+     * NÃºmero da intervenÃ§Ã£o
      */
     
     
     
     public static final String MOT_INTERV = "MOT_INTERV";
     /*
-     * Motivo da Intervenção
+     * Motivo da IntervenÃ§Ã£o
      */
     
     
@@ -49,14 +49,14 @@ public class R1320 extends LineArchetype{
     
     public static final String CNPJ_INTERV = "CNPJ_INTERV";
     /*
-     * CNPJ da empresa responsável pela intervenção
+     * CNPJ da empresa responsÃ¡vel pela intervenÃ§Ã£o
      */
     
     
     
     public static final String CPF_INTERV = "CPF_INTERV";
     /*
-     * CPF do técnico responsável pela intervenção
+     * CPF do tÃ©cnico responsÃ¡vel pela intervenÃ§Ã£o
      */
     
     
@@ -77,7 +77,7 @@ public class R1320 extends LineArchetype{
     
     public static final String VOL_AFERI = "VOL_AFERI";
     /*
-     * Aferi��es da Bomba, em litros
+     * Aferiï¿½ï¿½es da Bomba, em litros
      */
     
     

@@ -20,19 +20,19 @@ public class RD162 extends LineArchetype {
      */
     public static final String COD_MOD = "COD_MOD";
     /*
-     * Código do modelo do documento fiscal, conforme a Tabela 4.1.1
+     * CÃ³digo do modelo do documento fiscal, conforme a Tabela 4.1.1
      */
     public static final String SER     = "SER";
     /*
-     * Série do documento fiscal
+     * SÃ©rie do documento fiscal
      */
     public static final String NUM_DOC = "NUM_DOC";
     /*
-     * Número do documento fiscal
+     * NÃºmero do documento fiscal
      */
     public static final String DT_DOC  = "DT_DOC";
     /*
-     * Data da emissão do documento fiscal 
+     * Data da emissÃ£o do documento fiscal 
      */
     public static final String VL_DOC  = "VL_DOC";
     /*
@@ -52,7 +52,7 @@ public class RD162 extends LineArchetype {
      */
      public static final String PESO_LIQ = "PESO_LIQ";
      /*
-      * Peso líquido dos volumes transportados (em Kg)
+      * Peso lÃ­quido dos volumes transportados (em Kg)
       */
 
     public RD162() {

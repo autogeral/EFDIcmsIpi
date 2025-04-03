@@ -15,27 +15,27 @@ public class RD695 extends LineArchetype{
      */
     public static final String COD_MOD = "COD_MOD";
     /*
-     * Código do modelo do documento fiscal, conforme a Tabela 4.1.1.
+     * CÃ³digo do modelo do documento fiscal, conforme a Tabela 4.1.1.
      */
     public static final String SER = "SER";
     /*
-     * Série do documento fiscal
+     * SÃ©rie do documento fiscal
      */
     public static final String NRO_ORD_INI = "NRO_ORD_INI";
     /*
-     * Número de ordem inicial
+     * NÃºmero de ordem inicial
      */
     public static final String NRO_ORD_FIN = "NRO_ORD_FIN";
     /*
-     * Número de ordem final
+     * NÃºmero de ordem final
      */
     public static final String DT_DOC_INI = "DT_DOC_INI";
     /*
-     * Data de emissão inicial dos documentos / Data inicial de vencimento da fatura
+     * Data de emissÃ£o inicial dos documentos / Data inicial de vencimento da fatura
      */
     public static final String DT_DOC_FIN = "DT_DOC_FIN";
     /*
-     * Data de emissão final dos documentos / Data final do vencimento da fatura
+     * Data de emissÃ£o final dos documentos / Data final do vencimento da fatura
      */
     public static final String NOM_MEST = "NOM_MEST";
     /*
@@ -43,13 +43,13 @@ public class RD695 extends LineArchetype{
      */
     public static final String CHV_COD_DIG = "CHV_COD_DIG";
     /*
-     * Chave de codificação digital do arquivo Mestre de Documento Fiscal
+     * Chave de codificaÃ§Ã£o digital do arquivo Mestre de Documento Fiscal
      */
 
     public RD695() {
         
         setName("REGISTRO D695: CONSOLIDACAO DA PRESTACAO DE SERVICOS - NOTAS DE "+
-"SERVICO DE COMUNICACAO (CODIGO 21) E DE SERVIÇO DE "+
+"SERVICO DE COMUNICACAO (CODIGO 21) E DE SERVIÃ‡O DE "+
 "TELECOMUNICACAO (CODIGO 22) (EMPRESAS OBRIGADAS A ENTREGA DOS "+
 "ARQUIVOS PREVISTOS NO CONVENIO ICMS 115/03).");
         

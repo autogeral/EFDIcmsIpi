@@ -18,28 +18,28 @@ public class RC800 extends LineArchetype{
      */
     public static final String COD_MOD = "COD_MOD";
     /*
-     * Código do modelo do documento fiscal, conforme a Tabela 4.1.1
+     * CÃ³digo do modelo do documento fiscal, conforme a Tabela 4.1.1
      */
     public static final String COD_SIT = "COD_SIT";
     /*
-     * Código da situação do documento fiscal, conforme a Tabela 4.1.2
-     * Código Descrição 
+     * CÃ³digo da situaÃ§Ã£o do documento fiscal, conforme a Tabela 4.1.2
+     * CÃ³digo DescriÃ§Ã£o 
      * 00 Documento regular 
-     * 01 Escrituração extemporânea de documento regular 
+     * 01 EscrituraÃ§Ã£o extemporÃ¢nea de documento regular 
      * 02 Documento cancelado 
-     * 03 Escrituração extemporânea de documento cancelado 
+     * 03 EscrituraÃ§Ã£o extemporÃ¢nea de documento cancelado 
      */
     public static final String NUM_CFE = "NUM_CFE";
     /*
-     * Número do Cupom Fiscal Eletrônico
+     * NÃºmero do Cupom Fiscal EletrÃ´nico
      */
     public static final String DT_DOC = "DT_DOC";
     /*
-     * Data da emissão do Cupom Fiscal Eletrônico
+     * Data da emissÃ£o do Cupom Fiscal EletrÃ´nico
      */
     public static final String VL_CFE = "VL_CFE";
     /*
-     * Valor total do Cupom Fiscal Eletrônico
+     * Valor total do Cupom Fiscal EletrÃ´nico
      */
     public static final String VL_PIS = "VL_PIS";
     /*
@@ -51,15 +51,15 @@ public class RC800 extends LineArchetype{
      */
     public static final String CNPJ_CPF = "CNPJ_CPF";
     /*
-     * CNPJ ou CPF do destinatário
+     * CNPJ ou CPF do destinatÃ¡rio
      */
     public static final String NR_SAT = "NR_SAT";
     /*
-     *Número de Série do equipamento SAT 
+     *NÃºmero de SÃ©rie do equipamento SAT 
      */
     public static final String CHV_CFE = "CHV_CFE";
     /*
-     * Chave do Cupom Fiscal Eletrônico
+     * Chave do Cupom Fiscal EletrÃ´nico
      */
     public static final String VL_DESC = "VL_DESC";
     /*
@@ -67,11 +67,11 @@ public class RC800 extends LineArchetype{
      */
     public static final String VL_MERC = "VL_MERC";
     /*
-     * Valor total das mercadorias e serviços
+     * Valor total das mercadorias e serviÃ§os
      */
     public static final String VL_OUT_DA = "VL_OUT_DA";
     /*
-     * Valor total de outras despesas acessórias e acréscimos
+     * Valor total de outras despesas acessÃ³rias e acrÃ©scimos
      */
     public static final String VL_ICMS = "VL_ICMS";
     /*

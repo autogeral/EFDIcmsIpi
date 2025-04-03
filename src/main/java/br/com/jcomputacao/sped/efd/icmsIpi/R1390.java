@@ -20,10 +20,10 @@ public class R1390  extends LineArchetype{
      
      public static final String COD_PROD = "COD_PROD";
      /*
-      * CÛdigo do produto:
-        01 ? ¡lcool EtÌlico Hidratado Carburante
-        02 - ¡lcool EtÌlico Anidro Carburante
-        03 ? AÁ˙car
+      * C√≥digo do produto:
+        01 ? √Ålcool Et√≠lico Hidratado Carburante
+        02 - √Ålcool Et√≠lico Anidro Carburante
+        03 ? A√ß√∫car
       */
 
    

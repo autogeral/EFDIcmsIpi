@@ -15,37 +15,37 @@ public static final String REGISTRO = "REG";
  */
 public static final String COD_MOD_ULT_E = "COD_MOD_ULT_E";
 /*
- * Código do modelo do documento fiscal 
- * relativa a última entrada
+ * CÃ³digo do modelo do documento fiscal 
+ * relativa a Ãºltima entrada
  */
 public static final String NUM_DOC_ULT_E = "NUM_DOC_ULT_E";
 /*
- * Número do documento fiscal relativa a última entrada
+ * NÃºmero do documento fiscal relativa a Ãºltima entrada
  */
 public static final String SER_ULT_E = "SER_ULT_E";
 /*
- * Série do documento fiscal relativa a última entrada
+ * SÃ©rie do documento fiscal relativa a Ãºltima entrada
  */
 public static final String DT_ULT_E = "DT_ULT_E";
 /*
- * Data relativa a última entrada da mercadoria
+ * Data relativa a Ãºltima entrada da mercadoria
  */
 public static final String COD_PART_ULT_E = "COD_PART_ULT_E";
 /*
- * Código do participante (do emitente do documento relativa a última entrada)
+ * CÃ³digo do participante (do emitente do documento relativa a Ãºltima entrada)
  */
 public static final String QUANT_ULT_E = "QUANT_ULT_E";
 /*
- * Quantidade do item relativa a última entrada
+ * Quantidade do item relativa a Ãºltima entrada
  */
 public static final String VL_UNIT_ULT_E = "VL_UNIT_ULT_E";
 /*
- * Valor unitário da mercadoria constante na NF relativa a
- * última entrada inclusive despesas acessórias.
+ * Valor unitÃ¡rio da mercadoria constante na NF relativa a
+ * Ãºltima entrada inclusive despesas acessÃ³rias.
  */
 public static final String VL_UNIT_BC_ST = "VL_UNIT_BC_ST";
 /*
- * Valor unitário da base de cálculo do imposto pago por substituição
+ * Valor unitÃ¡rio da base de cÃ¡lculo do imposto pago por substituiÃ§Ã£o
  */
 
     public RC176() {

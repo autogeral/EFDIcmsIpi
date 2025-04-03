@@ -21,7 +21,7 @@ public class R1600 extends LineArchetype {
   
   
   /*
- * 2 -  CÛdigo do participante (campo 02 do Registro 0150): identificaÁ„o da administradora do cart„o de dÈbito/crÈdito
+ * 2 -  C√≥digo do participante (campo 02 do Registro 0150): identifica√ß√£o da administradora do cart√£o de d√©bito/cr√©dito
 
  */
   public static final String COD_PART = "COD_PART";
@@ -31,7 +31,7 @@ public class R1600 extends LineArchetype {
   
   
   /*
- * 3 -  Valor total das operaÁıes realizadas no perÌodo referente a Cart„o de CrÈdito 
+ * 3 -  Valor total das opera√ß√µes realizadas no per√≠odo referente a Cart√£o de Cr√©dito 
  */
   public static final String TOT_CREDITO = "TOT_CREDITO";
   
@@ -39,7 +39,7 @@ public class R1600 extends LineArchetype {
   
   
   /*
- * 4 - Valor total das operaÁıes realizadas no perÌodo referente a Cart„o de DÈbito
+ * 4 - Valor total das opera√ß√µes realizadas no per√≠odo referente a Cart√£o de D√©bito
 
  */
   public static final String TOT_DEBITO = "TOT_DEBITO";
@@ -49,7 +49,7 @@ public class R1600 extends LineArchetype {
   
 
     public R1600() {
-        setName("REGISTRO 1600: TOTAL DAS OPERACOES COM CART√O DE CREDITO E/OU DEBITO");
+        setName("REGISTRO 1600: TOTAL DAS OPERACOES COM CART√ÉO DE CREDITO E/OU DEBITO");
         setDelimiter("|");
          FormatWrapper fw = FormatFactory.getFormat(FormatType.DECIMAL);
         fw.setReplaceComa(false);

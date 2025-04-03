@@ -21,15 +21,15 @@ public class RC791 extends LineArchetype{
      */
     public static final String UF = "UF";
     /*
-     * Sigla da unidade da federaÁ„o a que se refere a retenÁ„o ST
+     * Sigla da unidade da federa√ß√£o a que se refere a reten√ß√£o ST
      */
     public static final String VL_BC_ICMS_ST = "VL_BC_ICMS_ST";
     /*
-     * Valor da base de c·lculo do ICMS substituiÁ„o tribut·ria
+     * Valor da base de c√°lculo do ICMS substitui√ß√£o tribut√°ria
      */
     public static final String VL_ICMS_ST = "VL_ICMS_ST";
     /*
-     * Valor do ICMS retido por substituiÁ„o tribut·ria
+     * Valor do ICMS retido por substitui√ß√£o tribut√°ria
      */
 
     public RC791() {

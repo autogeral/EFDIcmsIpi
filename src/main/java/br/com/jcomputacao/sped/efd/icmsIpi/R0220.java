@@ -19,7 +19,7 @@ public class R0220 extends LineArchetype {
      */
     public static final String UNID_CONV = "UNID_CONV";
     /**
-     * Fator de conversão: fator utilizado para converter (multiplicar) a
+     * Fator de conversÃ£o: fator utilizado para converter (multiplicar) a
      * unidade a ser convertida na unidade adotada no inventario.
      */
     public static final String FAT_CONV = "FAT_CONV";

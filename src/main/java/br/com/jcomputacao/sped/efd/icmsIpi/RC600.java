@@ -23,7 +23,7 @@ public class RC600 extends LineArchetype {
     
     
     /*
-      *  2 - Código do modelo do documento fiscal, conforme a Tabela 4.1.1   
+      *  2 - CÃ³digo do modelo do documento fiscal, conforme a Tabela 4.1.1   
       */
     public static final String COD_MOD = "COD_MOD";
     
@@ -34,7 +34,7 @@ public class RC600 extends LineArchetype {
     
     
     /*
-      * 3 -  Código do município dos pontos de consumo, conforme a tabela IBGE
+      * 3 -  CÃ³digo do municÃ­pio dos pontos de consumo, conforme a tabela IBGE
    
       */
     public static final String  COD_MUN = " COD_MUN";
@@ -46,7 +46,7 @@ public class RC600 extends LineArchetype {
     
     
     /*
-      * 4 -  Série do documento fiscal
+      * 4 -  SÃ©rie do documento fiscal
       */
     public static final String  SER = " SER";
     
@@ -55,7 +55,7 @@ public class RC600 extends LineArchetype {
     
     
     /*
-      * 5 -  Subsérie do documento fiscal 
+      * 5 -  SubsÃ©rie do documento fiscal 
       */
     public static final String SUB = "SUB";
     
@@ -65,7 +65,7 @@ public class RC600 extends LineArchetype {
     
     
     /*
-      * 6 -  Código de classe de consumo de energia elétrica ou gás: 01 - Comercial 02 - Consumo Próprio 03 - Iluminação Pública 04 - Industrial 05 - Poder Público 06 - Residencial 07 - Rural 08 -Serviço Público. - Código de classe de consumo de Fornecimento D´água ? Tabela 4.4.2.
+      * 6 -  CÃ³digo de classe de consumo de energia elÃ©trica ou gÃ¡s: 01 - Comercial 02 - Consumo PrÃ³prio 03 - IluminaÃ§Ã£o PÃºblica 04 - Industrial 05 - Poder PÃºblico 06 - Residencial 07 - Rural 08 -ServiÃ§o PÃºblico. - CÃ³digo de classe de consumo de Fornecimento DÂ´Ã¡gua ? Tabela 4.4.2.
 
       */
     public static final String  COD_CONS = " COD_CONS";
@@ -133,7 +133,7 @@ public class RC600 extends LineArchetype {
     
     
     /*
-      * 12 -   Consumo total acumulado, em kWh (Código 06)
+      * 12 -   Consumo total acumulado, em kWh (CÃ³digo 06)
       */
     public static final String  CONS = " CONS";
     
@@ -153,7 +153,7 @@ public class RC600 extends LineArchetype {
     
     
     /*
-      * 14 -  Valor acumulado dos serviços não-tributados pelo ICMS
+      * 14 -  Valor acumulado dos serviÃ§os nÃ£o-tributados pelo ICMS
 
       */
     public static final String  VL_SERV_NT = " VL_SERV_NT";
@@ -172,7 +172,7 @@ public class RC600 extends LineArchetype {
     
     
     /*
-      * 16 -   Valor acumulado das despesas acessórias 
+      * 16 -   Valor acumulado das despesas acessÃ³rias 
       */
     public static final String VL_DA = "VL_DA";
     
@@ -180,7 +180,7 @@ public class RC600 extends LineArchetype {
     
     
     /*
-      * 17 -  Valor acumulado da base de cálculo do ICMS
+      * 17 -  Valor acumulado da base de cÃ¡lculo do ICMS
       */
     public static final String VL_BC_ICMS = "VL_BC_ICMS";
     
@@ -198,7 +198,7 @@ public class RC600 extends LineArchetype {
     
     
     /*
-      * 19 -  Valor acumulado da base de cálculo do ICMS substituição tributária
+      * 19 -  Valor acumulado da base de cÃ¡lculo do ICMS substituiÃ§Ã£o tributÃ¡ria
 
       */
     public static final String  VL_BC_ICMS_ST  = " VL_BC_ICMS_ST ";
@@ -207,7 +207,7 @@ public class RC600 extends LineArchetype {
     
     
     /*
-      * 20 -   Valor acumulado do ICMS retido por substituição tributária
+      * 20 -   Valor acumulado do ICMS retido por substituiÃ§Ã£o tributÃ¡ria
 
       */
     public static final String  VL_ICMS_ST  = " VL_ICMS_ST ";
@@ -239,7 +239,7 @@ public class RC600 extends LineArchetype {
  
 
     public RC600() {
-        setName("REGISTRO C600: CONSOLIDAÇÃO DIARIA DE NOTAS FISCAIS/CONTAS DE ENERGIA ELETRICA (CODIGO 06), NOTA FISCAL/CONTA DE FORNECIMENTO D'AGUA CANALIZADA (CODIGO 29) E NOTA FISCAL/CONTA DE FORNECIMENTO DE GAS (CODIGO 28) (EMPRESAS NAO OBRIGADAS AO CONVENIO ICMS 115/03). ");
+        setName("REGISTRO C600: CONSOLIDAÃ‡ÃƒO DIARIA DE NOTAS FISCAIS/CONTAS DE ENERGIA ELETRICA (CODIGO 06), NOTA FISCAL/CONTA DE FORNECIMENTO D'AGUA CANALIZADA (CODIGO 29) E NOTA FISCAL/CONTA DE FORNECIMENTO DE GAS (CODIGO 28) (EMPRESAS NAO OBRIGADAS AO CONVENIO ICMS 115/03). ");
         setDelimiter("|");
         FormatWrapper fw = FormatFactory.getFormat(FormatType.DECIMAL);
         fw.setReplaceComa(false);

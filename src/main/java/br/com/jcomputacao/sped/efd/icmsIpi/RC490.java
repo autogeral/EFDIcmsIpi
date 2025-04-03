@@ -22,36 +22,36 @@ public class RC490 extends LineArchetype {
      */
     public static final String REGISTRO = "REG";
     /*
-     * CÛdigo da SituaÁ„o Tribut·ria, conforme a Tabela indicada no item 4.3.1
+     * C√≥digo da Situa√ß√£o Tribut√°ria, conforme a Tabela indicada no item 4.3.1
      */
     public static final String CST_ICMS = "CST_ICMS";
     /*
-     * CÛdigo Fiscal de OperaÁ„o e PrestaÁ„o
+     * C√≥digo Fiscal de Opera√ß√£o e Presta√ß√£o
      */
     public static final String CFOP = "CFOP";
     /*
-     * AlÌquota do ICMS
+     * Al√≠quota do ICMS
      */
     public static final String ALIQ_ICMS = "ALIQ_ICMS";
     /*
-     * Valor da operaÁ„o correspondente ‡ combinaÁ„o
-     de CST_ICMS, CFOP, e alÌquota do ICMS,
-     incluÌdas as despesas acessÛrias e acrÈscimos
+     * Valor da opera√ß√£o correspondente √† combina√ß√£o
+     de CST_ICMS, CFOP, e al√≠quota do ICMS,
+     inclu√≠das as despesas acess√≥rias e acr√©scimos
      */
     public static final String VL_OPR = "VL_OPR";
     /*
-     * Valor acumulado da base de c·lculo do ICMS,
-     referente ‡ combinaÁ„o de CST_ICMS, CFOP, e
-     alÌquota do ICMS.
+     * Valor acumulado da base de c√°lculo do ICMS,
+     referente √† combina√ß√£o de CST_ICMS, CFOP, e
+     al√≠quota do ICMS.
      */
     public static final String VL_BC_ICMS = "VL_BC_ICMS";
     /*
-     * Valor acumulado do ICMS, referente ‡ combinaÁ„o de CST_ICMS, 
-     * CFOP e alÌquota do ICMS.
+     * Valor acumulado do ICMS, referente √† combina√ß√£o de CST_ICMS, 
+     * CFOP e al√≠quota do ICMS.
      */
     public static final String VL_ICMS = "VL_ICMS";
     /*
-     * CÛdigo da observaÁ„o do lanÁamento fiscal (campo 02 do Registro 0460)
+     * C√≥digo da observa√ß√£o do lan√ßamento fiscal (campo 02 do Registro 0460)
      */
     public static final String COD_OBS = "COD_OBS";
 

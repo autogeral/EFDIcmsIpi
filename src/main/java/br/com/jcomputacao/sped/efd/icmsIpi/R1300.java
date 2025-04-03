@@ -23,13 +23,13 @@ public class R1300 extends LineArchetype{
     
     public static final String COD_ITEM = "COD_ITEM";
     /*
-     * Código do Produto, constante do registro 0200
+     * CÃ³digo do Produto, constante do registro 0200
      */
     
     
     public static final String DT_FECH = "DT_FECH";
     /*
-     * Data do fechamento da movimentação
+     * Data do fechamento da movimentaÃ§Ã£o
      */
     
     
@@ -50,14 +50,14 @@ public class R1300 extends LineArchetype{
    
     public static final String VOL_DISP = "VOL_DISP";
     /*
-     * Volume Disponível (04 + 05), em litros
+     * Volume DisponÃ­vel (04 + 05), em litros
      */
     
     
    
     public static final String VOL_SAIDAS = "VOL_SAIDAS";
     /*
-     * Volume Total das Saídas, em litros
+     * Volume Total das SaÃ­das, em litros
      */
     
     

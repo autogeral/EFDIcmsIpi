@@ -20,7 +20,7 @@ public class R1923 extends LineArchetype {
    
    
     /*
-     * 2 - Código do participante (campo 02 do Registro 0150): - do emitente do documento ou do remetente das mercadorias, no caso de entradas; - do adquirente, no caso de saídas
+     * 2 - CÃ³digo do participante (campo 02 do Registro 0150): - do emitente do documento ou do remetente das mercadorias, no caso de entradas; - do adquirente, no caso de saÃ­das
 
      */
    public static final String  COD_PART = " COD_PART";
@@ -28,7 +28,7 @@ public class R1923 extends LineArchetype {
    
    
     /*
-     * 3 - Código do modelo do documento fiscal, conforme a Tabela 4.1.1 
+     * 3 - CÃ³digo do modelo do documento fiscal, conforme a Tabela 4.1.1 
 
      */
    public static final String  COD_MOD = " COD_MOD";
@@ -37,7 +37,7 @@ public class R1923 extends LineArchetype {
    
    
     /*
-     * 4 - Série do documento fiscal
+     * 4 - SÃ©rie do documento fiscal
      */
    public static final String SER = "SER";
    
@@ -52,14 +52,14 @@ public class R1923 extends LineArchetype {
    
    
     /*
-     * 6 -  Número do documento fiscal
+     * 6 -  NÃºmero do documento fiscal
      */
    public static final String  NUM_DOC  = " NUM_DOC";
    
    
    
     /*
-     * 7 - Data da emissão do documento fiscal
+     * 7 - Data da emissÃ£o do documento fiscal
      */
    public static final String DT_DOC = "DT_DOC";
    
@@ -67,14 +67,14 @@ public class R1923 extends LineArchetype {
    
    
     /*
-     * 8 -  Código do item (campo 02 do Registro 0200)
+     * 8 -  CÃ³digo do item (campo 02 do Registro 0200)
      */
    public static final String  COD_ITEM = " COD_ITEM";
    
    
    
     /*
-     * 9 - Valor do ajuste para a operação/item
+     * 9 - Valor do ajuste para a operaÃ§Ã£o/item
      */
    public static final String VL_AJ_ITEM = "VL_AJ_ITEM";
 

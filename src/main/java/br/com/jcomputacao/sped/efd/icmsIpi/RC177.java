@@ -17,7 +17,7 @@ public class RC177 extends LineArchetype{
      */
     public static final String COD_SELO_IPI = "COD_SELO_IPI";
     /*
-     * Código do selo de controle do IPI, conforme Tabela 4.5.2
+     * CÃ³digo do selo de controle do IPI, conforme Tabela 4.5.2
      */
     public static final String QT_SELO_IPI = "QT_SELO_IPI";
     /*

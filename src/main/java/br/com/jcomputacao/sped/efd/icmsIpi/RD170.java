@@ -20,22 +20,22 @@ public class RD170 extends LineArchetype {
      */
     public static final String COD_PART_CONSG = "COD_PART_CONSG"; 
     /*
-     * Código do participante (campo 02 do Registro0150):
-        - consignatário, se houver
+     * CÃ³digo do participante (campo 02 do Registro0150):
+        - consignatÃ¡rio, se houver
      */
     public static final String COD_PART_RED   = "COD_PART_RED";
     /*
-     * Código do participante (campo 02 do Registro 0150):
+     * CÃ³digo do participante (campo 02 do Registro 0150):
         - redespachante, se houver
      */
     public static final String COD_MUN_ORIG   = "COD_MUN_ORIG";
     /*
-     * Código do município de origem do serviço,conforme a tabela IBGE
+     * CÃ³digo do municÃ­pio de origem do serviÃ§o,conforme a tabela IBGE
      * (Preencher com 9999999,se Exterior)
      */
     public static final String COD_MUN_DEST  = "COD_MUN_DEST";
     /*
-     * Código do município de destino, conforme a tabela IBGE
+     * CÃ³digo do municÃ­pio de destino, conforme a tabela IBGE
      (Preencher com 9999999, se Exterior)
      */
     public static final String OTM = "OTM";
@@ -45,12 +45,12 @@ public class RD170 extends LineArchetype {
     public static final String IND_NAT_FRT  = "IND_NAT_FRT";
     /*
      * Indicador da natureza do frete:
-        0- Negociável;
-        1- Não negociável
+        0- NegociÃ¡vel;
+        1- NÃ£o negociÃ¡vel
      */
     public static final String VL_LIQ_FRT  = "VL_LIQ_FRT";
     /*
-     * Valor líquido do frete
+     * Valor lÃ­quido do frete
      */
     public static final String VL_GRIS  = "VL_GRIS";
     /*
@@ -58,7 +58,7 @@ public class RD170 extends LineArchetype {
      */
     public static final String VL_PDG  = "VL_PDG";
     /*
-     * Somatório dos valores de pedágio
+     * SomatÃ³rio dos valores de pedÃ¡gio
      */
     public static final String VL_OUT = "VL_OUT";
     /*
@@ -70,11 +70,11 @@ public class RD170 extends LineArchetype {
      */
     public static final String VEIC_ID = "VEIC_ID";     
     /*
-     * Placa de identificação do veículo
+     * Placa de identificaÃ§Ã£o do veÃ­culo
      */
     public static final String UF_ID = "UF_ID";
     /*
-     * Sigla da UF da placa do veículo
+     * Sigla da UF da placa do veÃ­culo
     */
 
     public RD170() {

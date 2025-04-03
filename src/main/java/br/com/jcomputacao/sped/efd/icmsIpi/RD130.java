@@ -21,32 +21,32 @@ public class RD130 extends LineArchetype  {
     public static final String COD_PART_CONSG = "COD_PART_CONSG";
     /**
       <ul>
-       <li>  Código de identificação do participante no arquivo. </li>
+       <li>  CÃ³digo de identificaÃ§Ã£o do participante no arquivo. </li>
       <li>   (campo 02 do Registro 0150):</li>
-       <li>  - consignatário, se houver</li>
+       <li>  - consignatÃ¡rio, se houver</li>
        </ul>
     */
     
     public static final String COD_PART_RED = "COD_PART_RED";
   /*
-     * Código de identificação do participante no arquivo.
+     * CÃ³digo de identificaÃ§Ã£o do participante no arquivo.
      * (campo 02 do Registro 0150):
-     * - consignatário, se houver
+     * - consignatÃ¡rio, se houver
   */
     
     public static final String IND_FRT_RED = "IND_FRT_RED";
     /*
-     * Indicador do tipo do frete da operação de
+     * Indicador do tipo do frete da operaÃ§Ã£o de
         redespacho:
         0 ? Sem redespacho;
         1 - Por conta do emitente;
-        2 - Por conta do destinatário;
+        2 - Por conta do destinatÃ¡rio;
         9 ? Outros.
      */
     
     public static final String COD_MUN_ORIG = "COD_MUN_ORIG";
     /*
-        Código do município de origem do serviço,
+        CÃ³digo do municÃ­pio de origem do serviÃ§o,
         conforme a tabela IBGE(Preencher com 9999999,
         se Exterior)
         Tabela disponivel em http://www.rais.gov.br/mun_sp.asp
@@ -54,24 +54,24 @@ public class RD130 extends LineArchetype  {
     
     public static final String COD_MUN_DEST     = "COD_MUN_DEST";
       /*
-       Código do município de destino, conforme a
+       CÃ³digo do municÃ­pio de destino, conforme a
        tabela IBGE(Preencher com 9999999, se Exterior)
        Tabela disponivel em http://www.rais.gov.br/mun_sp.asp 
      */
     
     public static final String VEIC_ID = "VEIC_ID";
     /*
-     Placa de identificação do veículo      
+     Placa de identificaÃ§Ã£o do veÃ­culo      
      */
     
     public static final String VL_LIQ_FRT = "VL_LIQ_FRT";
     /*
-      Valor líquido do frete
+      Valor lÃ­quido do frete
      */
         
     public static final String VL_SEC_CAT = "VL_SEC_CAT";
     /*
-     Soma de valores de Sec/Cat (serviços de coleta/custo adicional de transporte) 
+     Soma de valores de Sec/Cat (serviÃ§os de coleta/custo adicional de transporte) 
      */
     
     public static final String VL_DESP = "VL_DESP";
@@ -81,7 +81,7 @@ public class RD130 extends LineArchetype  {
     
     public static final String VL_PEDG = "VL_PEDG";
     /*
-      Soma dos valores de pedágio
+      Soma dos valores de pedÃ¡gio
      */
     
     public static final String VL_OUT = "VL_OUT";
@@ -96,7 +96,7 @@ public class RD130 extends LineArchetype  {
     
     public static final String UF_ID = "UF_ID";
     /*
-     Sigla da UF da placa do veículo
+     Sigla da UF da placa do veÃ­culo
      */
 
     public RD130() {

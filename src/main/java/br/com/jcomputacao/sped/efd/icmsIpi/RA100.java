@@ -23,25 +23,25 @@ public class RA100 extends LineArchetype {
     
     public static final String REGISTRO = "REG";
     /**
-     * Indicador do tipo de operaÁ„o:
-     * 0 - ServiÁo Contratado pelo estabelecimento.
-     * 1 - ServiÁo Prestado pelo estabelecimento.
+     * Indicador do tipo de opera√ß√£o:
+     * 0 - Servi√ßo Contratado pelo estabelecimento.
+     * 1 - Servi√ßo Prestado pelo estabelecimento.
      */
     public static final String IND_OPER = "IND_OPER";
     /**
      * Indicador do emitente do documento fiscal:
-     * 0 - Emiss„o propria.
-     * 1 - Emiss„o de terceiros.
+     * 0 - Emiss√£o propria.
+     * 1 - Emiss√£o de terceiros.
      */
     public static final String IND_EMIT = "IND_EMIT";
     /**
      * Codigo do participante (campo 02 do Registro 0150):
-     * - do emitente do documento, no caso de emiss„o de terceiros.
-     * - do adquirente, no caso de serviÁos prestados.
+     * - do emitente do documento, no caso de emiss√£o de terceiros.
+     * - do adquirente, no caso de servi√ßos prestados.
      */
     public static final String COD_PART = "COD_PART";
     /**
-     * Codigo da situaÁ„o do documento fiscal:
+     * Codigo da situa√ß√£o do documento fiscal:
      * 00 - Documento Regular.
      * 02 - Documento cancelado.
      */
@@ -59,7 +59,7 @@ public class RA100 extends LineArchetype {
      */
     public static final String NUM_DOC = "NUM_DOC";
     /**
-     * Chave/Codigo de verificaÁ„o da nota fiscal de serviÁo eletronica
+     * Chave/Codigo de verifica√ß√£o da nota fiscal de servi√ßo eletronica
      */
     public static final String CHV_NFSE = "CHV_NFSE";
     /**
@@ -67,7 +67,7 @@ public class RA100 extends LineArchetype {
      */
     public static final String DT_DOC = "DT_DOC";
     /**
-     * Data de ExecuÁ„o/Conclus„o do serviÁo.
+     * Data de Execu√ß√£o/Conclus√£o do servi√ßo.
      */
     public static final String DT_EXE_SERV = "DT_EXE_SERV";
     /**

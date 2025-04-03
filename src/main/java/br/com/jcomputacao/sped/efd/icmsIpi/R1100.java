@@ -19,48 +19,48 @@ public class R1100 extends LineArchetype{
     public static final String IND_DOC = "IND_DOC";
     /*
      * Informe o tipo de documento:
-     0 ? Declaração de Exportação;
-     1 - Declaração Simplificada de Exportação.
+     0 ? DeclaraÃ§Ã£o de ExportaÃ§Ã£o;
+     1 - DeclaraÃ§Ã£o Simplificada de ExportaÃ§Ã£o.
      */
     
     
     public static final String NRO_DE = "NRO_DE";
     /*
-     * Nº da declaração
+     * NÂº da declaraÃ§Ã£o
      */
     
     
     public static final String DT_DE = "DT_DE";
     /*
-     * Data da declaração (DDMMAAAA)
+     * Data da declaraÃ§Ã£o (DDMMAAAA)
      */
     
     
     public static final String NAT_EXP = "NAT_EXP";
     /*
      * Preencher com:
-      0 - Exportação Direta
-      1 - Exportação Indireta 
+      0 - ExportaÃ§Ã£o Direta
+      1 - ExportaÃ§Ã£o Indireta 
      */
     
     
     public static final String NRO_RE = "NRO_RE";
     /*
-     * Nº do registro de Exportação
+     * NÂº do registro de ExportaÃ§Ã£o
      */
     
     
     
     public static final String DT_RE = "DT_RE";
     /*
-     * Data do Registro de Exportação (DDMMAAAA)
+     * Data do Registro de ExportaÃ§Ã£o (DDMMAAAA)
      */
     
     
     
     public static final String CHC_EMB = "CHC_EMB";
     /*
-     * Nº do conhecimento de embarque
+     * NÂº do conhecimento de embarque
      */
     
     
@@ -74,14 +74,14 @@ public class R1100 extends LineArchetype{
     
     public static final String DT_AVB = "DT_AVB";
     /*
-     * Data da averbação da Declaração de exportação (ddmmaaaa)
+     * Data da averbaÃ§Ã£o da DeclaraÃ§Ã£o de exportaÃ§Ã£o (ddmmaaaa)
      */
     
     
     
     public static final String TP_CHC = "TP_CHC";
     /*
-     * Informação do tipo de conhecimento de embarque:
+     * InformaÃ§Ã£o do tipo de conhecimento de embarque:
     01 ? AWB;
     02 ? MAWB;
     03 ? HAWB;
@@ -100,14 +100,14 @@ public class R1100 extends LineArchetype{
     18 ? HRWB;
     19 ? TIF/DTA;
     20 ? CP2;
-    91 ? N�O IATA;
+    91 ? Nï¿½O IATA;
     92 ? MNAO IATA;
     93 ? HNAO IATA;
     99 ? OUTROS.
      */
     public static final String PAIS = "PAIS";
     /*
-     * Código do país de destino da mercadoria 
+     * CÃ³digo do paÃ­s de destino da mercadoria 
      * (Preencher conforme tabela do SISCOMEX)
      */
     

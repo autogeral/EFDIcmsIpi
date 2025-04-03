@@ -18,21 +18,21 @@ public class RD150 extends LineArchetype {
       */
      public static final String COD_MUN_ORIG = "COD_MUN_ORIG";
      /*
-      Código do município de origem do serviço,conforme a tabela IBGE
+      CÃ³digo do municÃ­pio de origem do serviÃ§o,conforme a tabela IBGE
       * (Preencher com 9999999, se Exterior)
       */
      public static final String COD_MUN_DEST = "COD_MUN_DEST";
      /*
-      Código do município de origem do serviço,conforme a tabela IBGE
+      CÃ³digo do municÃ­pio de origem do serviÃ§o,conforme a tabela IBGE
       * (Preencher com 9999999, se Exterior)
       */
      public static final String VEIC_ID      = "VEIC_ID";
      /*
-      * Identificação da aeronave (DAC)
+      * IdentificaÃ§Ã£o da aeronave (DAC)
       */
      public static final String VIAGEM       = "VIAGEM";
      /*
-      * Número do vôo.
+      * NÃºmero do vÃ´o.
       */
      public static final String IND_TFA      = "IND_TFA";
      /*

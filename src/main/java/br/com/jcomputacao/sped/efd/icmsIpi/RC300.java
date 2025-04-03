@@ -16,28 +16,28 @@ public class RC300 extends LineArchetype{
  */
 public static final String REGISTRO = "REG";
 /**
- * Código do modelo do documento fiscal, 
+ * CÃ³digo do modelo do documento fiscal, 
  * conforme a Tabela 4.1.1
  */
 public static final String COD_MOD = "COD_MOD";
 /**
- * S�rie do documento fiscal
+ * Sï¿½rie do documento fiscal
  */
 public static final String SER = "SER";
 /**
- * Subs�rie do documento fiscal
+ * Subsï¿½rie do documento fiscal
  */
 public static final String SUB = "SUB";
 /**
- * N�mero do documento fiscal inicial
+ * Nï¿½mero do documento fiscal inicial
  */
 public static final String NUM_DOC_INI = "NUM_DOC_INI";
 /**
- * N�mero do documento fiscal final
+ * Nï¿½mero do documento fiscal final
  */
 public static final String NUM_DOC_FIN = "NUM_DOC_FIN";
 /**
- * Data da emissão dos documentos fiscais
+ * Data da emissÃ£o dos documentos fiscais
  */
 public static final String DT_DOC = "DT_DOC";
 /**
@@ -53,7 +53,7 @@ public static final String VL_PIS = "VL_PIS";
  */
 public static final String VL_COFINS = "VL_COFINS";
 /**
- * Código da conta anal�tica cont�bil debitada/creditada
+ * CÃ³digo da conta analï¿½tica contï¿½bil debitada/creditada
  */
 public static final String COD_CTA = "COD_CTA";
 

@@ -20,7 +20,7 @@ public class RE110 extends LineArchetype {
      
      
     /*
-      * 2 - Valor total dos débitos por "Saídas e prestações com débito do imposto" 
+      * 2 - Valor total dos dÃ©bitos por "SaÃ­das e prestaÃ§Ãµes com dÃ©bito do imposto" 
 
       */ 
      public static final String VL_TOT_DEBITOS = "VL_TOT_DEBITOS";
@@ -28,7 +28,7 @@ public class RE110 extends LineArchetype {
      
      
      /*
-      * 3 - Valor total dos ajustes a débito decorrentes do documento fiscal.
+      * 3 - Valor total dos ajustes a dÃ©bito decorrentes do documento fiscal.
 
 
       */ 
@@ -36,21 +36,21 @@ public class RE110 extends LineArchetype {
       
       
     /*
-      * 4 -  Valor total de "Ajustes a débito" 
+      * 4 -  Valor total de "Ajustes a dÃ©bito" 
 
       */ 
     public static final String VL_TOT_AJ_DEBITOS = "VL_TOT_AJ_DEBITOS";
     
   
           /*
-      *  5 -Valor total de Ajustes ?Estornos de créditos? " 
+      *  5 -Valor total de Ajustes ?Estornos de crÃ©ditos? " 
 
       */ 
   public static final String VL_ESTORNOS_CRED = "VL_ESTORNOS_CRED";
       
   
   /*
-      * 6 - Valor total dos créditos por "Entradas e aquisições com crédito do imposto" 
+      * 6 - Valor total dos crÃ©ditos por "Entradas e aquisiÃ§Ãµes com crÃ©dito do imposto" 
  
 
       */ 
@@ -59,7 +59,7 @@ public class RE110 extends LineArchetype {
   
   
   /*
-      * 7 - Valor total dos ajustes a crédito decorrentes do documento fiscal." 
+      * 7 - Valor total dos ajustes a crÃ©dito decorrentes do documento fiscal." 
  
 
       */ 
@@ -67,7 +67,7 @@ public class RE110 extends LineArchetype {
       
     
    /*
-      * 8 -  Valor total de "Ajustes a crédito" " 
+      * 8 -  Valor total de "Ajustes a crÃ©dito" " 
  
 
       */ 
@@ -75,7 +75,7 @@ public class RE110 extends LineArchetype {
     
     
     /*
-          * 9 -  Valor total de Ajustes ?Estornos de Débitos?  " 
+          * 9 -  Valor total de Ajustes ?Estornos de DÃ©bitos?  " 
 
  
       */ 
@@ -84,7 +84,7 @@ public class RE110 extends LineArchetype {
   
   
     /*
-          * 10 - Valor total de "Saldo credor do período anterior"
+          * 10 - Valor total de "Saldo credor do perÃ­odo anterior"
 ?  " 
 
  
@@ -95,14 +95,14 @@ public class RE110 extends LineArchetype {
      
      
        /*
-          * 11 - Valor total de "Saldo credor do período anterior
+          * 11 - Valor total de "Saldo credor do perÃ­odo anterior
       */
     public static final String VL_SLD_APURADO = "VL_SLD_APURADO";
     
     
     
     /*
-     * 12 - Valor total de "Deduções"
+     * 12 - Valor total de "DeduÃ§Ãµes"
     */ 
     public static final String VL_TOT_DED = "VL_TOT_DED";
     
@@ -112,14 +112,14 @@ public class RE110 extends LineArchetype {
      public static final String  VL_ICMS_RECOLHER   = " VL_ICMS_RECOLHER ";
     
     /*
-     * 14 - Valor total de "Saldo credor a transportar para o período seguinte
+     * 14 - Valor total de "Saldo credor a transportar para o perÃ­odo seguinte
 
     */ 
     public static final String  VL_SLD_CREDOR_TRANSPORTAR  = " VL_SLD_CREDOR_TRANSPORTAR ";
     
     
      /*
-     * 15 - Valores recolhidos ou a recolher, extra- apuração
+     * 15 - Valores recolhidos ou a recolher, extra- apuraÃ§Ã£o
     */ 
     
       public static final String  DEB_ESP  = " DEB_ESP ";

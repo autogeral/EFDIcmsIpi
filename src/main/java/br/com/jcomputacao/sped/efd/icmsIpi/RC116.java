@@ -21,7 +21,7 @@ public class RC116 extends LineArchetype{
 
         public static final String COD_MOD = "COD_MOD";
         /*
-        * Código do modelo do documento fiscal, conforme a Tabela 4.1.1
+        * CÃ³digo do modelo do documento fiscal, conforme a Tabela 4.1.1
         */
 
 
@@ -29,7 +29,7 @@ public class RC116 extends LineArchetype{
 
         public static final String NR_SAT = "NR_SAT";
         /*
-        * Número de Série do equipamento SAT
+        * NÃºmero de SÃ©rie do equipamento SAT
         */
 
 
@@ -37,7 +37,7 @@ public class RC116 extends LineArchetype{
 
         public static final String CHV_CFE = "CHV_CFE";
         /*
-        * Chave do Cupom Fiscal Eletrônico
+        * Chave do Cupom Fiscal EletrÃ´nico
         */
 
 
@@ -45,7 +45,7 @@ public class RC116 extends LineArchetype{
 
         public static final String NUM_CFE = "NUM_CFE";
         /*
-        * Número do cupom fiscal eletrônico
+        * NÃºmero do cupom fiscal eletrÃ´nico
         */
 
 
@@ -53,7 +53,7 @@ public class RC116 extends LineArchetype{
 
         public static final String DT_DOC = "DT_DOC";
         /*
-         * Data da emissão do documento fiscal
+         * Data da emissÃ£o do documento fiscal
          */
 
     

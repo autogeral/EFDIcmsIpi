@@ -22,24 +22,24 @@ public class RD197 extends LineArchetype{
      */
     public static final String COD_AJ = "COD_AJ";
     /*
-     * Código do ajustes/benefício/incentivo,
+     * CÃ³digo do ajustes/benefÃ­cio/incentivo,
      * conforme tabela indicada no item 5.3.
      */
     public static final String DESCR_COMPL_AJ = "DESCR_COMPL_AJ";
     /*
-     * Descrição complementar do ajuste do documento fiscal
+     * DescriÃ§Ã£o complementar do ajuste do documento fiscal
      */
     public static final String COD_ITEM = "COD_ITEM";
     /*
-     * Código do item (campo 02 do Registro 0200)
+     * CÃ³digo do item (campo 02 do Registro 0200)
      */
     public static final String VL_BC_ICMS = "VL_BC_ICMS";
     /*
-     * Base de cálculo do ICMS ou do ICMS ST
+     * Base de cÃ¡lculo do ICMS ou do ICMS ST
      */
     public static final String ALIQ_ICMS = "ALIQ_ICMS";
     /*
-     * Alíquota do ICMS
+     * AlÃ­quota do ICMS
      */
     public static final String VL_ICMS = "VL_ICMS";
     /*
@@ -52,7 +52,7 @@ public class RD197 extends LineArchetype{
 
     public RD197() {
    
-        setName("REGISTRO D197: OUTRAS OBRIGAÇOES TRIBUTARIAS, AJUSTES E INFORMAÇOES DE VALORES PROVENIENTES DE DOCUMENTO FISCAL");
+        setName("REGISTRO D197: OUTRAS OBRIGAÃ‡OES TRIBUTARIAS, AJUSTES E INFORMAÃ‡OES DE VALORES PROVENIENTES DE DOCUMENTO FISCAL");
         setDelimiter("|");
         
          FormatWrapper fw = FormatFactory.getFormat(FormatType.DECIMAL);

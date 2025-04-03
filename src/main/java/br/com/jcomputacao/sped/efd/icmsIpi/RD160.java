@@ -19,7 +19,7 @@ public class RD160 extends LineArchetype {
      */
     public static final String DESPACHO      = "DESPACHO";
     /*
-     * IdentificaÁ„o do n˙mero do despacho
+     * Identifica√ß√£o do n√∫mero do despacho
      */
     public static final String CNPJ_CPF_REM  = "CNPJ_CPF_REM";
     /*
@@ -28,27 +28,27 @@ public class RD160 extends LineArchetype {
      */
     public static final String IE_REM        = "IE_REM";
     /*
-     * InscriÁ„o Estadual do remetente das mercadorias
+     * Inscri√ß√£o Estadual do remetente das mercadorias
        que constam na nota fiscal.
      */
     public static final String COD_MUN_ORI   = "COD_MUN_ORI";
     /*
-     * CÛdigo do MunicÌpio de origem, conforme tabela
+     * C√≥digo do Munic√≠pio de origem, conforme tabela
        IBGE(Preencher com 9999999, se Exterior)
      */
     public static final String CNPJ_CPF_DEST = "CNPJ_CPF_DEST";
     /*
-     * CNPJ ou CPF do destinat·rio das mercadorias que
+     * CNPJ ou CPF do destinat√°rio das mercadorias que
        constam na nota fiscal.
      */
     public static final String IE_DEST       = "IE_DEST";
     /*
-     * InscriÁ„o Estadual do destinat·rio
+     * Inscri√ß√£o Estadual do destinat√°rio
        das mercadorias que constam na nota fiscal.
      */
     public static final String COD_MUN_DEST  = "COD_MUN_DEST";
     /*
-     CÛdigo do MunicÌpio de destino, conforme tabela IBGE
+     C√≥digo do Munic√≠pio de destino, conforme tabela IBGE
      (Preencher com 9999999, se Exterior)
     */
     

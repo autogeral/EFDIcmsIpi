@@ -24,32 +24,32 @@ public class RD400 extends LineArchetype{
     
     public static final String COD_PART = "COD_PART";
     /*
-     * Código do participante (campo 02 do Registro 0150):
-     - agência, filial ou posto
+     * CÃ³digo do participante (campo 02 do Registro 0150):
+     - agÃªncia, filial ou posto
      */
     public static final String COD_MOD = "COD_MOD";
     /*
-     * Código do modelo do documento fiscal, conforme a Tabela 4.1.1
+     * CÃ³digo do modelo do documento fiscal, conforme a Tabela 4.1.1
      */
     public static final String COD_SIT = "COD_SIT";
     /*
-     * Código da situação do documento fiscal, conforme a Tabela 4.1.2
+     * CÃ³digo da situaÃ§Ã£o do documento fiscal, conforme a Tabela 4.1.2
      */
     public static final String SER = "SER";
     /*
-     * Série do documento fiscal
+     * SÃ©rie do documento fiscal
      */
     public static final String SUB = "SUB";
     /*
-     * Subsérie do documento fiscal
+     * SubsÃ©rie do documento fiscal
      */
     public static final String NUM_DOC = "NUM_DOC";
     /*
-     * Número do documento fiscal resumo.
+     * NÃºmero do documento fiscal resumo.
      */
     public static final String DT_DOC = "DT_DOC";
     /*
-     * Data da emissão do documento fiscal
+     * Data da emissÃ£o do documento fiscal
      */
     public static final String VL_DOC = "VL_DOC";
     /*
@@ -61,11 +61,11 @@ public class RD400 extends LineArchetype{
      */
     public static final String VL_SERV = "VL_SERV";
     /*
-     * Valor acumulado da prestação de serviço
+     * Valor acumulado da prestaÃ§Ã£o de serviÃ§o
      */
     public static final String VL_BC_ICMS = "VL_BC_ICMS";
     /*
-     * Valor total da base de cálculo do ICMS
+     * Valor total da base de cÃ¡lculo do ICMS
      */
     public static final String VL_ICMS = "VL_ICMS";
     /*
@@ -82,7 +82,7 @@ public class RD400 extends LineArchetype{
     
     public static final String COD_CTA = "COD_CTA";
     /*
-     * Código da conta analítica contábil debitada/creditada
+     * CÃ³digo da conta analÃ­tica contÃ¡bil debitada/creditada
      */
 
     public RD400() {

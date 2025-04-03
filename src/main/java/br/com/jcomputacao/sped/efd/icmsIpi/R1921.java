@@ -23,7 +23,7 @@ public class R1921 extends LineArchetype {
     
     
       /*
-     * 2 - CÛdigo do ajuste da SUB-APURA«√O e deduÁ„o, conforme a Tabela indicada no item 5.1.1.
+     * 2 - C√≥digo do ajuste da SUB-APURA√á√ÉO e dedu√ß√£o, conforme a Tabela indicada no item 5.1.1.
 
      */
     public static final String  COD_AJ_APUR = " COD_AJ_APUR";
@@ -31,14 +31,14 @@ public class R1921 extends LineArchetype {
     
     
       /*
-     * 3 -  DescriÁ„o complementar do ajuste da apuraÁ„o.
+     * 3 -  Descri√ß√£o complementar do ajuste da apura√ß√£o.
      */
     public static final String DESCR_COMPL_AJ = "DESCR_COMPL_AJ";
     
     
     
       /*
-     * 4 - Valor do ajuste da apuraÁ„o
+     * 4 - Valor do ajuste da apura√ß√£o
      */
     public static final String  VL_AJ_APUR = " VL_AJ_APUR";
     

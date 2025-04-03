@@ -17,13 +17,13 @@ public class RC195 extends LineArchetype {
    public static final String REGISTRO = "REGISTRO";
    
    /*
-    * 2 -  Código da observação do lan�amento fiscal (campo 02 do Registro 0460)
+    * 2 -  CÃ³digo da observaÃ§Ã£o do lanï¿½amento fiscal (campo 02 do Registro 0460)
 
     */
    public static final String  COD_OBS = " COD_OBS";
    
    /*
-    * 3 -  Descrição complementar do código de observação.
+    * 3 -  DescriÃ§Ã£o complementar do cÃ³digo de observaÃ§Ã£o.
 
     */
    public static final String  TXT_COMPL = " TXT_COMPL";

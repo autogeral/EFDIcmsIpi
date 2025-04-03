@@ -20,7 +20,7 @@ public class RC140 extends LineArchetype {
     
     
      /*
-     * 2 - Indicador do emitente do título: 0- Emissão própria; 1- Terceiros
+     * 2 - Indicador do emitente do tÃ­tulo: 0- EmissÃ£o prÃ³pria; 1- Terceiros
 
      */
     public static final String  IND_EMIT = " IND_EMIT";
@@ -31,7 +31,7 @@ public class RC140 extends LineArchetype {
     
     
      /*
-     * 3 - Indicador do tipo de título de crédito: 00- Duplicata; 01- Cheque; 02- Promissória; 03- Recibo; 99- Outros (descrever)
+     * 3 - Indicador do tipo de tÃ­tulo de crÃ©dito: 00- Duplicata; 01- Cheque; 02- PromissÃ³ria; 03- Recibo; 99- Outros (descrever)
 
      */
     public static final String IND_TIT = "IND_TIT";
@@ -40,7 +40,7 @@ public class RC140 extends LineArchetype {
     
     
      /*
-     * 4 -  Descrição complementar do título de crédito
+     * 4 -  DescriÃ§Ã£o complementar do tÃ­tulo de crÃ©dito
      */
     public static final String  DESC_TIT = " DESC_TIT";
     
@@ -49,7 +49,7 @@ public class RC140 extends LineArchetype {
     
     
      /*
-     * 5 -  Número ou código identificador do título de crédito
+     * 5 -  NÃºmero ou cÃ³digo identificador do tÃ­tulo de crÃ©dito
 
      */
     public static final String NUM_TIT = "NUM_TIT";
@@ -65,7 +65,7 @@ public class RC140 extends LineArchetype {
     
     
      /*
-     * 7 - Valor total dos títulos de créditos
+     * 7 - Valor total dos tÃ­tulos de crÃ©ditos
      */
     public static final String VL_TIT = "VL_TIT";
     

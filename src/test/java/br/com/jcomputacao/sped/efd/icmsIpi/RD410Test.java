@@ -16,7 +16,7 @@ import org.junit.Test;
 public class RD410Test {
 
      @Test
-    public void RD410Test1() throws ParseException{// Somente itens obrigatórios
+    public void RD410Test1() throws ParseException{// Somente itens obrigatÃ³rios
         
         RD410 r = new RD410();
        

@@ -22,7 +22,7 @@ public class RE220 extends LineArchetype {
     public static final String REGISTRO = "REG";
     
      /*
-      * 2 -  Código do ajuste da apuração e dedução, conforme a Tabela indicada no item 5.1.1
+      * 2 -  CÃ³digo do ajuste da apuraÃ§Ã£o e deduÃ§Ã£o, conforme a Tabela indicada no item 5.1.1
 
       */
     public static final String  COD_AJ_APUR = " COD_AJ_APUR";
@@ -30,14 +30,14 @@ public class RE220 extends LineArchetype {
     
     
      /*
-      * 3 - Descrição complementar do ajuste da apuração
+      * 3 - DescriÃ§Ã£o complementar do ajuste da apuraÃ§Ã£o
 
       */
     public static final String  DESCR_COMPL_AJ = " DESCR_COMPL_AJ";
     
     
     /*
-      * 4 -  Valor do ajuste da apuração
+      * 4 -  Valor do ajuste da apuraÃ§Ã£o
 
       */
     public static final String  VL_AJ_APUR = " VL_AJ_APUR";

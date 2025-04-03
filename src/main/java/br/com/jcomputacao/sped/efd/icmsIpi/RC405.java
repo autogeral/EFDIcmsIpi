@@ -21,20 +21,20 @@ public class RC405 extends LineArchetype{
      */
     public static final String REGISTRO = "REG";
     /**
-     * Data do movimento a que se refere a Redução Z
+     * Data do movimento a que se refere a ReduÃ§Ã£o Z
      */
     public static final String DT_DOC = "DT_DOC";
     /**
-     * Posição do Contador de Reinício de Operação
+     * PosiÃ§Ã£o do Contador de ReinÃ­cio de OperaÃ§Ã£o
      */
     public static final String CRO = "CRO";
     /**
-     * Posição do Contador de Redução Z
+     * PosiÃ§Ã£o do Contador de ReduÃ§Ã£o Z
      */
     public static final String CRZ = "CRZ";
     /**
-     * Número do Contador de Ordem de Operação do último documento emitido no dia. 
-     * (Número do COO na Redução Z)
+     * NÃºmero do Contador de Ordem de OperaÃ§Ã£o do Ãºltimo documento emitido no dia. 
+     * (NÃºmero do COO na ReduÃ§Ã£o Z)
      */
     public static final String NUM_COO_FIN = "NUM_COO_FIN";
     /**
@@ -49,7 +49,7 @@ public class RC405 extends LineArchetype{
 
     public RC405() {
         
-       setName("REGISTRO C405: REDUÇÃO Z (CODIGO 02 e 2D)");
+       setName("REGISTRO C405: REDUÃ‡ÃƒO Z (CODIGO 02 e 2D)");
        setDelimiter("|");
                 
        FormatWrapper fw = FormatFactory.getFormat(FormatType.DECIMAL);

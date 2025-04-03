@@ -21,20 +21,20 @@ public class RD195 extends LineArchetype{
      */
     public static final String COD_OBS = "COD_OBS";    
     /*
-     * Código da observação do lançamento fiscal (campo 02 do Registro 0460)
-     * Informar o código da observação do lançamento.
-      Validação: o código informado deve constar do registro 0460.
+     * CÃ³digo da observaÃ§Ã£o do lanÃ§amento fiscal (campo 02 do Registro 0460)
+     * Informar o cÃ³digo da observaÃ§Ã£o do lanÃ§amento.
+      ValidaÃ§Ã£o: o cÃ³digo informado deve constar do registro 0460.
      */
     public static final String TXT_COMPL = "TXT_COMPL";
     /*
-     * Descrição complementar do código de observação
-      Utilizado para complementar a observação do lançamento fiscal, quando a descrição do
-      código do lançamento informado no registro 0460 for de informação genérica.
+     * DescriÃ§Ã£o complementar do cÃ³digo de observaÃ§Ã£o
+      Utilizado para complementar a observaÃ§Ã£o do lanÃ§amento fiscal, quando a descriÃ§Ã£o do
+      cÃ³digo do lanÃ§amento informado no registro 0460 for de informaÃ§Ã£o genÃ©rica.
     */
 
     public RD195() {
     
-        setName("REGISTRO D195: OBSERVAÇOES DO LANÇAMENTO FISCAL");
+        setName("REGISTRO D195: OBSERVAÃ‡OES DO LANÃ‡AMENTO FISCAL");
         setDelimiter("|");
         
         addFieldArchetype(REGISTRO, new FieldDefaultArchetype("D195"));

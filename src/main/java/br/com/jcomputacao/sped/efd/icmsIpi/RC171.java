@@ -20,7 +20,7 @@ public class RC171 extends LineArchetype{
       */
      public static final String NUM_TANQUE = "NUM_TANQUE";
      /*
-      * Tanque onde foi armazenado o combustível
+      * Tanque onde foi armazenado o combustÃ­vel
       */
      public static final String QTDE = "QTDE";
      /*

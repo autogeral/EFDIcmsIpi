@@ -18,21 +18,21 @@ public class RC460 extends LineArchetype {
      */
     public static final String REGISTRO = "REG";
     /*
-     * Código do modelo do documento fiscal,
+     * CÃ³digo do modelo do documento fiscal,
      * conforme a Tabela 4.1.1
      */
     public static final String COD_MOD = "COD_MOD";
     /*
-     * Código da situação do documento fiscal,
+     * CÃ³digo da situaÃ§Ã£o do documento fiscal,
      conforme a Tabela 4.1.2
      */
     public static final String COD_SIT = "COD_SIT";
     /*
-     * Número do documento fiscal (COO)
+     * NÃºmero do documento fiscal (COO)
      */
     public static final String NUM_DOC = "NUM_DOC";
     /*
-     * Data da emissão do documento fiscal
+     * Data da emissÃ£o do documento fiscal
      */
     public static final String DT_DOC = "DT_DOC";
     /*

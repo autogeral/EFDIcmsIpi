@@ -21,29 +21,29 @@ public class RC120 extends LineArchetype{
     public static final String REGISTRO = "REG";
     
     /**
-     * Documento de importação: apresentar
-     * 0 ? Declaração de Importação;
-     * 1 ? Declaração Simplificada de Importação.
+     * Documento de importaÃ§Ã£o: apresentar
+     * 0 ? DeclaraÃ§Ã£o de ImportaÃ§Ã£o;
+     * 1 ? DeclaraÃ§Ã£o Simplificada de ImportaÃ§Ã£o.
      */
     public static final String COD_DOC_IMP = "COD_DOC_IMP";
     
     /**
-     * Número do documento de Importação.
+     * NÃºmero do documento de ImportaÃ§Ã£o.
      */
     public static final String NUM_DOC__IMP = "NUM_DOC__IMP";
     
     /**
-     * Valor pago de PIS na importação
+     * Valor pago de PIS na importaÃ§Ã£o
      */
     public static final String PIS_IMP = "PIS_IMP";
     
     /**
-    * Valor pago de COFINS na importação
+    * Valor pago de COFINS na importaÃ§Ã£o
     */
     public static final String COFINS_IMP = "COFINS_IMP";
    
     /**
-    * Número do Ato Concessório do regime Drawback
+    * NÃºmero do Ato ConcessÃ³rio do regime Drawback
     */
     public static final String NUM_ACDRAW = "NUM_ACDRAW";
     

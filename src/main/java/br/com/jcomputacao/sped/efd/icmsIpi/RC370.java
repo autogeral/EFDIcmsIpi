@@ -21,11 +21,11 @@ public static final String REGISTRO = "REG";
  */
 public static final String NUM_ITEM = "NUM_ITEM";
 /*
- * N�mero sequencial do item no documento fiscal
+ * Nï¿½mero sequencial do item no documento fiscal
  */
 public static final String COD_ITEM = "COD_ITEM";
 /*
- * Código do Item (campo 02 do registro 0200)
+ * CÃ³digo do Item (campo 02 do registro 0200)
  */
 public static final String QTD = "QTD";
 /*

@@ -21,7 +21,7 @@ public class RC500 extends LineArchetype {
  
  
  /*
-  * 2 -  Indicador do tipo de operaÁ„o: 0- Entrada; 1- SaÌda
+  * 2 -  Indicador do tipo de opera√ß√£o: 0- Entrada; 1- Sa√≠da
   */
  public static final String IND_OPER = "IND_OPER";
  
@@ -30,7 +30,7 @@ public class RC500 extends LineArchetype {
  
  
  /*
-  * 3 -  Indicador do emitente do documento fiscal: 0- Emiss„o prÛpria; 1- Terceiros
+  * 3 -  Indicador do emitente do documento fiscal: 0- Emiss√£o pr√≥pria; 1- Terceiros
 
   */
  public static  final String  IND_EMIT = " IND_EMIT";
@@ -40,7 +40,7 @@ public class RC500 extends LineArchetype {
  
  
  /*
-  * 4 -   CÛdigo do participante (campo 02 do Registro 0150): - do adquirente, no caso das saÌdas; - do fornecedor no caso de entradas 
+  * 4 -   C√≥digo do participante (campo 02 do Registro 0150): - do adquirente, no caso das sa√≠das; - do fornecedor no caso de entradas 
 
   */
  public  static final  String COD_PART = " COD_PART";
@@ -51,7 +51,7 @@ public class RC500 extends LineArchetype {
  
  
   /*
-  * 5 -   CÛdigo do modelo do documento fiscal, conforme a Tabela 4.1.1
+  * 5 -   C√≥digo do modelo do documento fiscal, conforme a Tabela 4.1.1
 
   */
  public static final String  COD_MOD = " COD_MOD";
@@ -61,7 +61,7 @@ public class RC500 extends LineArchetype {
  
  
  /*
-  * 6 -  CÛdigo da situaÁ„o do documento fiscal, conforme a Tabela 4.1.2 
+  * 6 -  C√≥digo da situa√ß√£o do documento fiscal, conforme a Tabela 4.1.2 
 
 
   */
@@ -72,7 +72,7 @@ public class RC500 extends LineArchetype {
   
   
   /*
-  * 7 -  SÈrie do documento fiscal 
+  * 7 -  S√©rie do documento fiscal 
 
   */
   public static final String SER = "SER";
@@ -83,7 +83,7 @@ public class RC500 extends LineArchetype {
   
   
   /*
-  * 8 -  SubsÈrie do documento fiscal
+  * 8 -  Subs√©rie do documento fiscal
 
   */
  public static final String SUB = "SUB";
@@ -94,7 +94,7 @@ public class RC500 extends LineArchetype {
  
  
  /*
-  * 9 -   - CÛdigo de classe de consumo de energia elÈtrica ou g·s: 01 - Comercial 02 - Consumo PrÛprio 03 - IluminaÁ„o P˙blica 04 - Industrial 05 - Poder P˙blico 06 - Residencial 07 - Rural 08 -ServiÁo P˙blico. - CÛdigo de classe de consumo de Fornecimento D¥·gua ? Tabela 4.4.2.
+  * 9 -   - C√≥digo de classe de consumo de energia el√©trica ou g√°s: 01 - Comercial 02 - Consumo Pr√≥prio 03 - Ilumina√ß√£o P√∫blica 04 - Industrial 05 - Poder P√∫blico 06 - Residencial 07 - Rural 08 -Servi√ßo P√∫blico. - C√≥digo de classe de consumo de Fornecimento D¬¥√°gua ? Tabela 4.4.2.
 
 
   */
@@ -106,7 +106,7 @@ public class RC500 extends LineArchetype {
  
  
  /*
-  * 10 -  N˙mero do documento fiscal
+  * 10 -  N√∫mero do documento fiscal
   */
  public static final String  NUM_DOC = " NUM_DOC";
  
@@ -116,7 +116,7 @@ public class RC500 extends LineArchetype {
  
  
  /*
-  * 11 -   Data da emiss„o do documento fiscal 
+  * 11 -   Data da emiss√£o do documento fiscal 
   */
  public static final String  DT_DOC = "DT_DOC";
  
@@ -126,7 +126,7 @@ public class RC500 extends LineArchetype {
  
  
  /*
-  * 12 -   Data da entrada ou da saÌda  
+  * 12 -   Data da entrada ou da sa√≠da  
   */
  public static final String  DT_E_S = " DT_E_S";
  
@@ -169,7 +169,7 @@ public class RC500 extends LineArchetype {
  
  
  /*
-  * 16 -   Valor total dos serviÁos n„o-tributados pelo ICMS
+  * 16 -   Valor total dos servi√ßos n√£o-tributados pelo ICMS
  
   */
  public static final String  VL_SERV_NT  = " VL_SERV_NT ";
@@ -194,7 +194,7 @@ public class RC500 extends LineArchetype {
  
  
  /*
-  * 18 -  Valor total de despesas acessÛrias indicadas no documento fiscal 
+  * 18 -  Valor total de despesas acess√≥rias indicadas no documento fiscal 
  
   */
  public static final String  VL_DA = " VL_DA";
@@ -206,7 +206,7 @@ public class RC500 extends LineArchetype {
  
  
   /*
-  * 19 -  Valor acumulado da base de c·lculo do ICMS 
+  * 19 -  Valor acumulado da base de c√°lculo do ICMS 
  
   */
  public static final String VL_BC_ICMS = "VL_BC_ICMS";
@@ -244,7 +244,7 @@ public class RC500 extends LineArchetype {
  
  
  /*
-  * 22 -  Valor acumulado do ICMS retido por substituiÁ„o tribut·ria
+  * 22 -  Valor acumulado do ICMS retido por substitui√ß√£o tribut√°ria
 
   */
  public static final String  VL_ICMS_ST = " VL_ICMS_ST";
@@ -256,7 +256,7 @@ public class RC500 extends LineArchetype {
  
  
  /*
-  * 23 - CÛdigo da informaÁ„o complementar do documento fiscal (campo 02 do Registro 0450)
+  * 23 - C√≥digo da informa√ß√£o complementar do documento fiscal (campo 02 do Registro 0450)
 
 
   */
@@ -271,7 +271,7 @@ public class RC500 extends LineArchetype {
  
  
   /*
-  * 24 - CÛdigo da informaÁ„o complementar do documento fiscal (campo 02 do Registro 0450)
+  * 24 - C√≥digo da informa√ß√£o complementar do documento fiscal (campo 02 do Registro 0450)
 
 
   */
@@ -297,7 +297,7 @@ public class RC500 extends LineArchetype {
  
  
  /*
-  * 26 -  CÛdigo de tipo de LigaÁ„o 1 - Monof·sico 2 - Bif·sico 3 - Trif·sico
+  * 26 -  C√≥digo de tipo de Liga√ß√£o 1 - Monof√°sico 2 - Bif√°sico 3 - Trif√°sico
 
   */
  public static final String TP_LIGACAO = "TP_LIGACAO";
@@ -311,7 +311,7 @@ public class RC500 extends LineArchetype {
  
  
   /*
-  * 27 -  CÛdigo de grupo de tens„o: 01 - A1 - Alta Tens„o (230kV ou mais) 02 - A2 - Alta Tens„o (88 a 138kV) 03 - A3 - Alta Tens„o (69kV) 04 - A3a - Alta Tens„o (30kV a 44kV) 05 - A4 - Alta Tens„o (2,3kV a 25kV) 06 - AS - Alta Tens„o Subterr‚neo 06 07 - B1 - Residencial 07 08 - B1 - Residencial Baixa Renda 08 09 - B2 - Rural 09 10 - B2 - Cooperativa de EletrificaÁ„o Rural 11 - B2 - ServiÁo P˙blico de IrrigaÁ„o 12 - B3 - Demais Classes 13 - B4a - IluminaÁ„o P˙blica - rede de distribuiÁ„o 14 - B4b - IluminaÁ„o P˙blica - bulbo de l‚mpada
+  * 27 -  C√≥digo de grupo de tens√£o: 01 - A1 - Alta Tens√£o (230kV ou mais) 02 - A2 - Alta Tens√£o (88 a 138kV) 03 - A3 - Alta Tens√£o (69kV) 04 - A3a - Alta Tens√£o (30kV a 44kV) 05 - A4 - Alta Tens√£o (2,3kV a 25kV) 06 - AS - Alta Tens√£o Subterr√¢neo 06 07 - B1 - Residencial 07 08 - B1 - Residencial Baixa Renda 08 09 - B2 - Rural 09 10 - B2 - Cooperativa de Eletrifica√ß√£o Rural 11 - B2 - Servi√ßo P√∫blico de Irriga√ß√£o 12 - B3 - Demais Classes 13 - B4a - Ilumina√ß√£o P√∫blica - rede de distribui√ß√£o 14 - B4b - Ilumina√ß√£o P√∫blica - bulbo de l√¢mpada
 
 
   */

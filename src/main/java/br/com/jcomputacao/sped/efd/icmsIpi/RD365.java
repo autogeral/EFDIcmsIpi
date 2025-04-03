@@ -22,26 +22,26 @@ public class RD365 extends LineArchetype{
      */
     public static final String COD_TOT_PAR = "COD_TOT_PAR";
     /*
-     * CÛdigo do totalizador, conforme Tabela 4.4.6
+     * C√≥digo do totalizador, conforme Tabela 4.4.6
      */
     public static final String VLR_ACUM_TOT = "VLR_ACUM_TOT";
     /*
-     * Valor acumulado no totalizador, relativo ‡ respectiva ReduÁ„o Z.
+     * Valor acumulado no totalizador, relativo √† respectiva Redu√ß√£o Z.
      */
     public static final String NR_TOT = "NR_TOT";
     /*
-     * N˙mero do totalizador quando ocorrer mais de uma situaÁ„o com 
-     * a mesma carga tribut·ria efetiva.
+     * N√∫mero do totalizador quando ocorrer mais de uma situa√ß√£o com 
+     * a mesma carga tribut√°ria efetiva.
      */
     public static final String DESCR_NR_TOT = "DESCR_NR_TOT";
     /*
-     * DescriÁ„o da situaÁ„o tribut·ria relativa ao totalizador parcial, quando houver mais de um
-       com a mesma carga tribut·ria efetiva.
+     * Descri√ß√£o da situa√ß√£o tribut√°ria relativa ao totalizador parcial, quando houver mais de um
+       com a mesma carga tribut√°ria efetiva.
      */
 
     public RD365() {
     
-        setName("REGISTRO D365: REGISTRO DOS TOTALIZADORES PARCIAIS DA REDU«√O Z (CODIGOS 2E, 13, 14, 15 e 16)");
+        setName("REGISTRO D365: REGISTRO DOS TOTALIZADORES PARCIAIS DA REDU√á√ÉO Z (CODIGOS 2E, 13, 14, 15 e 16)");
         setDelimiter("|");
         
         FormatWrapper fw = FormatFactory.getFormat(FormatType.DECIMAL);

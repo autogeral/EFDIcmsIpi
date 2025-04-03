@@ -25,21 +25,21 @@ public class R1210 extends LineArchetype{
     
     public static final String TIPO_UTIL = "TIPO_UTIL";
     /*
-     * Tipo de utilização do crédito, conforme tabela indicada no item 5.5.
+     * Tipo de utilizaÃ§Ã£o do crÃ©dito, conforme tabela indicada no item 5.5.
      */
     
     
     
     public static final String NR_DOC = "NR_DOC";
     /*
-     * Número do documento utilizado na baixa de créditos
+     * NÃºmero do documento utilizado na baixa de crÃ©ditos
      */
     
     
     
     public static final String VL_CRED_UTIL = "VL_CRED_UTIL";
     /*
-     * Total de crédito utilizado
+     * Total de crÃ©dito utilizado
      */
 
     

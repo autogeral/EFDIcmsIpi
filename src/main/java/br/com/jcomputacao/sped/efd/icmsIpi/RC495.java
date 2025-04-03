@@ -20,11 +20,11 @@ public static final String REGISTRO = "REG";
  */
 public static final String ALIQ_ICMS = "ALIQ_ICMS";
 /*
- * AlÌquota do ICMS
+ * Al√≠quota do ICMS
  */
 public static final String COD_ITEM = "COD_ITEM";
 /*
- * CÛdigo do item (campo 02 do Registro 0200)
+ * C√≥digo do item (campo 02 do Registro 0200)
  */
 public static final String QTD = "QTD";
 /*
@@ -53,11 +53,11 @@ public static final String VL_CANC = "VL_CANC";
  */
 public static final String VL_ACMO = "VL_ACMO";
 /*
- * Valor acumulado dos acrÈscimos
+ * Valor acumulado dos acr√©scimos
  */
 public static final String VL_BC_ICMS = "VL_BC_ICMS";
 /*
- * Valor acumulado da base de c·lculo do ICMS
+ * Valor acumulado da base de c√°lculo do ICMS
  */
 public static final String VL_ICMS = "VL_ICMS";
 /*
@@ -65,15 +65,15 @@ public static final String VL_ICMS = "VL_ICMS";
  */
 public static final String VL_ISEN = "VL_ISEN";
 /*
- * Valor das saÌdas isentas do ICMS
+ * Valor das sa√≠das isentas do ICMS
  */
 public static final String VL_NT = "VL_NT";
 /*
- * Valor das saÌdas sob n„o-incidÍncia ou n„otributadas pelo ICMS
+ * Valor das sa√≠das sob n√£o-incid√™ncia ou n√£otributadas pelo ICMS
  */
 public static final String VL_ICMS_ST = "VL_ICMS_ST";
 /*
- * Valor das saÌdas de mercadorias adquiridas com substituiÁ„o tribut·ria do ICMS
+ * Valor das sa√≠das de mercadorias adquiridas com substitui√ß√£o tribut√°ria do ICMS
  */
 
     public RC495() {

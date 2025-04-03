@@ -13,7 +13,7 @@ public class R0208 extends LineArchetype {
     public static final String REGISTRO = "REG";
     /**
      * Codigo indicador da Tabela de Incidencia, conforme Anexo III 
-     * do decreto nº 6.707/08:
+     * do decreto nÂº 6.707/08:
      * 01 - Tabela I
      * 02 - Tabela II
      * 03 - Tabela III
@@ -29,7 +29,7 @@ public class R0208 extends LineArchetype {
      */
     public static final String COD_TAB = "COD_TAB";
     /**
-     * Codigo do grupo, conforme Anexo III do Decreto nº6.707/08.
+     * Codigo do grupo, conforme Anexo III do Decreto nÂº6.707/08.
      */
     public static final String COD_GRU = "COD_GRU";
     /**

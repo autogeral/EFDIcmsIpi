@@ -21,12 +21,12 @@ public class RC160 extends LineArchetype{
      */
     public static final String COD_PART = "COD_PART";
     /*
-     * Código do participante (campo 02 do Registro 0150):
+     * CÃ³digo do participante (campo 02 do Registro 0150):
     - transportador, se houver
      */
     public static final String VEIC_ID = "VEIC_ID";
     /*
-     * Placa de identificação do veículo automotor
+     * Placa de identificaÃ§Ã£o do veÃ­culo automotor
      */
     public static final String QTD_VOL = "QTD_VOL";
     /*
@@ -38,11 +38,11 @@ public class RC160 extends LineArchetype{
      */
     public static final String PESO_LIQ = "PESO_LIQ";
     /*
-     * Peso líquido dos volumes transportados (em Kg)
+     * Peso lÃ­quido dos volumes transportados (em Kg)
      */
     public static final String UF_ID = "UF_ID";
     /*
-     * Sigla da UF da placa do veículo
+     * Sigla da UF da placa do veÃ­culo
      */
 
     public RC160() {

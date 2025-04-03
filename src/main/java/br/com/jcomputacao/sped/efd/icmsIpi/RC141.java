@@ -23,7 +23,7 @@ public class RC141 extends LineArchetype {
     
     
      /*
-     * 2 - Número da parcela a receber/pagar
+     * 2 - NÃºmero da parcela a receber/pagar
      */
     public static final String NUM_PARC = "NUM_PARC";
     

@@ -19,7 +19,7 @@ public class R1922 extends LineArchetype {
    
    
    /*
-     * 2 - Número do documento de arrecadação estadual, se houver
+     * 2 - NÃºmero do documento de arrecadaÃ§Ã£o estadual, se houver
      */
    public static final String NUM_DA = "NUM_DA";
    
@@ -27,7 +27,7 @@ public class R1922 extends LineArchetype {
    
    
    /*
-     * 3 - Número do processo ao qual o ajuste está vinculado, se houver
+     * 3 - NÃºmero do processo ao qual o ajuste estÃ¡ vinculado, se houver
      */
    public static final String NUM_PROC = "NUM_PROC";
    
@@ -36,7 +36,7 @@ public class R1922 extends LineArchetype {
    
    
    /*
-     * 4 - Indicador da origem do processo: 0- SEFAZ; 1- Justiça Federal; 2- Justiça Estadual; 9- Outros
+     * 4 - Indicador da origem do processo: 0- SEFAZ; 1- JustiÃ§a Federal; 2- JustiÃ§a Estadual; 9- Outros
 
      */
    public static final String IND_PROC = "IND_PROC";
@@ -44,7 +44,7 @@ public class R1922 extends LineArchetype {
    
    
    /*
-     * 5 -  Descrição resumida do processo que embasou o lançamento
+     * 5 -  DescriÃ§Ã£o resumida do processo que embasou o lanÃ§amento
      */
    public static final String PROC = "PROC";
    
@@ -52,7 +52,7 @@ public class R1922 extends LineArchetype {
    
    
    /*
-     * 6 - Descrição complementar
+     * 6 - DescriÃ§Ã£o complementar
      */
    public static final String  TXT_COMPL = " TXT_COMPL";
    
@@ -60,7 +60,7 @@ public class R1922 extends LineArchetype {
    
 
     public R1922() {
-        setName("REGISTRO 1922: INFORMACOES ADICIONAIS DOS AJUSTES DA SUB-APURAÇÃO DO ICMS ");
+        setName("REGISTRO 1922: INFORMACOES ADICIONAIS DOS AJUSTES DA SUB-APURAÃ‡ÃƒO DO ICMS ");
         setDelimiter("|");
         
         //1

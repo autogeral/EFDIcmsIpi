@@ -19,38 +19,38 @@ public class R1110 extends LineArchetype {
     
     public static final String COD_PART = "COD_PART";
     /*
-     * Código do participante-Fornecedor da Mercadoria destinada � exportação
+     * CÃ³digo do participante-Fornecedor da Mercadoria destinada ï¿½ exportaÃ§Ã£o
      * (campo 02 do Registro 0150)
      */
     
     public static final String COD_MOD = "COD_MOD";
     /*
-     * Código do documento fiscal, conforme a Tabela 4.1.1
+     * CÃ³digo do documento fiscal, conforme a Tabela 4.1.1
      */
     
     public static final String SER = "SER";
     /*
-     * Série do documento fiscal recebido com fins específicos de exportação.
+     * SÃ©rie do documento fiscal recebido com fins especÃ­ficos de exportaÃ§Ã£o.
      */
     
     public static final String NUM_DOC = "NUM_DOC";
     /*
-     * Número do documento fiscal recebido com fins específicos de exportação.
+     * NÃºmero do documento fiscal recebido com fins especÃ­ficos de exportaÃ§Ã£o.
      */
     
     public static final String DT_DOC = "DT_DOC";
     /*
-     * Data da emissão do documento fiscal recebido com fins específicos de exportação
+     * Data da emissÃ£o do documento fiscal recebido com fins especÃ­ficos de exportaÃ§Ã£o
      */
     
     public static final String CHV_NFE = "CHV_NFE";
     /*
-     * Chave da Nota Fiscal Eletrônica
+     * Chave da Nota Fiscal EletrÃ´nica
      */
     
     public static final String NR_MEMO = "NR_MEMO";
     /*
-     * Número do Memorando de Exportação
+     * NÃºmero do Memorando de ExportaÃ§Ã£o
      */
     
     

@@ -21,7 +21,7 @@ public class R1920 extends LineArchetype {
     
     
      /*
-     * 2 - Valor total dos débitos por "Saídas e prestações com débito do imposto" 
+     * 2 - Valor total dos dÃ©bitos por "SaÃ­das e prestaÃ§Ãµes com dÃ©bito do imposto" 
     */
     public static final String  VL_TOT_TRANSF_DEBITOS_OA = " VL_TOT_TRANSF_DEBITOS_OA";
     
@@ -29,7 +29,7 @@ public class R1920 extends LineArchetype {
     
     
      /*
-     * 3 - Valor total de "Ajustes a débito"
+     * 3 - Valor total de "Ajustes a dÃ©bito"
     */
     public static final String  VL_TOT_AJ_DEBITOS_OA  = " VL_TOT_AJ_DEBITOS_OA";
     
@@ -37,7 +37,7 @@ public class R1920 extends LineArchetype {
     
     
      /*
-     * 4 - Valor total de Ajustes ?Estornos de créditos?
+     * 4 - Valor total de Ajustes ?Estornos de crÃ©ditos?
 
     */
     public static final String VL_ESTORNOS_CRED_OA = "VL_ESTORNOS_CRED_OA";
@@ -48,7 +48,7 @@ public class R1920 extends LineArchetype {
     
     
      /*
-     * 5 - Valor total dos créditos por "Entradas e aquisições com crédito do imposto" 
+     * 5 - Valor total dos crÃ©ditos por "Entradas e aquisiÃ§Ãµes com crÃ©dito do imposto" 
     */
     public static final String VL_TOT_TRANSF_CREDITOS_OA = "VL_TOT_TRANSF_CREDITOS_OA";
     
@@ -57,7 +57,7 @@ public class R1920 extends LineArchetype {
     
     
      /*
-     * 6 -  Valor total de "Ajustes a crédito"
+     * 6 -  Valor total de "Ajustes a crÃ©dito"
     */
     public static final String  VL_TOT_AJ_CREDITOS_OA = " VL_TOT_AJ_CREDITOS_OA";
     
@@ -66,7 +66,7 @@ public class R1920 extends LineArchetype {
     
     
      /*
-     * 7 - Valor total de Ajustes ?Estornos de Débitos?
+     * 7 - Valor total de Ajustes ?Estornos de DÃ©bitos?
 
     */
     public static final String VL_ESTORNOS_DEB_OA = "VL_ESTORNOS_DEB_OA";
@@ -76,7 +76,7 @@ public class R1920 extends LineArchetype {
     
     
      /*
-     * 8 -  Valor total de "Saldo credor do período anterior"
+     * 8 -  Valor total de "Saldo credor do perÃ­odo anterior"
 
     */
     public static final String VL_SLD_CREDOR_ANT_OA = "VL_SLD_CREDOR_ANT_OA";
@@ -97,7 +97,7 @@ public class R1920 extends LineArchetype {
     
     
      /*
-     * 10 - Valor total de "Deduções"
+     * 10 - Valor total de "DeduÃ§Ãµes"
     */
     public static final String VL_TOT_DED = "VL_TOT_DED";
     
@@ -114,7 +114,7 @@ public class R1920 extends LineArchetype {
     
     
      /*
-     * 12 - Valor total de "Saldo credor a transportar para o período seguinte? 
+     * 12 - Valor total de "Saldo credor a transportar para o perÃ­odo seguinte? 
 
     */
     public static final String VL_SLD_CREDOR_TRANSP_OA = "VL_SLD_CREDOR_TRANSP_OA";
@@ -124,13 +124,13 @@ public class R1920 extends LineArchetype {
     
     
      /*
-     * 13 -  Valores recolhidos ou a recolher, extra- apuração
+     * 13 -  Valores recolhidos ou a recolher, extra- apuraÃ§Ã£o
     */
     public static final String  DEB_ESP_OA = " DEB_ESP_OA";
 
     public R1920() {
         
-        setName("REGISTRO 1920: SUB-APURAÇÃO DO ICMS ");
+        setName("REGISTRO 1920: SUB-APURAÃ‡ÃƒO DO ICMS ");
         setDelimiter("|");
          FormatWrapper fw = FormatFactory.getFormat(FormatType.DECIMAL);
         fw.setReplaceComa(false);

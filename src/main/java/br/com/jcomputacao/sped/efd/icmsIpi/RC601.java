@@ -22,7 +22,7 @@ public static final String REGISTRO = "REGISTRO";
 
 
 /*
- * 2 - Número de documento fiscal cancelado 
+ * 2 - NÃºmero de documento fiscal cancelado 
  */
 public static final String NUM_DOC_CANC = "NUM_DOC_CANC";
 

@@ -20,34 +20,34 @@ public class RE520 extends LineArchetype {
     public static final String REGISTRO = "REGISTRO";
     
      /*
-      * 2 -   Saldo credor do IPI transferido do período anterior    
+      * 2 -   Saldo credor do IPI transferido do perÃ­odo anterior    
       */
     public static final String   VL_SD_ANT_IPI = " VL_SD_ANT_IPI";
     
     /*
-      * 3 -  Valor total dos débitos por "Saídas com débito do imposto"     
+      * 3 -  Valor total dos dÃ©bitos por "SaÃ­das com dÃ©bito do imposto"     
       */
     public static final String  VL_DEB_IPI = " VL_DEB_IPI";
      /*
-      * 4 -   Valor total dos créditos por "Entradas e aquisições com crédito do imposto"
+      * 4 -   Valor total dos crÃ©ditos por "Entradas e aquisiÃ§Ãµes com crÃ©dito do imposto"
     
       */
 public static final String  VL_CRED_IPI = " VL_CRED_IPI";
 /*
-      * 5 -    Valor de "Outros débitos" do IPI (inclusive estornos de crédito)
+      * 5 -    Valor de "Outros dÃ©bitos" do IPI (inclusive estornos de crÃ©dito)
     
       */
 public static final String VL_OD_IPI = "VL_OD_IPI";
 
 /*
-      * 6 -    Valor de "Outros créditos" do IPI (inclusive estornos de débitos)
+      * 6 -    Valor de "Outros crÃ©ditos" do IPI (inclusive estornos de dÃ©bitos)
 
     
       */
 public static final String VL_OC_IPI  = "VL_OC_IPI ";
 
 /*
-      * 7 -    Valor do saldo credor do IPI a transportar para o período seguinte  
+      * 7 -    Valor do saldo credor do IPI a transportar para o perÃ­odo seguinte  
       */
 public static final String  VL_SC_IPI  = " VL_SC_IPI ";
 

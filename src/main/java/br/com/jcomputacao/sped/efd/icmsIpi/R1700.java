@@ -21,7 +21,7 @@ public class R1700 extends LineArchetype{
     
     
      /*
-  * 2 -  Código dispositivo autorizado: 00 - Formulário de Segurança ? impressor autônomo 01 - FS-DA ? Formulário de Segurança para Impressão de DANFE 02 ? Formulário de segurança - NF-e 03 - Formulário Contínuo 04 ? Blocos  05 - Jogos Soltos 
+  * 2 -  CÃ³digo dispositivo autorizado: 00 - FormulÃ¡rio de SeguranÃ§a ? impressor autÃ´nomo 01 - FS-DA ? FormulÃ¡rio de SeguranÃ§a para ImpressÃ£o de DANFE 02 ? FormulÃ¡rio de seguranÃ§a - NF-e 03 - FormulÃ¡rio ContÃ­nuo 04 ? Blocos  05 - Jogos Soltos 
 
   */
     public static final String COD_DISP = "COD_DISP";
@@ -29,7 +29,7 @@ public class R1700 extends LineArchetype{
     
     
      /*
-  * 3 - Código do modelo do dispositivo autorizado, conforme a Tabela 4.1.1 
+  * 3 - CÃ³digo do modelo do dispositivo autorizado, conforme a Tabela 4.1.1 
 
   */
     public static final String  COD_MOD = " COD_MOD";
@@ -37,7 +37,7 @@ public class R1700 extends LineArchetype{
     
     
      /*
-  * 4 -  Série do dispositivo autorizado
+  * 4 -  SÃ©rie do dispositivo autorizado
   */
     public static final String  SER = " SER";
     
@@ -45,14 +45,14 @@ public class R1700 extends LineArchetype{
     
     
      /*
-  * 5 - Subsérie do dispositivo autorizado 
+  * 5 - SubsÃ©rie do dispositivo autorizado 
   */
     public static final String SUB = "SUB";
     
     
     
      /*
-  * 6 - Número do dispositivo autorizado (utilizado) inicial
+  * 6 - NÃºmero do dispositivo autorizado (utilizado) inicial
   */
     public static final String NUM_DOC_INI = "NUM_DOC_INI";
     
@@ -60,7 +60,7 @@ public class R1700 extends LineArchetype{
     
     
      /*
-  * 7 - Número do dispositivo autorizado (utilizado) fina
+  * 7 - NÃºmero do dispositivo autorizado (utilizado) fina
   */
     public static final String NUM_DOC_FIN = "NUM_DOC_FIN";
     
@@ -71,7 +71,7 @@ public class R1700 extends LineArchetype{
     
     
      /*
-  * 8 -  Número da autorização, conforme dispositivo autorizado
+  * 8 -  NÃºmero da autorizaÃ§Ã£o, conforme dispositivo autorizado
   */
     public static final String NUM_AUT = "NUM_AUT";
     

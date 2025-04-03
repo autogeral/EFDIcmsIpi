@@ -20,17 +20,17 @@ public class RE210 extends LineArchetype {
     public static final String REGISTRO = "REG";
     
     /*
-      * 2 -   Indicador de movimento: 0 ? Sem operações com ST 1 ? Com operações de ST
+      * 2 -   Indicador de movimento: 0 ? Sem operaÃ§Ãµes com ST 1 ? Com operaÃ§Ãµes de ST
       */
     public static final String IND_MOV_ST = "IND_MOV_ST";
     
    /*
-      * 3 - Valor do "Saldo credor de período anterior ? Substituição Tributária
+      * 3 - Valor do "Saldo credor de perÃ­odo anterior ? SubstituiÃ§Ã£o TributÃ¡ria
       */ 
     public static final String VL_SLD_CRED_ANT_ST = "VL_SLD_CRED_ANT_ST";
     
      /*
-      * 4 -  Valor total do ICMS ST de devolução de mercadorias
+      * 4 -  Valor total do ICMS ST de devoluÃ§Ã£o de mercadorias
       */ 
     public static final String VL_DEVOL_ST = "VL_DEVOL_ST";
     
@@ -41,41 +41,41 @@ public class RE210 extends LineArchetype {
     public static final String  VL_RESSARC_ST = " VL_RESSARC_ST";
     
     /*
-      * 6 - Valor total de Ajustes "Outros créditos ST" e ?Estorno de débitos ST?
+      * 6 - Valor total de Ajustes "Outros crÃ©ditos ST" e ?Estorno de dÃ©bitos ST?
       */ 
     public static final String  VL_OUT_CRED_ST  = " VL_OUT_CRED_ST ";
     
      /*
-      * 7 -  Valor total dos ajustes a crédito de ICMS ST, provenientes de ajustes do documento fiscal.
+      * 7 -  Valor total dos ajustes a crÃ©dito de ICMS ST, provenientes de ajustes do documento fiscal.
       */ 
     public static final String  VL_AJ_CREDITOS_ST  = " VL_AJ_CREDITOS_ST ";
     
     
     /*
-      * 8 -  Valor Total do ICMS retido por Substituição Tributário
+      * 8 -  Valor Total do ICMS retido por SubstituiÃ§Ã£o TributÃ¡rio
       */ 
     public static final String  VL_RETENCAO_ST = "VL_RETENCAO_ST";
     
     
     /*
-      * 9 -  Valor Total dos ajustes "Outros débitos ST" " e ?Estorno de créditos ST?
+      * 9 -  Valor Total dos ajustes "Outros dÃ©bitos ST" " e ?Estorno de crÃ©ditos ST?
       */ 
     public static final String  VL_OUT_DEB_ST  = " VL_OUT_DEB_ST";
     
     
     /*
-      * 10 -  Valor total dos ajustes a débito de ICMS ST, provenientes de ajustes do documento fiscal.
+      * 10 -  Valor total dos ajustes a dÃ©bito de ICMS ST, provenientes de ajustes do documento fiscal.
       */ 
     public static final String VL_AJ_DEBITOS_ST = "VL_AJ_DEBITOS_ST";
     
     
      /*
-      * 11 -  Valor total de Saldo devedor antes das deduções
+      * 11 -  Valor total de Saldo devedor antes das deduÃ§Ãµes
       */ 
     public static final String VL_SLD_DEV_ANT_ST = "VL_SLD_DEV_ANT_ST";
     
     /*
-      * 12 -   Valor total dos ajustes "Deduções ST
+      * 12 -   Valor total dos ajustes "DeduÃ§Ãµes ST
       */ 
     public static final String  VL_DEDUCOES_ST  = " VL_DEDUCOES_ST ";
     
@@ -85,12 +85,12 @@ public class RE210 extends LineArchetype {
     public static final String VL_ICMS_RECOL_ST  = "VL_ICMS_RECOL_ST ";
     
     /*
-      * 14 -  Saldo credor de ST a transportar para o período seguinte [(03+04+05+06+07)? (08+09+10)]  
+      * 14 -  Saldo credor de ST a transportar para o perÃ­odo seguinte [(03+04+05+06+07)? (08+09+10)]  
       */ 
     public static final String VL_SLD_CRED_ST_TRAN_SPORTAR = "VL_SLD_CRED_ST_TRAN_SPORTAR";
     
      /*
-      * 15 -  Valores recolhidos ou a recolher, extra- apuração.
+      * 15 -  Valores recolhidos ou a recolher, extra- apuraÃ§Ã£o.
 
       */ 
      public static final String DEB_ESP_ST = "DEB_ESP_ST ";

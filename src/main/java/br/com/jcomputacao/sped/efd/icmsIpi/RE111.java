@@ -23,22 +23,22 @@ public class RE111 extends LineArchetype {
        
        
        /*
-      * 2 - Código do ajuste da apuração e dedução, conforme a Tabela indicada no item 5.1.1.
+      * 2 - CÃ³digo do ajuste da apuraÃ§Ã£o e deduÃ§Ã£o, conforme a Tabela indicada no item 5.1.1.
       
       
-        *  0 ? Outros débitos; 
-        * 1 ? Estorno de créditos;
-        * 2 ? Outros créditos;
-        * 3 ? Estorno de débitos;
-        * 4 ? Deduções do imposto apurado;
-        * 5 ? Débitos Especiais.
+        *  0 ? Outros dÃ©bitos; 
+        * 1 ? Estorno de crÃ©ditos;
+        * 2 ? Outros crÃ©ditos;
+        * 3 ? Estorno de dÃ©bitos;
+        * 4 ? DeduÃ§Ãµes do imposto apurado;
+        * 5 ? DÃ©bitos Especiais.
       */
        public static final String COD_AJ_APUR = "COD_AJ_APUR";
     
        
        
       /*
-      * 3 -   Descrição complementar do ajuste da apuração. 
+      * 3 -   DescriÃ§Ã£o complementar do ajuste da apuraÃ§Ã£o. 
       */ 
       public static final String  DESCR_COMPL_AJ = "DESCR_COMPL_AJ";
       
@@ -46,7 +46,7 @@ public class RE111 extends LineArchetype {
       
       
       /*
-      * 4 -   Valor do ajuste da apuração. 
+      * 4 -   Valor do ajuste da apuraÃ§Ã£o. 
       */ 
       public static final String VL_AJ_APUR = "VL_AJ_APUR";
       

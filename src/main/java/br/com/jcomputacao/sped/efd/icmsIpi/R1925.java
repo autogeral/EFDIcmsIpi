@@ -27,7 +27,7 @@ public class R1925 extends LineArchetype {
  
  
     /*
-     * 2 -   Código da informação adicional conforme tabela a ser definida pelas SEFAZ, conforme tabela definida no item 5.2.
+     * 2 -   CÃ³digo da informaÃ§Ã£o adicional conforme tabela a ser definida pelas SEFAZ, conforme tabela definida no item 5.2.
      */
  public static final String  COD_INF_ADIC  = " COD_INF_ADIC";
  
@@ -37,7 +37,7 @@ public class R1925 extends LineArchetype {
  
  
     /*
-     * 3 - Valor referente à informação adiciona
+     * 3 - Valor referente Ã  informaÃ§Ã£o adiciona
      */
  public static final String VL_INF_ADIC   = "VL_INF_ADIC ";
  
@@ -48,7 +48,7 @@ public class R1925 extends LineArchetype {
  
  
     /*
-     * 4 - Descrição complementar do ajuste 
+     * 4 - DescriÃ§Ã£o complementar do ajuste 
      */
  
 

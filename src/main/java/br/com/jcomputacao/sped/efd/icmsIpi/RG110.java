@@ -21,55 +21,55 @@ public class RG110 extends LineArchetype {
  
  
  /*
-  *  2 -  Data inicial a que a apuraÁ„o se refere  
+  *  2 -  Data inicial a que a apura√ß√£o se refere  
   */
  public static final String  DT_INI = " DT_INI ";
  
  /*
-  *  3 -  Data final a que a apuraÁ„o se refere   
+  *  3 -  Data final a que a apura√ß√£o se refere   
   */
  public static final String  DT_FIN = " DT_FIN";
  
  /*
-  *  4 -  Saldo inicial de ICMS do CIAP, composto por ICMS de bens que entraram anteriormente ao perÌodo de apuraÁ„o (somatÛrio dos campos 05 a 08 dos registros G125) 
+  *  4 -  Saldo inicial de ICMS do CIAP, composto por ICMS de bens que entraram anteriormente ao per√≠odo de apura√ß√£o (somat√≥rio dos campos 05 a 08 dos registros G125) 
     
   */
  public static final String  SALDO_IN_ICMS = " SALDO_IN_ICMS";
  
  
  /*
-  *  5 -  SomatÛrio das parcelas de ICMS passÌvel de apropriaÁ„o de cada bem (campo 10 do G125)   
+  *  5 -  Somat√≥rio das parcelas de ICMS pass√≠vel de apropria√ß√£o de cada bem (campo 10 do G125)   
     
   */
  public static final String  SOM_PARC = " SOM_PARC";
  
  /*
-  *  6 -  Valor do somatÛrio das saÌdas tributadas e saÌdas para exportaÁ„o
+  *  6 -  Valor do somat√≥rio das sa√≠das tributadas e sa√≠das para exporta√ß√£o
   
   */
  public static final String  VL_TRIB_EXP = " VL_TRIB_EXP";
  
   /*
-  *  7 -  Valor total de saÌdas
+  *  7 -  Valor total de sa√≠das
   
   */
  public static final String  VL_TOTAL  = " VL_TOTAL ";
  
  /*
-  *  8 - Õndice de participaÁ„o do valor do somatÛrio das saÌdas tributadas e saÌdas para exportaÁ„o no valor total de saÌdas (Campo 06 dividido pelo campo 07)
+  *  8 - √çndice de participa√ß√£o do valor do somat√≥rio das sa√≠das tributadas e sa√≠das para exporta√ß√£o no valor total de sa√≠das (Campo 06 dividido pelo campo 07)
  
   
   */
  public static final String IND_PER_SAI = "IND_PER_SAI";
  
  /*
-  *  9 - Valor de ICMS a ser apropriado na apuraÁ„o do ICMS, correspondente · multiplicaÁ„o do campo 05 pelo campo 08. 
+  *  9 - Valor de ICMS a ser apropriado na apura√ß√£o do ICMS, correspondente √° multiplica√ß√£o do campo 05 pelo campo 08. 
 
   */
  public static final String  ICMS_APROP = " ICMS_APROP";
  
  /*
-  *  10 -  Valor de outros crÈditos a ser apropriado na ApuraÁ„o do ICMS, correspondente ao somatÛrio do campo 09 do registro G126.
+  *  10 -  Valor de outros cr√©ditos a ser apropriado na Apura√ß√£o do ICMS, correspondente ao somat√≥rio do campo 09 do registro G126.
 
 
   */

@@ -24,7 +24,7 @@ public class R1391  extends LineArchetype{
     
     public static final String DT_REGISTRO = "DT_REGISTRO";
     /*
-     * Data de produção (DDMMAAAA)
+     * Data de produÃ§Ã£o (DDMMAAAA)
      */
     
     
@@ -52,10 +52,10 @@ public class R1391  extends LineArchetype{
     
     public static final String ENT_ANID_HID = "ENT_ANID_HID"; 
     /*
-     * Entrada de álcool anidro decorrente da transformação do
-        álcool hidratado ou
-        Entrada de álcool hidratado decorrente da transformação do
-        álcool anidro (litros)
+     * Entrada de Ã¡lcool anidro decorrente da transformaÃ§Ã£o do
+        Ã¡lcool hidratado ou
+        Entrada de Ã¡lcool hidratado decorrente da transformaÃ§Ã£o do
+        Ã¡lcool anidro (litros)
      */
     
     
@@ -69,7 +69,7 @@ public class R1391  extends LineArchetype{
     
     public static final String PERDA = "PERDA";
     /*
-     * Evaporação (litros) ou Quebra de peso (Kg)
+     * EvaporaÃ§Ã£o (litros) ou Quebra de peso (Kg)
      */
     
     
@@ -83,7 +83,7 @@ public class R1391  extends LineArchetype{
     
     public static final String SAI_ANI_HID = "SAI_ANI_HID";
     /*
-     * Saída para transformação (litros).
+     * SaÃ­da para transformaÃ§Ã£o (litros).
      */
     
     
@@ -111,7 +111,7 @@ public class R1391  extends LineArchetype{
     
     public static final String PROD_DIA_MEL = "PROD_DIA_MEL";
     /*
-     * Produção de mel residual (Kg) e entradas de mel (Kg)
+     * ProduÃ§Ã£o de mel residual (Kg) e entradas de mel (Kg)
      */
     
     
@@ -125,7 +125,7 @@ public class R1391  extends LineArchetype{
     
     public static final String PROD_ALC_MEL = "PROD_ALC_MEL";
     /*
-     * Produção de álcool (litros) ou açúcar (Kg) 
+     * ProduÃ§Ã£o de Ã¡lcool (litros) ou aÃ§Ãºcar (Kg) 
      * proveniente do mel residual.
      */
     
@@ -133,7 +133,7 @@ public class R1391  extends LineArchetype{
     
     public static final String OBS = "OBS";
     /*
-     * Observações
+     * ObservaÃ§Ãµes
      */
     
                

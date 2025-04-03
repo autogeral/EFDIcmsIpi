@@ -21,12 +21,12 @@ public static final String REGISTRO = "REG";
  */
 public static final String COD_CLASS = "COD_CLASS";
 /*
- * CÛdigo de classificaÁ„o do item do serviÁo de comunicaÁ„o ou de telecomunicaÁ„o, 
+ * C√≥digo de classifica√ß√£o do item do servi√ßo de comunica√ß√£o ou de telecomunica√ß√£o, 
  * conforme a Tabela 4.4.1
  */
 public static final String COD_ITEM = "COD_ITEM";
 /*
- * CÛdigo do item (campo 02 do Registro 0200)
+ * C√≥digo do item (campo 02 do Registro 0200)
  */
 public static final String QTD = "QTD";
 /*
@@ -46,19 +46,19 @@ public static final String VL_DESC = "VL_DESC";
  */
 public static final String CST_ICMS = "CST_ICMS";
 /*
- * CÛdigo da SituaÁ„o Tribut·ria, conforme a Tabela indicada no item 4.3.1
+ * C√≥digo da Situa√ß√£o Tribut√°ria, conforme a Tabela indicada no item 4.3.1
  */
 public static final String CFOP = "CFOP";
 /*
- * CÛdigo Fiscal de OperaÁ„o e PrestaÁ„o conforme tabela indicada no item 4.2.2.
+ * C√≥digo Fiscal de Opera√ß√£o e Presta√ß√£o conforme tabela indicada no item 4.2.2.
  */
 public static final String ALIQ_ICMS = "ALIQ_ICMS";
 /*
- * AlÌquota do ICMS
+ * Al√≠quota do ICMS
  */
 public static final String VL_BC_ICMS = "VL_BC_ICMS"; 
 /*
- * Valor acumulado da base de c·lculo do ICMS
+ * Valor acumulado da base de c√°lculo do ICMS
  */
 public static final String VL_ICMS = "VL_ICMS";
 /*
@@ -66,7 +66,7 @@ public static final String VL_ICMS = "VL_ICMS";
  */
 public static final String VL_BC_ICMS_UF = "VL_BC_ICMS_UF";
 /*
- * Valor da base de c·lculo do ICMS de outras UFs
+ * Valor da base de c√°lculo do ICMS de outras UFs
  */
 public static final String VL_ICMS_UF = "VL_ICMS_UF";
 /*
@@ -74,8 +74,8 @@ public static final String VL_ICMS_UF = "VL_ICMS_UF";
  */
 public static final String VL_RED_BC = "VL_RED_BC";
 /*
- * Valor n„o tributado em funÁ„o da reduÁ„o da base de c·lculo do ICMS, referente ‡
-combinaÁ„o de CST_ICMS, CFOP e alÌquota do ICMS.
+ * Valor n√£o tributado em fun√ß√£o da redu√ß√£o da base de c√°lculo do ICMS, referente √†
+combina√ß√£o de CST_ICMS, CFOP e al√≠quota do ICMS.
  */
 public static final String VL_PIS = "VL_PIS";
 /*
@@ -87,7 +87,7 @@ public static final String VL_COFINS = "VL_COFINS";
  */
 public static final String COD_CTA = "COD_CTA";
 /*
- * CÛdigo da conta analÌtica cont·bil debitada/creditada
+ * C√≥digo da conta anal√≠tica cont√°bil debitada/creditada
  */
 
     public RD610() {

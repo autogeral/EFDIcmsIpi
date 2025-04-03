@@ -22,7 +22,7 @@ public class R1310  extends LineArchetype{
     
     public static final String NUM_TANQUE = "NUM_TANQUE";
     /*
-     * Tanque que armazena o combustível
+     * Tanque que armazena o combustÃ­vel
      */
     
     
@@ -40,13 +40,13 @@ public class R1310  extends LineArchetype{
     
     public static final String VOL_DISP = "VOL_DISP";
     /*
-     * Volume Disponível (03 + 04), em litros
+     * Volume DisponÃ­vel (03 + 04), em litros
      */
     
     
     public static final String VOL_SAIDAS = "VOL_SAIDAS";
     /*
-     * Volume Total das Saídas, em litros
+     * Volume Total das SaÃ­das, em litros
      */
     
     
@@ -71,7 +71,7 @@ public class R1310  extends LineArchetype{
     public static final String FECH_FISICO = "FECH_FISICO";
     /*
      * Volume aferido no tanque, em litros. 
-     * Estoque de fechamento físico do tanque.
+     * Estoque de fechamento fÃ­sico do tanque.
      */
 
 

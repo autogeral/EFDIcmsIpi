@@ -23,38 +23,38 @@ public class RD140 extends LineArchetype {
      */
     public static final String COD_MUN_ORIG = "COD_MUN_ORIG";
     /*
-     * Código do município de origem do serviço,conforme a tabela IBGE
+     * CÃ³digo do municÃ­pio de origem do serviÃ§o,conforme a tabela IBGE
      * (Preencher com9999999, se Exterior)
      */
     public static final String COD_MUN_DEST = "COD_MUN_DEST";
     /*
-     * Código do município de origem do serviço,conforme a tabela IBGE
+     * CÃ³digo do municÃ­pio de origem do serviÃ§o,conforme a tabela IBGE
      * (Preencher com9999999, se Exterior)
      */
     public static final String IND_VEIC = "IND_VEIC";
     /*
-     * Indicador do tipo do veículo transportador: 0- Embarcação; 1-
+     * Indicador do tipo do veÃ­culo transportador: 0- EmbarcaÃ§Ã£o; 1-
      * Empurrador/rebocador
      */
     public static final String VEIC_ID = "VEIC_ID";
     /*
-     * Identificação da embarcação (IRIM ou Registro CPP)
+     * IdentificaÃ§Ã£o da embarcaÃ§Ã£o (IRIM ou Registro CPP)
      */
     public static final String IND_NAV = "IND_NAV";
     /*
-     * Indicador do tipo da navegação: 0- Interior; 1- Cabotagem
+     * Indicador do tipo da navegaÃ§Ã£o: 0- Interior; 1- Cabotagem
      */
     public static final String VIAGEM = "VIAGEM";
     /*
-     * Número da viagem
+     * NÃºmero da viagem
      */
     public static final String VL_FRT_LIQ = "VL_FRT_LIQ";
     /*
-     * Valor líquido do frete
+     * Valor lÃ­quido do frete
      */
     public static final String VL_DESP_PORT = "VL_DESP_PORT";
     /*
-     * Valor das despesas portuárias
+     * Valor das despesas portuÃ¡rias
      */
     public static final String VL_DESP_CAR_DESC = "VL_DESP_CAR_DESC";
     /*
@@ -70,7 +70,7 @@ public class RD140 extends LineArchetype {
      */
     public static final String VL_FRT_MM = "VL_FRT_MM";
     /*
-     * Valor adicional do frete para renovação da Marinha Mercante
+     * Valor adicional do frete para renovaÃ§Ã£o da Marinha Mercante
      */
     
     public RD140() {

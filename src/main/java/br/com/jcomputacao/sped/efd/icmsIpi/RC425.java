@@ -20,7 +20,7 @@ public class RC425 extends LineArchetype{
      */
     public static final String COD_ITEM = "COD_ITEM";
     /*
-     * Código do item (campo 02 do Registro 0200)
+     * CÃ³digo do item (campo 02 do Registro 0200)
      */
     public static final String QTD = "QTD";
     /*

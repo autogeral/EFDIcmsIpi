@@ -22,7 +22,7 @@ public class RC470 extends LineArchetype {
      */
     public static final String COD_ITEM = "COD_ITEM";
     /*
-     * Código do item (campo 02 do Registro 0200)
+     * CÃ³digo do item (campo 02 do Registro 0200)
      */
     public static final String QTD = "QTD";
     /*
@@ -43,16 +43,16 @@ public class RC470 extends LineArchetype {
      */
     public static final String CST_ICMS = "CST_ICMS";
     /*
-     * Código da Situação Tributária, conforme a
+     * CÃ³digo da SituaÃ§Ã£o TributÃ¡ria, conforme a
      Tabela indicada no item 4.3.1
      */
     public static final String CFOP = "CFOP";
     /*
-     * Código Fiscal de Operação e Prestação
+     * CÃ³digo Fiscal de OperaÃ§Ã£o e PrestaÃ§Ã£o
      */
     public static final String ALIQ_ICMS = "ALIQ_ICMS";
     /*
-     * Alíquota do ICMS ? Carga tributária efetiva em percentual
+     * AlÃ­quota do ICMS ? Carga tributÃ¡ria efetiva em percentual
      */
     public static final String VL_PIS = "VL_PIS";
     /*

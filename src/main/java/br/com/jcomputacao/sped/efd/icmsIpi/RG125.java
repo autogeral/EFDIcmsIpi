@@ -18,31 +18,31 @@ public class RG125 extends LineArchetype {
     public static final String REGISTRO = "REG";
     
     /*
-     * 2 -   Código individualizado do bem ou componente adotado no controle patrimonial do estabelecimento informante
+     * 2 -   CÃ³digo individualizado do bem ou componente adotado no controle patrimonial do estabelecimento informante
 
      */
     public static final String  COD_IND_BEM = " COD_IND_BEM";
     
      /*
-     * 3 -  Data da movimentação ou do saldo inicial 
+     * 3 -  Data da movimentaÃ§Ã£o ou do saldo inicial 
 
      */
     public static final String  DT_MOV  = " DT_MOV ";
     
     /*
-     * 4 - Tipo de movimentação do bem ou componente: SI = Saldo inicial de bens imobilizados; IM = Imobilização de bem individual; IA = Imobilização em Andamento - Componente; CI = Conclusão de Imobilização em Andamento ? Bem Resultante; MC = Imobilização oriunda do Ativo Circulante; BA = Baixa do bem - Fim do período de apropriação; AT = Alienação ou Transferência; PE = Perecimento, Extravio ou Deterioração; OT = Outras Saídas do Imobilizado 
+     * 4 - Tipo de movimentaÃ§Ã£o do bem ou componente: SI = Saldo inicial de bens imobilizados; IM = ImobilizaÃ§Ã£o de bem individual; IA = ImobilizaÃ§Ã£o em Andamento - Componente; CI = ConclusÃ£o de ImobilizaÃ§Ã£o em Andamento ? Bem Resultante; MC = ImobilizaÃ§Ã£o oriunda do Ativo Circulante; BA = Baixa do bem - Fim do perÃ­odo de apropriaÃ§Ã£o; AT = AlienaÃ§Ã£o ou TransferÃªncia; PE = Perecimento, Extravio ou DeterioraÃ§Ã£o; OT = Outras SaÃ­das do Imobilizado 
 
      */
     public static final String TIPO_MOV  = "TIPO_MOV ";
     
    /*
-     * 5 -  Valor do ICMS da Operação Própria na entrada do bem ou componente 
+     * 5 -  Valor do ICMS da OperaÃ§Ã£o PrÃ³pria na entrada do bem ou componente 
 
      */ 
     public static final String  VL_IMOB_ICMS_OP = " VL_IMOB_ICMS_OP";
     
     /*
-     * 6 - Valor do ICMS da Oper. por Sub. Tributária na entrada do bem ou componente
+     * 6 - Valor do ICMS da Oper. por Sub. TributÃ¡ria na entrada do bem ou componente
 
      */
  public static final String  VL_IMOB_ICMS_ST = " VL_IMOB_ICMS_ST";
@@ -54,20 +54,20 @@ public class RG125 extends LineArchetype {
  public static final String VL_IMOB_ICMS_FRT = "VL_IMOB_ICMS_FRT";
  
  /*
-  * 8 - Valor do ICMS - Diferencial de Alíquota, conforme Doc. de Arrecadação, na entrada do bem ou componente
+  * 8 - Valor do ICMS - Diferencial de AlÃ­quota, conforme Doc. de ArrecadaÃ§Ã£o, na entrada do bem ou componente
 
   */
 public static final String VL_IMOB_ICMS_DIF = "VL_IMOB_ICMS_DIF";
 
 /*
-  * 9 - Número da parcela do ICMS 
+  * 9 - NÃºmero da parcela do ICMS 
 
   */
 public static final String  NUM_PARC  = " NUM_PARC ";
 
 
 /*
-  * 10 -   Valor da parcela de ICMS passível de apropriação (antes da aplicação da participação percentual do valor das saídas tributadas/exportação sobre as saídas totais) 
+  * 10 -   Valor da parcela de ICMS passÃ­vel de apropriaÃ§Ã£o (antes da aplicaÃ§Ã£o da participaÃ§Ã£o percentual do valor das saÃ­das tributadas/exportaÃ§Ã£o sobre as saÃ­das totais) 
 
 
   */

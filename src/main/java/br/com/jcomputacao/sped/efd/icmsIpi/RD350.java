@@ -20,7 +20,7 @@ public class RD350 extends LineArchetype {
      */
     public static final String COD_MOD = "COD_MOD";
     /*
-     * Código do modelo do documento fiscal, 
+     * CÃ³digo do modelo do documento fiscal, 
      * conforme a Tabela 4.1.1
      */
     public static final String ECF_MOD = "ECF_MOD";
@@ -29,16 +29,16 @@ public class RD350 extends LineArchetype {
      */
     public static final String ECF_FAB = "ECF_FAB";
     /*
-     * Número de série de fabricação do ECF
+     * NÃºmero de sÃ©rie de fabricaÃ§Ã£o do ECF
      */
     public static final String ECF_CX = "ECF_CX";
     /*
-     * Número do caixa atribuído ao ECF
+     * NÃºmero do caixa atribuÃ­do ao ECF
      */
 
     public RD350() {
    
-        setName("REGISTRO D355: REDUÇÃO Z (CODIGOS 2E, 13, 14, 15 e 16)");
+        setName("REGISTRO D355: REDUÃ‡ÃƒO Z (CODIGOS 2E, 13, 14, 15 e 16)");
         setDelimiter("|");
         
         addFieldArchetype(REGISTRO, new FieldDefaultArchetype("D350"));

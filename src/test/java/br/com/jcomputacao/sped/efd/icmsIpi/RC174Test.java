@@ -19,11 +19,11 @@ public class RC174Test {
         
 	model.setFieldValue(RC174.IND_ARM, "0");
         model.setFieldValue(RC174.NUM_ARM, "123546789");
-        model.setFieldValue(RC174.DESCR_COMPL, "Calibre 12, 5 Cartuchos, Autom·tica, Cano duplo");
+        model.setFieldValue(RC174.DESCR_COMPL, "Calibre 12, 5 Cartuchos, Autom√°tica, Cano duplo");
         
         StringBuffer sb = model.getRepresentation();
         String result = sb.toString();
-        String expected = "|C174|0|123546789|Calibre 12, 5 Cartuchos, Autom·tica, Cano duplo|";
+        String expected = "|C174|0|123546789|Calibre 12, 5 Cartuchos, Autom√°tica, Cano duplo|";
                          
         System.out.println("Excecting ....  : " + expected);
         System.out.println("Result    ....  : " + result);

@@ -24,21 +24,21 @@ public class R1400  extends LineArchetype{
     
     public static final String COD_ITEM = "COD_ITEM";
     /*
-     * Código do item (campo 02 do Registro 0200)
+     * CÃ³digo do item (campo 02 do Registro 0200)
      */
     
     
     
     public static final String MUN = "MUN";
     /*
-     * Código do Município de origem
+     * CÃ³digo do MunicÃ­pio de origem
      */
     
     
     
     public static final String VALOR = "VALOR";
     /*
-     * Valor mensal correspondente ao município
+     * Valor mensal correspondente ao municÃ­pio
      */
     
     

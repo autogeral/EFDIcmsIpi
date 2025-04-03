@@ -18,7 +18,7 @@ public class RC173 extends LineArchetype{
      */
     public static final String LOTE_MED = "LOTE_MED";
     /*
-     * N˙mero do lote de fabricaÁ„o do medicamento
+     * N√∫mero do lote de fabrica√ß√£o do medicamento
      */
     public static final String QTD_ITEM = "QTD_ITEM";
     /*
@@ -26,33 +26,33 @@ public class RC173 extends LineArchetype{
      */
     public static final String DT_FAB = "DT_FAB";
     /*
-     * Data de fabricaÁ„o do medicamento
+     * Data de fabrica√ß√£o do medicamento
      */
     public static final String DT_VAL = "DT_VAL";
     /*
-     * Data de expiraÁ„o da validade do medicamento
+     * Data de expira√ß√£o da validade do medicamento
      */
     public static final String IND_MED = "IND_MED";
     /*
-     * Indicador de tipo de referÍncia da base de c·lculo
-    do ICMS (ST) do produto farmacÍutico:
-    0- Base de c·lculo referente ao preÁo tabelado ou
-    preÁo m·ximo sugerido;
-    1- Base c·lculo ? Margem de valor agregado;
-    2- Base de c·lculo referente ‡ Lista Negativa;
-    3- Base de c·lculo referente ‡ Lista Positiva;
-    4- Base de c·lculo referente ‡ Lista Neutra
+     * Indicador de tipo de refer√™ncia da base de c√°lculo
+    do ICMS (ST) do produto farmac√™utico:
+    0- Base de c√°lculo referente ao pre√ßo tabelado ou
+    pre√ßo m√°ximo sugerido;
+    1- Base c√°lculo ? Margem de valor agregado;
+    2- Base de c√°lculo referente √† Lista Negativa;
+    3- Base de c√°lculo referente √† Lista Positiva;
+    4- Base de c√°lculo referente √† Lista Neutra
      */
     public static final String TP_PROD = "TP_PROD";
     /*
      * Tipo de produto:
     0- Similar;
-    1- GenÈrico;
-    2- …tico ou de marca;
+    1- Gen√©rico;
+    2- √âtico ou de marca;
      */
     public static final String VL_TAB_MAX = "VL_TAB_MAX";
     /*
-     * Valor do preÁo tabelado ou valor do preÁo m·ximo
+     * Valor do pre√ßo tabelado ou valor do pre√ßo m√°ximo
      */
 
     public RC173() {

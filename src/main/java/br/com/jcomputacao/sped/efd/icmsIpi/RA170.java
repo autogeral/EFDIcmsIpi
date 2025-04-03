@@ -27,11 +27,11 @@ public class RA170 extends LineArchetype{
      */    
     public static final String COD_ITEM = "COD_ITEM";
     /**
-     * Descrição complementardo item como adotado no documento fiscal
+     * DescriÃ§Ã£o complementardo item como adotado no documento fiscal
      */
     public static final String DESCR_COMPL = "DESCR_COMPL";
     /**
-     * Valor total do item(mercadorias ou serviços)
+     * Valor total do item(mercadorias ou serviÃ§os)
      */
     public static final String VL_ITEM = "VL_ITEM";
     /**
@@ -42,21 +42,21 @@ public class RA170 extends LineArchetype{
      * Codigo da Base de Calculo do credito, conforme a tabela indicada no item
      * 4.3.7, caso seja informado codigo representativo de credito no campo 09
      * (CST_PIS) ou no campo 13 (CST_COFINS). Campo especifico para documentos
-     * de serviços tomados, que geram direito a credito de PIS/COFINS. Para
-     * serviços prestados gerar vazio.
+     * de serviÃ§os tomados, que geram direito a credito de PIS/COFINS. Para
+     * serviÃ§os prestados gerar vazio.
      */
     public static final String NAT_BC_CRED = "NAT_BC_CRED";
     /**
      * Indicador da origem do credito
-     * 0 - Operação no mercado interno.
-     * 1 - Operação de importação.
+     * 0 - OperaÃ§Ã£o no mercado interno.
+     * 1 - OperaÃ§Ã£o de importaÃ§Ã£o.
      * 
-     * Campo especifico para documentos de serviços tomados, que geram direito
-     * a credito de PIS/COFINS. Para serviços prestados gerar vazio.
+     * Campo especifico para documentos de serviÃ§os tomados, que geram direito
+     * a credito de PIS/COFINS. Para serviÃ§os prestados gerar vazio.
      */
     public static final String IND_ORIG_CRED = "IND_ORIG_CRED";
     /**
-     * Codigo da situação tributaria referente ao PIS/PASEP - Tabela 4.3.3
+     * Codigo da situaÃ§Ã£o tributaria referente ao PIS/PASEP - Tabela 4.3.3
      */
     public static final String CST_PIS = "CST_PIS";
 

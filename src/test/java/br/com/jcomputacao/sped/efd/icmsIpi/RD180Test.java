@@ -16,7 +16,7 @@ import org.junit.Test;
 public class RD180Test {
  
     @Test
-    public void RD180Test1() throws ParseException{ //Emiss„o PrÛpria
+    public void RD180Test1() throws ParseException{ //Emiss√£o Pr√≥pria
     
         RD180 r = new RD180();
         
@@ -53,7 +53,7 @@ public class RD180Test {
     }
     
     @Test
-    public void RD180Test2() throws ParseException{ //Emiss„o de Terceiros
+    public void RD180Test2() throws ParseException{ //Emiss√£o de Terceiros
     
         RD180 r = new RD180();
         

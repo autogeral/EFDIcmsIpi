@@ -23,58 +23,58 @@ public class RD190 extends LineArchetype{
     */
    public static final String CST_ICMS = "CST_ICMS";
    /*
-    * CÛdigo da SituaÁ„o Tribut·ria, 
+    * C√≥digo da Situa√ß√£o Tribut√°ria, 
     * conforme a tabela indicada no item 4.3.1
-    Nos documentos fiscais de emiss„o prÛpria o campo dever· ser preenchido com o cÛdigo da
-    SituaÁ„o Tribut·ria sob o enfoque do declarante. Nas operaÁıes de entradas (documentos de terceiros), informar o CST que
-    constar no documento fiscal de aquisiÁ„o de serviÁos. A partir de julho de 2012, nas operaÁıes de aquisiÁıes de
-    serviÁos o CST_ICMS dever· ser informado sob o enfoque do declarante.
-    ValidaÁ„o: o valor informado no campo deve existir na Tabela da SituaÁ„o Tribut·ria referente ao ICMS, indicada no item
-    4.3.1 do Ato COTEPE/ICMS n∫ 09, de 18 de abril de 2008, sendo que o primeiro caractere sempre ser· Zero.
-    O campo VL_RED_BC sÛ pode ser preenchido se os dois ˙ltimos dÌgitos do campo CST_ICMS forem iguais a 20 ou 70. O
-    primeiro caractere do cÛdigo do CST dever· ser igual a 0 (zero).
+    Nos documentos fiscais de emiss√£o pr√≥pria o campo dever√° ser preenchido com o c√≥digo da
+    Situa√ß√£o Tribut√°ria sob o enfoque do declarante. Nas opera√ß√µes de entradas (documentos de terceiros), informar o CST que
+    constar no documento fiscal de aquisi√ß√£o de servi√ßos. A partir de julho de 2012, nas opera√ß√µes de aquisi√ß√µes de
+    servi√ßos o CST_ICMS dever√° ser informado sob o enfoque do declarante.
+    Valida√ß√£o: o valor informado no campo deve existir na Tabela da Situa√ß√£o Tribut√°ria referente ao ICMS, indicada no item
+    4.3.1 do Ato COTEPE/ICMS n¬∫ 09, de 18 de abril de 2008, sendo que o primeiro caractere sempre ser√° Zero.
+    O campo VL_RED_BC s√≥ pode ser preenchido se os dois √∫ltimos d√≠gitos do campo CST_ICMS forem iguais a 20 ou 70. O
+    primeiro caractere do c√≥digo do CST dever√° ser igual a 0 (zero).
     * 
     */
    public static final String CFOP = "CFOP";   
    /*
-    * CÛdigo Fiscal de OperaÁ„o e PrestaÁ„o,
+    * C√≥digo Fiscal de Opera√ß√£o e Presta√ß√£o,
     * conforme a tabela indicada no item 4.2.2
-    informar o cÛdigo aplic·vel ‡ prestaÁ„o de serviÁo constante no documento. 
-    * N„o podem ser utilizados cÛdigos que correspondam aos tÌtulos dos agrupamentos de CFOP (cÛdigos com caracteres finais 00 ou 50.
+    informar o c√≥digo aplic√°vel √† presta√ß√£o de servi√ßo constante no documento. 
+    * N√£o podem ser utilizados c√≥digos que correspondam aos t√≠tulos dos agrupamentos de CFOP (c√≥digos com caracteres finais 00 ou 50.
     * Por exemplo: 5100).
      
-     ValidaÁ„o: o valor informado no campo deve existir na Tabela de CÛdigo Fiscal de OperaÁ„o e PrestaÁ„o,
+     Valida√ß√£o: o valor informado no campo deve existir na Tabela de C√≥digo Fiscal de Opera√ß√£o e Presta√ß√£o,
      conforme Ajuste SINIEF 07/01.
     */
    
    public static final String ALIQ_ICMS = "ALIQ_ICMS";
    /*
-    * AlÌquota do ICMS
+    * Al√≠quota do ICMS
     */
    public static final String VL_OPR = "VL_OPR";
    /*
-    * Valor da operaÁ„o correspondente ‡ combinaÁ„o de CST_ICMS, CFOP, e alÌquota do ICMS.
+    * Valor da opera√ß√£o correspondente √† combina√ß√£o de CST_ICMS, CFOP, e al√≠quota do ICMS.
     */
    public static final String VL_BC_ICMS = "VL_BC_ICMS";
    /*
-    * Parcela correspondente ao "Valor da base de c·lculo do ICMS" referente ‡ combinaÁ„o
-     CST_ICMS, CFOP, e alÌquota do ICMS
+    * Parcela correspondente ao "Valor da base de c√°lculo do ICMS" referente √† combina√ß√£o
+     CST_ICMS, CFOP, e al√≠quota do ICMS
     o valor informado deve ser igual ao valor do campo VL_BC_ICMS do registro D100,
      pai deste registro D190.
     */
    public static final String VL_ICMS = "VL_ICMS";
    /*
-    * Parcela correspondente ao "Valor do ICMS" referente ‡ combinaÁ„o CST_ICMS, CFOP e
-      alÌquota do ICMS
+    * Parcela correspondente ao "Valor do ICMS" referente √† combina√ß√£o CST_ICMS, CFOP e
+      al√≠quota do ICMS
     */
    public static final String VL_RED_BC = "VL_RED_BC";
    /*
-    * Valor n„o tributado em funÁ„o da reduÁ„o da base de c·lculo do ICMS,
-    * referente ‡ combinaÁ„o de CST_ICMS, CFOP e alÌquota do ICMS.
+    * Valor n√£o tributado em fun√ß√£o da redu√ß√£o da base de c√°lculo do ICMS,
+    * referente √† combina√ß√£o de CST_ICMS, CFOP e al√≠quota do ICMS.
     */
    public static final String COD_OBS = "COD_OBS";
    /*
-    * CÛdigo da observaÁ„o do lanÁamento fiscal(campo 02 do Registro 0460)
+    * C√≥digo da observa√ß√£o do lan√ßamento fiscal(campo 02 do Registro 0460)
     */
    
    public RD190(){

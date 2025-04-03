@@ -21,7 +21,7 @@ public class RC610 extends LineArchetype {
     
     
   /*
-  * 2 - Código de classificação do item de energia elétrica, conforme Tabela 4.4.1
+  * 2 - CÃ³digo de classificaÃ§Ã£o do item de energia elÃ©trica, conforme Tabela 4.4.1
 
   */  
    public static final String COD_CLASS = "COD_CLASS"; 
@@ -32,7 +32,7 @@ public class RC610 extends LineArchetype {
    
    
    /*
-  *  3 - Código do item (campo 02 do Registro 0200)
+  *  3 - CÃ³digo do item (campo 02 do Registro 0200)
 
   */ 
     public static final String  COD_ITEM = "COD_ITEM";
@@ -89,7 +89,7 @@ public class RC610 extends LineArchetype {
         
         
    /*
-  * 8 -  Código da Situação Tributária, conforme a Tabela indicada no item 4.3.1
+  * 8 -  CÃ³digo da SituaÃ§Ã£o TributÃ¡ria, conforme a Tabela indicada no item 4.3.1
 
   */ 
          public static final String CST_ICMS = "CST_ICMS";
@@ -102,7 +102,7 @@ public class RC610 extends LineArchetype {
          
    
    /*
-  * 9 - Código Fiscal de Operação e Prestação conforme tabela indicada no item 4.2.2.
+  * 9 - CÃ³digo Fiscal de OperaÃ§Ã£o e PrestaÃ§Ã£o conforme tabela indicada no item 4.2.2.
 
 
   */  
@@ -115,7 +115,7 @@ public class RC610 extends LineArchetype {
           
           
    /*
-  * 10 -Alíquota do ICMS
+  * 10 -AlÃ­quota do ICMS
 
   */  
            public static final String  ALIQ_ICMS = " ALIQ_ICMS";
@@ -127,7 +127,7 @@ public class RC610 extends LineArchetype {
            
            
    /*
-  * 11 -  Valor acumulado da base de cálculo do ICMS
+  * 11 -  Valor acumulado da base de cÃ¡lculo do ICMS
 
   */  
             public static final String  VL_BC_ICMS = " VL_BC_ICMS";
@@ -150,7 +150,7 @@ public class RC610 extends LineArchetype {
              
              
    /*
-  * 13 -  Valor da base de cálculo do ICMS substituição tributária
+  * 13 -  Valor da base de cÃ¡lculo do ICMS substituiÃ§Ã£o tributÃ¡ria
 
 
   */  
@@ -163,7 +163,7 @@ public class RC610 extends LineArchetype {
               
               
    /*
-  * 14 -  Valor do ICMS retido por substituição tributária
+  * 14 -  Valor do ICMS retido por substituiÃ§Ã£o tributÃ¡ria
 
   */  
                public static final String  VL_ICMS_ST  = " VL_ICMS_ST ";
@@ -197,7 +197,7 @@ public class RC610 extends LineArchetype {
                  
                  
    /*
-  * 17 - Código da conta analítica contábil debitada/creditada
+  * 17 - CÃ³digo da conta analÃ­tica contÃ¡bil debitada/creditada
 
 
   */  

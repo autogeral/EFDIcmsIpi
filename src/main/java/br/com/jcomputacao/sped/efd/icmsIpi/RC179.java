@@ -19,23 +19,23 @@ public static final String REGISTRO = "REG";
  */
 public static final String BC_ST_ORIG_DEST = "BC_ST_ORIG_DEST";
 /*
- * Valor da base de c·lculo ST na origem/destino em operaÁıes interestaduais
+ * Valor da base de c√°lculo ST na origem/destino em opera√ß√µes interestaduais
  */
 public static final String ICMS_ST_REP = "ICMS_ST_REP";
 /*
- * Valor do ICMS-ST a repassar/deduzir em operaÁıes interestaduais
+ * Valor do ICMS-ST a repassar/deduzir em opera√ß√µes interestaduais
  */
 public static final String ICMS_ST_COMPL = "ICMS_ST_COMPL";
 /*
- * Valor do ICMS-ST a complementar ‡ UF de destino
+ * Valor do ICMS-ST a complementar √† UF de destino
  */
 public static final String BC_RET = "BC_RET";
 /*
- * Valor da BC de retenÁ„o em remessa promovida por SubstituÌdo intermedi·rio
+ * Valor da BC de reten√ß√£o em remessa promovida por Substitu√≠do intermedi√°rio
  */
 public static final String ICMS_RET = "ICMS_RET";
 /*
- * Valor da parcela do imposto retido em remessa promovida por substituÌdo intermedi·rio
+ * Valor da parcela do imposto retido em remessa promovida por substitu√≠do intermedi√°rio
  */
 
     public RC179() {

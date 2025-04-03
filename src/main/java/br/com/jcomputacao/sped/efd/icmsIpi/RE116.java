@@ -18,29 +18,29 @@ public class RE116 extends LineArchetype {
      
      
       /*
-      * 2 -  Código da obrigação a recolher, conforme a Tabela 5.4
+      * 2 -  CÃ³digo da obrigaÃ§Ã£o a recolher, conforme a Tabela 5.4
       */
       public static final String   COD_OR = "COD_OR";
   
   /*
-      * 3 -   Valor da obrigação a recolhe
+      * 3 -   Valor da obrigaÃ§Ã£o a recolhe
       */
      public static final String  VL_OR = "VL_OR";
      
       /*
-      * 4 -  Data de vencimento da obrigação
+      * 4 -  Data de vencimento da obrigaÃ§Ã£o
       */
      public static final String DT_VCTO = "DT_VCTO";
      
      /*
-      * 5 -  Código de receita referente à obrigação, próprio da unidade da federação, conforme legislação estadual,
+      * 5 -  CÃ³digo de receita referente Ã  obrigaÃ§Ã£o, prÃ³prio da unidade da federaÃ§Ã£o, conforme legislaÃ§Ã£o estadual,
       */
      
      public static final String   COD_REC  = " COD_REC ";
      
      
       /*
-      * 6 -   Número do processo ou auto de infração ao qual a obrigação está vinculada, se houver.
+      * 6 -   NÃºmero do processo ou auto de infraÃ§Ã£o ao qual a obrigaÃ§Ã£o estÃ¡ vinculada, se houver.
 
       */
      public static final String  NUM_PROC = " NUM_PROC";
@@ -48,15 +48,15 @@ public class RE116 extends LineArchetype {
      
      /*
       * 7 -   Indicador da origem do processo: 0- SEFAZ;
-      * 1- Justiça Federal;
-      * 2- Justiça Estadual;
+      * 1- JustiÃ§a Federal;
+      * 2- JustiÃ§a Estadual;
       * 9- Outros
       */
      public static final String  IND_PROC = " IND_PROC";
      
      
      /*
-      * 8 -  Descrição resumida do processo que embasou o lançamento
+      * 8 -  DescriÃ§Ã£o resumida do processo que embasou o lanÃ§amento
 
       */
      
@@ -64,14 +64,14 @@ public class RE116 extends LineArchetype {
      
      
      /*
-      * 9 -  Descrição complementar das obrigações a recolher. 
+      * 9 -  DescriÃ§Ã£o complementar das obrigaÃ§Ãµes a recolher. 
 
       */
      
     public static final String TXT_COMPL = "TXT_COMPL";
     
     /*
-      * 10 -   Informe o mês de referência no formato ?mmaaaa? 
+      * 10 -   Informe o mÃªs de referÃªncia no formato ?mmaaaa? 
 
       */
     public static final String  MES_REF = " MES_REF";

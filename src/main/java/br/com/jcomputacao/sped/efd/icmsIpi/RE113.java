@@ -18,9 +18,9 @@ public class RE113 extends LineArchetype {
     
     
      /*
-      * 2 -  C骴igo do participante (campo 02 do Registro 0150): 
+      * 2 -  C贸digo do participante (campo 02 do Registro 0150): 
       * - do emitente do documento ou do remetente das mercadorias, 
-      * no caso de entradas; - do adquirente, no caso de sa韉as
+      * no caso de entradas; - do adquirente, no caso de sa铆das
  
       */
     public static final String COD_PART = "COD_PART";
@@ -28,7 +28,7 @@ public class RE113 extends LineArchetype {
     
     
     /*
-      * 3 -  C骴igo do modelo do documento fiscal, conforme a Tabela 4.1.1
+      * 3 -  C贸digo do modelo do documento fiscal, conforme a Tabela 4.1.1
       */
     
     
@@ -38,7 +38,7 @@ public class RE113 extends LineArchetype {
     
     /*
       *   
-      * 4 -  C骴igo do modelo do documento fiscal, conforme a Tabela 4.1.1
+      * 4 -  C贸digo do modelo do documento fiscal, conforme a Tabela 4.1.1
       */
     public static final String SER = "SER";
     
@@ -54,7 +54,7 @@ public class RE113 extends LineArchetype {
     
      /*
       *   
-      * 6 - N鷐ero do documento fiscal
+      * 6 - N煤mero do documento fiscal
       */
    public static final String NUM_DOC = "NUM_DOC";
    
@@ -62,21 +62,21 @@ public class RE113 extends LineArchetype {
    
     /*
       *   
-      * 7 -  Data da emiss鉶 do documento fiscal 
+      * 7 -  Data da emiss茫o do documento fiscal 
       */
    public static final String DT_DOC = "DT_DOC";
    
    
     /*
       *   
-      * 8 -  C骴igo do item (campo 02 do Registro 0200)
+      * 8 -  C贸digo do item (campo 02 do Registro 0200)
       */
    public static final String COD_ITEM = "COD_ITEM";
    
    
    /*
       *   
-      * 9 -  Valor do ajuste para a opera玢o/item
+      * 9 -  Valor do ajuste para a opera莽茫o/item
       */
    public static final String VL_AJ_ITEM = "VL_AJ_ITEM";
    

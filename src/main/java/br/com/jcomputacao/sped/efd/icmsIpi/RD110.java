@@ -21,19 +21,19 @@ public class RD110 extends LineArchetype{
     //2
     public static final String NUM_ITEM = "NUM_ITEM";
     /*
-     * Número sequencial do item no documento fiscal
+     * NÃºmero sequencial do item no documento fiscal
      */
     
     //3
     public static final String COD_ITEM = "COD_ITEM";
     /*
-     * Código do item (campo 02 do Registro 0200)
+     * CÃ³digo do item (campo 02 do Registro 0200)
      */
     
     //4
     public static final String VL_SERV = "VL_SERV";
     /*
-     * Valor do serviço
+     * Valor do serviÃ§o
      */
     
     //5

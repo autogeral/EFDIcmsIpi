@@ -21,7 +21,7 @@ public class R0500 extends LineArchetype {
      * <ul>
      * <li>01 - Contas de ativo;</li>
      * <li>02 - Contas de passivo;</li>
-     * <li>03 - Patrimônio liquido;</li>
+     * <li>03 - PatrimÃ´nio liquido;</li>
      * <li>04 - Contas de resultado;</li>
      * <li>05 - Contas de compensacao; 09 - Outras.</li>
      * </ul>

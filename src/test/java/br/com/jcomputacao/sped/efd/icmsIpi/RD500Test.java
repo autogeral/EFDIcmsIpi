@@ -16,7 +16,7 @@ import org.junit.Test;
 public class RD500Test {
 
     @Test
-    public void RD500Test1() throws ParseException{// Somente itens obrigatórios
+    public void RD500Test1() throws ParseException{// Somente itens obrigatÃ³rios
         
         RD500 r = new RD500();
        

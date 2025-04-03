@@ -21,8 +21,8 @@ public static final String REGISTRO = "REG";
 
 public static final String IND_OPER = "IND_OPER";
 /*
- * Indicador do tipo de operação:
-    1- Sa�da
+ * Indicador do tipo de operaÃ§Ã£o:
+    1- Saï¿½da
  */
 
 
@@ -31,7 +31,7 @@ public static final String IND_OPER = "IND_OPER";
 public static final String IND_EMIT = "IND_EMIT";
 /*
  * Indicador do emitente do documento fiscal:
-    0- Emissão própria
+    0- EmissÃ£o prÃ³pria
  */
 
 
@@ -39,8 +39,8 @@ public static final String IND_EMIT = "IND_EMIT";
 
 public static final String COD_PART = "COD_PART";
 /*
- * Código do participante (campo 02 do Registro 0150):
-   - do adquirente, no caso das sa�das.
+ * CÃ³digo do participante (campo 02 do Registro 0150):
+   - do adquirente, no caso das saï¿½das.
  */
 
 
@@ -48,7 +48,7 @@ public static final String COD_PART = "COD_PART";
 
 public static final String COD_MOD = "COD_MOD";
 /*
- * Código do modelo do documento fiscal, conforme a Tabela 4.1.1
+ * CÃ³digo do modelo do documento fiscal, conforme a Tabela 4.1.1
  */
 
 
@@ -56,7 +56,7 @@ public static final String COD_MOD = "COD_MOD";
 
 public static final String COD_SIT = "COD_SIT";
 /*
- * Código da situação do documento fiscal, conforme a Tabela 4.1.2
+ * CÃ³digo da situaÃ§Ã£o do documento fiscal, conforme a Tabela 4.1.2
  */
 
 
@@ -64,7 +64,7 @@ public static final String COD_SIT = "COD_SIT";
 
 public static final String SER = "SER";
 /*
- * S�rie do documento fiscal
+ * Sï¿½rie do documento fiscal
  */
 
 
@@ -72,7 +72,7 @@ public static final String SER = "SER";
 
 public static final String SUB = "SUB";
 /*
- * Subs�rie do documento fiscal
+ * Subsï¿½rie do documento fiscal
  */
 
 
@@ -80,15 +80,15 @@ public static final String SUB = "SUB";
 
 public static final String COD_CONS = "COD_CONS";
 /*
- * Código de classe de consumo de energia elétrica:
+ * CÃ³digo de classe de consumo de energia elÃ©trica:
 01 - Comercial
-02 - Consumo Pr�prio
-03 - Iluminação P�blica
+02 - Consumo Prï¿½prio
+03 - IluminaÃ§Ã£o Pï¿½blica
 04 - Industrial
-05 - Poder P�blico
+05 - Poder Pï¿½blico
 06 - Residencial
 07 - Rural
-08 -Servi�o P�blico
+08 -Serviï¿½o Pï¿½blico
  */
 
 
@@ -97,7 +97,7 @@ public static final String COD_CONS = "COD_CONS";
 
 public static final String NUM_DOC = "NUM_DOC"; 
 /*
- * N�mero do documento fiscal
+ * Nï¿½mero do documento fiscal
  */
 
 
@@ -105,7 +105,7 @@ public static final String NUM_DOC = "NUM_DOC";
 
 public static final String DT_DOC = "DT_DOC";
 /*
- * Data da emissão do documento fiscal
+ * Data da emissÃ£o do documento fiscal
  */
 
 
@@ -113,7 +113,7 @@ public static final String DT_DOC = "DT_DOC";
 
 public static final String DT_E_S = "DT_E_S";
 /*
- * Data da entrada ou da sa�da
+ * Data da entrada ou da saï¿½da
  */
 
 
@@ -145,7 +145,7 @@ public static final String VL_FORN = "VL_FORN";
 
 public static final String VL_SERV_NT = "VL_SERV_NT";
 /*
- * Valor total dos servi�os n�o-tributados pelo ICMS
+ * Valor total dos serviï¿½os nï¿½o-tributados pelo ICMS
  */
 
 
@@ -161,7 +161,7 @@ public static final String VL_TERC = "VL_TERC";
 
 public static final String VL_DA = "VL_DA";
 /*
- * Valor total de despesas acess�rias indicadas no documento fiscal
+ * Valor total de despesas acessï¿½rias indicadas no documento fiscal
  */
 
 
@@ -169,7 +169,7 @@ public static final String VL_DA = "VL_DA";
 
 public static final String VL_BC_ICMS = "VL_BC_ICMS";
 /*
- * Valor acumulado da base de c�lculo do ICMS
+ * Valor acumulado da base de cï¿½lculo do ICMS
  */
 
 
@@ -185,7 +185,7 @@ public static final String VL_ICMS = "VL_ICMS";
 
 public static final String VL_BC_ICMS_ST = "VL_BC_ICMS_ST";
 /*
- *Valor acumulado da base de c�lculo do ICMS substituição tribut�ria 
+ *Valor acumulado da base de cï¿½lculo do ICMS substituiÃ§Ã£o tributï¿½ria 
  */
 
 
@@ -193,7 +193,7 @@ public static final String VL_BC_ICMS_ST = "VL_BC_ICMS_ST";
 
 public static final String VL_ICMS_ST = "VL_ICMS_ST";
 /*
- * Valor acumulado do ICMS retido por substituição tribut�ria
+ * Valor acumulado do ICMS retido por substituiÃ§Ã£o tributï¿½ria
  */
 
 
@@ -201,7 +201,7 @@ public static final String VL_ICMS_ST = "VL_ICMS_ST";
 
 public static final String COD_INF = "COD_INF";
 /*
- * Código da informação complementar do documento fiscal (campo 02 do Registro 0450)
+ * CÃ³digo da informaÃ§Ã£o complementar do documento fiscal (campo 02 do Registro 0450)
  */
 
 
@@ -225,10 +225,10 @@ public static final String VL_COFINS = "VL_COFINS";
 
 public static final String TP_LIGACAO = "TP_LIGACAO";
 /*
- * Código de tipo de Ligação
-    1 - Monof�sico
-    2 - Bif�sico
-    3 - Trif�sico
+ * CÃ³digo de tipo de LigaÃ§Ã£o
+    1 - Monofï¿½sico
+    2 - Bifï¿½sico
+    3 - Trifï¿½sico
  */
 
 
@@ -236,21 +236,21 @@ public static final String TP_LIGACAO = "TP_LIGACAO";
 
 public static final String COD_GRUPO_TENSAO = "COD_GRUPO_TENSAO";
 /*
- * Código de grupo de tens�o:
-    01 - A1 - Alta Tens�o (230kV ou mais)
-    02 - A2 - Alta Tens�o (88 a 138kV)
-    03 - A3 - Alta Tens�o (69kV)
-    04 - A3a - Alta Tens�o (30kV a 44kV)
-    05 - A4 - Alta Tens�o (2,3kV a 25kV)
-    06 - AS - Alta Tens�o Subterr�neo 06
+ * CÃ³digo de grupo de tensï¿½o:
+    01 - A1 - Alta Tensï¿½o (230kV ou mais)
+    02 - A2 - Alta Tensï¿½o (88 a 138kV)
+    03 - A3 - Alta Tensï¿½o (69kV)
+    04 - A3a - Alta Tensï¿½o (30kV a 44kV)
+    05 - A4 - Alta Tensï¿½o (2,3kV a 25kV)
+    06 - AS - Alta Tensï¿½o Subterrï¿½neo 06
     07 - B1 - Residencial 07
     08 - B1 - Residencial Baixa Renda 08
     09 - B2 - Rural 09
-    10 - B2 - Cooperativa de Eletrificação Rural
-    11 - B2 - Servi�o P�blico de Irrigação
+    10 - B2 - Cooperativa de EletrificaÃ§Ã£o Rural
+    11 - B2 - Serviï¿½o Pï¿½blico de IrrigaÃ§Ã£o
     12 - B3 - Demais Classes
-    13 - B4a - Iluminação P�blica - rede de distribuição
-    14 - B4b - Iluminação P�blica - bulbo de l�mpada
+    13 - B4a - IluminaÃ§Ã£o Pï¿½blica - rede de distribuiÃ§Ã£o
+    14 - B4b - IluminaÃ§Ã£o Pï¿½blica - bulbo de lï¿½mpada
  */
 
 

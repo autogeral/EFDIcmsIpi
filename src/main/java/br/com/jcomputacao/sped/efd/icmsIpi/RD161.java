@@ -20,39 +20,39 @@ public class RD161 extends LineArchetype {
     /*
       Indicador do tipo de transporte da carga
         coletada:
-        0-Rodovi·rio
-        1-Ferrovi·rio
-        2-Rodo-Ferrovi·rio
-        3-Aquavi·rio
-        4-Dutovi·rio
-        5-AÈreo
+        0-Rodovi√°rio
+        1-Ferrovi√°rio
+        2-Rodo-Ferrovi√°rio
+        3-Aquavi√°rio
+        4-Dutovi√°rio
+        5-A√©reo
         9-Outros
      */
     
     public static final String CNPJ_CPF_COL  = "CNPJ_CPF_COL";
     /*
-     * N˙mero do CNPJ ou CPF do local da coleta
+     * N√∫mero do CNPJ ou CPF do local da coleta
      */
     public static final String IE_COL        = "IE_COL";
     /*
-     *InscriÁ„o Estadual do contribuinte do local de coleta 
+     *Inscri√ß√£o Estadual do contribuinte do local de coleta 
      */
     public static final String COD_MUN_COL   = "COD_MUN_COL";        
     /*
-     * CÛdigo do MunicÌpio do local de coleta,conforme tabela IBGE
+     * C√≥digo do Munic√≠pio do local de coleta,conforme tabela IBGE
      * (Preencher com 9999999, se Exterior)
      */
     public static final String CNPJ_CPF_ENTG = "CNPJ_CPF_ENTG"; 
     /*
-     * N˙mero do CNPJ ou CPF do local da entrega
+     * N√∫mero do CNPJ ou CPF do local da entrega
      */
     public static final String IE_ENTG       = "IE_ENTG";
     /*
-     * InscriÁ„o Estadual do contribuinte do local de entrega
+     * Inscri√ß√£o Estadual do contribuinte do local de entrega
      */
     public static final String COD_MUN_ENTG  = "COD_MUN_ENTG";
     /*
-      CÛdigo do MunicÌpio do local de entrega,conforme tabela IBGE
+      C√≥digo do Munic√≠pio do local de entrega,conforme tabela IBGE
       (Preencher com 9999999, se Exterior)
      */
 

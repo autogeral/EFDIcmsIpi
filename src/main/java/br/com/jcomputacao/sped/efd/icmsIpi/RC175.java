@@ -19,23 +19,23 @@ public class RC175 extends LineArchetype{
      */
     public static final String IND_VEIC_OPER = "IND_VEIC_OPER";
     /*
-     * 0- Venda para concessionária;
+     * 0- Venda para concessionÃ¡ria;
         1- Faturamento direto;
         2- Venda direta;
-        3- Venda da concessionária;
+        3- Venda da concessionÃ¡ria;
         9- Outros
      */
     public static final String CNPJ = "CNPJ";
     /*
-     * CNPJ da Concessionária
+     * CNPJ da ConcessionÃ¡ria
      */
     public static final String UF = "UF";
     /*
-     * Sigla da unidade da federação da Concessionária 
+     * Sigla da unidade da federaÃ§Ã£o da ConcessionÃ¡ria 
      */
     public static final String CHASSI_VEIC = "CHASSI_VEIC";
     /*
-     * Chassi do veículo
+     * Chassi do veÃ­culo
      */
 
     public RC175() {

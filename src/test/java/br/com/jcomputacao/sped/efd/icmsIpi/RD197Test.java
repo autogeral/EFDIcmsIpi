@@ -11,7 +11,7 @@ import org.junit.Test;
 public class RD197Test {
 
     @Test
-    public void RD197Test1(){ // Sem descriÁ„o
+    public void RD197Test1(){ // Sem descri√ß√£o
     
         RD197 r = new RD197();
         
@@ -36,14 +36,14 @@ public class RD197Test {
     }
     
      @Test
-    public void RD197Test2(){ // Com descriÁ„o
+    public void RD197Test2(){ // Com descri√ß√£o
     
         RD197 r = new RD197();
         
         LineModel model = r.createModel();
         
         model.setFieldValue(r.COD_AJ, "1521569874");
-        model.setFieldValue(r.DESCR_COMPL_AJ,"Os documentos fiscais dever„o ser fornecidos sempre que ocorrer o fornecimento de um bem ou prestacao de servicos, ainda que a saida ou a prestacao do servico esteja isenta ou imune do pagamento de impostos");
+        model.setFieldValue(r.DESCR_COMPL_AJ,"Os documentos fiscais dever√£o ser fornecidos sempre que ocorrer o fornecimento de um bem ou prestacao de servicos, ainda que a saida ou a prestacao do servico esteja isenta ou imune do pagamento de impostos");
         model.setFieldValue(r.COD_ITEM, "000116D");
         model.setFieldValue(r.VL_BC_ICMS, 1500.00);
         model.setFieldValue(r.ALIQ_ICMS, 123.11);
@@ -52,7 +52,7 @@ public class RD197Test {
         
         StringBuffer sb = model.getRepresentation();
         String result = sb.toString();
-        String expected = "|D197|1521569874|Os documentos fiscais dever„o ser fornecidos sempre que ocorrer o fornecimento de um bem ou prestacao de servicos, ainda que a saida ou a prestacao do servico esteja isenta ou imune do pagamento de impostos|000116D|1500,00|123,11|1000,00|100,50|";
+        String expected = "|D197|1521569874|Os documentos fiscais dever√£o ser fornecidos sempre que ocorrer o fornecimento de um bem ou prestacao de servicos, ainda que a saida ou a prestacao do servico esteja isenta ou imune do pagamento de impostos|000116D|1500,00|123,11|1000,00|100,50|";
                          
         System.out.println("Excecting ....  : " + expected);
         System.out.println("Result    ....  : " + result);

@@ -20,12 +20,12 @@ public class RD301 extends LineArchetype{
       */
      public static final String NUM_DOC_CANC = "NUM_DOC_CANC";    
      /*
-      * N˙mero do documento fiscal cancelado
+      * N√∫mero do documento fiscal cancelado
       */
 
     public RD301() {
         
-        setName("REGISTRO D301: DOCUMENTOS CANCELADOS DOS BILHETES DE PASSAGEM RODOVIARIO (COD 13), DE PASSAGEM AQUAVIAIO (COD 14), DE PASSAGEM E NOTA DE BAGAGEM (COD 15) E DE PASSAGEM FERROVI¡RIO (COD 16)");
+        setName("REGISTRO D301: DOCUMENTOS CANCELADOS DOS BILHETES DE PASSAGEM RODOVIARIO (COD 13), DE PASSAGEM AQUAVIAIO (COD 14), DE PASSAGEM E NOTA DE BAGAGEM (COD 15) E DE PASSAGEM FERROVI√ÅRIO (COD 16)");
         setDelimiter("|");
         
         addFieldArchetype(REGISTRO, new FieldDefaultArchetype("D301"));

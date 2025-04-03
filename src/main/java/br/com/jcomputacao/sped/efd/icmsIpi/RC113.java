@@ -47,7 +47,7 @@ public class RC113 extends LineArchetype {
      */
     public static final String NUM_DOC   = "NUM_DOC";
     /**
-     * Data da emiss„o do documento fiscal.
+     * Data da emiss√£o do documento fiscal.
      */
     public static final String DT_DOC    = "DT_DOC";
     

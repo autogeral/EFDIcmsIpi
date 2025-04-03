@@ -23,15 +23,15 @@ public class RC165 extends LineArchetype{
      */
     public static final String VEIC_ID = "VEIC_ID";
     /*
-     * Placa de identificação do veOculo
+     * Placa de identificaÃ§Ã£o do veOculo
      */
     public static final String COD_AUT = "COD_AUT";
     /*
-     * COdigo da autorização fornecido pela SEFAZ (combustOveis)
+     * COdigo da autorizaÃ§Ã£o fornecido pela SEFAZ (combustOveis)
      */
     public static final String NR_PASSE = "NR_PASSE";
     /*
-     * Número do Passe Fiscal
+     * NÃºmero do Passe Fiscal
      */
     public static final String HORA = "HORA";
     /*
@@ -39,7 +39,7 @@ public class RC165 extends LineArchetype{
      */
     public static final String TEMPER = "TEMPER";
     /*
-     * Temperatura em graus Celsius utilizada para quantificação do volume de combustOvel
+     * Temperatura em graus Celsius utilizada para quantificaÃ§Ã£o do volume de combustOvel
      */
     public static final String QTD_VOL = "QTD_VOL";
     /*
@@ -68,7 +68,7 @@ public class RC165 extends LineArchetype{
 
     public RC165() {
     
-        setName("REGISTRO C165: OPERAÇOES COM COMBUSTOVEIS (CODIGO 01).");
+        setName("REGISTRO C165: OPERAÃ‡OES COM COMBUSTOVEIS (CODIGO 01).");
         setDelimiter("|");
         
        FormatWrapper fw = FormatFactory.getFormat(FormatType.DECIMAL);

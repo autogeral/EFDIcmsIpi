@@ -21,21 +21,21 @@ public class R1370  extends LineArchetype{
      
      public static final String NUM_BICO = "NUM_BICO";
      /*
-      * Número sequencial do bico ligado a bomba
+      * NÃºmero sequencial do bico ligado a bomba
       */
      
      
      
      public static final String COD_ITEM = "COD_ITEM";
      /*
-      * Código do Produto, constante do registro 0200
+      * CÃ³digo do Produto, constante do registro 0200
       */
      
      
      
      public static final String NUM_TANQUE = "NUM_TANQUE";
      /*
-      * Tanque que armazena o combustível.
+      * Tanque que armazena o combustÃ­vel.
       */
 
     

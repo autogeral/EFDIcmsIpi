@@ -21,7 +21,7 @@ public class RC700 extends LineArchetype {
     
     
     /*
- * 2 - Código do modelo do documento fiscal, conforme a Tabela 4.1.1 
+ * 2 - CÃ³digo do modelo do documento fiscal, conforme a Tabela 4.1.1 
  */
     public static final String COD_MOD = "COD_MOD";
     
@@ -32,7 +32,7 @@ public class RC700 extends LineArchetype {
     
     
     /*
- * 3 -  Série do documento fiscal
+ * 3 -  SÃ©rie do documento fiscal
  */
     public static final String SER = "SER";
     
@@ -43,7 +43,7 @@ public class RC700 extends LineArchetype {
     
     
     /*
- * 4 -  Número de ordem inicial 
+ * 4 -  NÃºmero de ordem inicial 
  */
     public static final String NRO_ORD_INI = "NRO_ORD_INI";
     
@@ -56,7 +56,7 @@ public class RC700 extends LineArchetype {
     
     
     /*
- * 5 -  Número de ordem final
+ * 5 -  NÃºmero de ordem final
  */
     public static final String  NRO_ORD_FIN = " NRO_ORD_FIN";
     
@@ -68,7 +68,7 @@ public class RC700 extends LineArchetype {
     
     
     /*
- * 6 - Data de emissão inicial dos documentos / Data inicial de vencimento da fatura
+ * 6 - Data de emissÃ£o inicial dos documentos / Data inicial de vencimento da fatura
  */
     public static final String  DT_DOC_INI = " DT_DOC_INI";
     
@@ -80,7 +80,7 @@ public class RC700 extends LineArchetype {
     
     
     /*
- * 7 -  Data de emissão final dos documentos / Data final do vencimento da fatura
+ * 7 -  Data de emissÃ£o final dos documentos / Data final do vencimento da fatura
 
  */
     public static final String  DT_DOC_FIN = " DT_DOC_FIN";
@@ -104,7 +104,7 @@ public class RC700 extends LineArchetype {
     
     
     /*
- * 9 - Chave de codificação digital do arquivo Mestre de Documento Fiscal 
+ * 9 - Chave de codificaÃ§Ã£o digital do arquivo Mestre de Documento Fiscal 
  */
     public static final String  CHV_COD_DIG = " CHV_COD_DIG";
     
@@ -116,7 +116,7 @@ public class RC700 extends LineArchetype {
     
 
     public RC700() {
-        setName("REGISTRO C700: CONSOLIDACAO DOS DOCUMENTOS NF/CONTA ENERGIA ELÉTRICA (COD 06), EMITIDAS EM VIA UNICA (EMPRESAS OBRIGADAS A ENTREGA DO ARQUIVO PREVISTO NO CONVENIO ICMS 115/03) E NOTA FISCAL/CONTA DE FORNECIMENTO DE GAS CANALIZADO (CODIGO 28) ");
+        setName("REGISTRO C700: CONSOLIDACAO DOS DOCUMENTOS NF/CONTA ENERGIA ELÃ‰TRICA (COD 06), EMITIDAS EM VIA UNICA (EMPRESAS OBRIGADAS A ENTREGA DO ARQUIVO PREVISTO NO CONVENIO ICMS 115/03) E NOTA FISCAL/CONTA DE FORNECIMENTO DE GAS CANALIZADO (CODIGO 28) ");
         setDelimiter("|");
         //1
         addFieldArchetype(REGISTRO, new FieldDefaultArchetype("C700"));

@@ -22,28 +22,28 @@ public class RE510 extends LineArchetype {
     public static final String REGISTRO = "REGISTRO";
     
     /*
-      *  2 -   Código Fiscal de Operação e Prestação do agrupamento de itens
+      *  2 -   CÃ³digo Fiscal de OperaÃ§Ã£o e PrestaÃ§Ã£o do agrupamento de itens
       */
         public static final String CFOP = "CFOP";
         
      /*
-      *  3 -  Código da Situação Tributária referente ao IPI, conforme a Tabela indicada no item 4.3.2.
+      *  3 -  CÃ³digo da SituaÃ§Ã£o TributÃ¡ria referente ao IPI, conforme a Tabela indicada no item 4.3.2.
       */ 
         public static final String  CST_IPI = " CST_IPI ";
      
         /*
-      *  4 -  Parcela correspondente ao "Valor Contábil" referente ao CFOP e ao Código de Tributação do IPI
+      *  4 -  Parcela correspondente ao "Valor ContÃ¡bil" referente ao CFOP e ao CÃ³digo de TributaÃ§Ã£o do IPI
 
       */ 
         public static final String  VL_CONT_IPI  = " VL_CONT_IPI ";
         
         /*
-      *  5 -   Parcela correspondente ao "Valor da base de cálculo do IPI" referente ao CFOP e ao Código de Tributação do IPI, para operações tributadas
+      *  5 -   Parcela correspondente ao "Valor da base de cÃ¡lculo do IPI" referente ao CFOP e ao CÃ³digo de TributaÃ§Ã£o do IPI, para operaÃ§Ãµes tributadas
       */ 
        public static final String  VL_BC_IPI = "VL_BC_IPI";
       
        /*
-       6 -  Parcela correspondente ao "Valor do IPI" referente ao CFOP e ao Código de Tributação do IPI, para operações tributadas
+       6 -  Parcela correspondente ao "Valor do IPI" referente ao CFOP e ao CÃ³digo de TributaÃ§Ã£o do IPI, para operaÃ§Ãµes tributadas
 
       */
        public static final String VL_IPI  = "VL_IPI ";

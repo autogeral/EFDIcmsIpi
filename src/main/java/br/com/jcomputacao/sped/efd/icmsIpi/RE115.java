@@ -19,21 +19,21 @@ public class RE115 extends LineArchetype {
     
     
      /*
-      * 2 -  Código da informação adicional conforme tabela a ser definida pelas 
+      * 2 -  CÃ³digo da informaÃ§Ã£o adicional conforme tabela a ser definida pelas 
       *  SEFAZ, conforme tabela definida no item 5.2.
       */
     public static final String COD_INF_ADIC = "COD_INF_ADIC";
     
     
     /*
-      * 3 - Valor referente à informação adicional
+      * 3 - Valor referente Ã  informaÃ§Ã£o adicional
       */
     public static final String VL_INF_ADIC = "VL_INF_ADIC ";
     
     
     
     /*
-      * 4 - Descrição complementar do ajuste
+      * 4 - DescriÃ§Ã£o complementar do ajuste
       */
     public static final String DESCR_COMPL_AJ = "DESCR_COMPL_AJ";
     

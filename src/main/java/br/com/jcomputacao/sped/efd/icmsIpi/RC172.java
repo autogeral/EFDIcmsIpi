@@ -19,11 +19,11 @@ public class RC172 extends LineArchetype {
      */
     public static final String VL_BC_ISSQN = "VL_BC_ISSQN";
     /*
-     * Valor da base de c·lculo do ISSQN
+     * Valor da base de c√°lculo do ISSQN
      */
     public static final String ALIQ_ISSQN = "ALIQ_ISSQN";
     /*
-     * AlÌquota do ISSQN
+     * Al√≠quota do ISSQN
      */
     public static final String VL_ISSQN = "VL_ISSQN";
     /*

@@ -19,12 +19,12 @@ public class RH020 extends LineArchetype {
   */
  public static final String REGISTRO = "REGISTRO";
    /*
-  *  2 -  Código da Situação Tribut�ria referente ao ICMS, conforme a Tabela indicada no item 4.3.1
+  *  2 -  CÃ³digo da SituaÃ§Ã£o Tributï¿½ria referente ao ICMS, conforme a Tabela indicada no item 4.3.1
  
   */
  public static final String CST_ICMS = "CST_ICMS";
    /*
-  *  3 - Informe a base de c�lculo do ICMS 
+  *  3 - Informe a base de cï¿½lculo do ICMS 
   */
  public static final String BC_ICMS = "BC_ICMS";
    /*

@@ -20,11 +20,11 @@ public class RD697 extends LineArchetype{
      */
     public static final String UF = "UF";
     /*
-     * Sigla da unidade da federação
+     * Sigla da unidade da federaÃ§Ã£o
      */
     public static final String VL_BC_ICMS = "VL_BC_ICMS";
     /*
-     * Valor da base de c�lculo do ICMS
+     * Valor da base de cï¿½lculo do ICMS
      */
     public static final String VL_ICMS = "VL_ICMS";
     /*

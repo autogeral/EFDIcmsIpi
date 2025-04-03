@@ -18,39 +18,39 @@ public static final String REGISTRO = "REG";
  */
 public static final String CST_ICMS = "CST_ICMS";
 /*
- * Código da Situação Tribut�ria, conforme a Tabela indicada no item 4.3.1
+ * CÃ³digo da SituaÃ§Ã£o Tributï¿½ria, conforme a Tabela indicada no item 4.3.1
  */
 public static final String CFOP = "CFOP";
 /*
- * Código Fiscal de Operação e Prestação
+ * CÃ³digo Fiscal de OperaÃ§Ã£o e PrestaÃ§Ã£o
  */
 public static final String ALIQ_ICMS = "ALIQ_ICMS";
 /*
- * Al�quota do ICMS
+ * Alï¿½quota do ICMS
  */
 public static final String VL_OPR = "VL_OPR";
 /*
- * Valor total acumulado das opera��es correspondentes � combinação de CST_ICMS,
-CFOP e al�quota do ICMS, inclu�das as despesas acess�rias e acr�scimos.
+ * Valor total acumulado das operaï¿½ï¿½es correspondentes ï¿½ combinaÃ§Ã£o de CST_ICMS,
+CFOP e alï¿½quota do ICMS, incluï¿½das as despesas acessï¿½rias e acrï¿½scimos.
  */
 public static final String VL_BC_ICMS = "VL_BC_ICMS";
 /*
- * Valor acumulado da base de c�lculo do ICMS, referente � combinação de CST_ICMS, CFOP, 
- * e al�quota do ICMS.
+ * Valor acumulado da base de cï¿½lculo do ICMS, referente ï¿½ combinaÃ§Ã£o de CST_ICMS, CFOP, 
+ * e alï¿½quota do ICMS.
  */
 public static final String VL_ICMS = "VL_ICMS";
 /*
- * Valor acumulado do ICMS, referente � combinação de CST_ICMS, CFOP e al�quota do
+ * Valor acumulado do ICMS, referente ï¿½ combinaÃ§Ã£o de CST_ICMS, CFOP e alï¿½quota do
 ICMS.
  */
 public static final String VL_RED_BC = "VL_RED_BC";
 /*
- * Valor n�o tributado em fun��o da redu��o da base de c�lculo do ICMS, 
- * referente � combinação de CST_ICMS, CFOP, e al�quota do ICMS
+ * Valor nï¿½o tributado em funï¿½ï¿½o da reduï¿½ï¿½o da base de cï¿½lculo do ICMS, 
+ * referente ï¿½ combinaÃ§Ã£o de CST_ICMS, CFOP, e alï¿½quota do ICMS
  */
 public static final String COD_OBS = "COD_OBS";
 /*
- * Código da observação do lan�amento fiscal (campo 02 do Registro 0460)
+ * CÃ³digo da observaÃ§Ã£o do lanï¿½amento fiscal (campo 02 do Registro 0460)
  */
 
     public RC320() {

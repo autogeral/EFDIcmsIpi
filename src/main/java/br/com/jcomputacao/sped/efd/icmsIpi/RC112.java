@@ -25,7 +25,7 @@ public class RC112 extends LineArchetype {
      */
     public static final String COD_DA    = "COD_DA";
     /**
-     * Unidade federada benefici·ria do recolhimento
+     * Unidade federada benefici√°ria do recolhimento
      */
     public static final String UF        = "UF";
     /**

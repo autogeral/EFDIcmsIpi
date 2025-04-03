@@ -13,12 +13,12 @@ public class RC509 extends LineArchetype{
     
     public static final String REGISTRO = "REG";
     /**
-     * Identificação do processo o ato concessório
+     * IdentificaÃ§Ã£o do processo o ato concessÃ³rio
      */
     public static final String NUM_PROC = "NUM_PROC";
     /**
      * Identificador da origem do processo?
-     * 1 - Justiça Federal.
+     * 1 - JustiÃ§a Federal.
      * 3 - Secretaria da receita federal do Brasil.
      * 9 - Outros.
      */

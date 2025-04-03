@@ -29,7 +29,7 @@ public class R1360  extends LineArchetype{
      
      public static final String DT_APLICACAO = "DT_APLICACAO";
      /*
-      * Data de aplicação do Lacre
+      * Data de aplicaÃ§Ã£o do Lacre
       */
 
      

@@ -22,7 +22,7 @@ public class RH010 extends LineArchetype {
      */
     public static final String REGISTRO = "REGISTRO ";
     /*
-     * 2 - Código do item (campo 02 do Registro 0200)  
+     * 2 - CÃ³digo do item (campo 02 do Registro 0200)  
      */
     public static final String COD_ITEM = " COD_ITEM ";
     /*
@@ -34,7 +34,7 @@ public class RH010 extends LineArchetype {
      */
     public static final String QTD = "QTD";
     /*
-     * 5 - Valor unitário do item 
+     * 5 - Valor unitÃ¡rio do item 
      */
     public static final String VL_UNIT = "VL_UNIT ";
     /*
@@ -47,15 +47,15 @@ public class RH010 extends LineArchetype {
      */
     public static final String IND_PROP = " IND_PROP";
     /*
-     * 8 - Código do participante (campo 02 do Registro 0150): - proprietário/possuidor que não seja o informante do arquivo 
+     * 8 - CÃ³digo do participante (campo 02 do Registro 0150): - proprietÃ¡rio/possuidor que nÃ£o seja o informante do arquivo 
      */
     public static final String COD_PART = " COD_PART ";
     /*
-     * 9 - Descrição complementar. 
+     * 9 - DescriÃ§Ã£o complementar. 
      */
     public static final String TXT_COMPL = "TXT_COMPL ";
     /*
-     * 10 - Código da conta analítica contábil debitada/creditada 
+     * 10 - CÃ³digo da conta analÃ­tica contÃ¡bil debitada/creditada 
      */
     public static final String COD_CTA = " COD_CTA ";
     /*

@@ -19,19 +19,19 @@ public class RE500 extends LineArchetype {
     public static final String REGISTRO = "REGISTRO";
     
     /*
-      * 2 -   Indicador de período de apuração do IPI: 0 - Mensal; 1 - Decendial
+      * 2 -   Indicador de perÃ­odo de apuraÃ§Ã£o do IPI: 0 - Mensal; 1 - Decendial
       */
     public static final String  IND_APUR  = " IND_APUR";
     
     
      /*
       *     /*
-      * 3 -   Indicador de período de apuração do IPI: 0 - Mensal; 1 - Decendial
+      * 3 -   Indicador de perÃ­odo de apuraÃ§Ã£o do IPI: 0 - Mensal; 1 - Decendial
       */
       public static final String DT_INI = "DT_INI";
       
        /*
-      * 4 -    Data final a que a apuração se refere 
+      * 4 -    Data final a que a apuraÃ§Ã£o se refere 
       */
       public static final String DT_FIN = "DT_FIN";
 

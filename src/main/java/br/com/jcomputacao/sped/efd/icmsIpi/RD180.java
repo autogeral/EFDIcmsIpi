@@ -19,12 +19,12 @@ public class RD180 extends LineArchetype{
          */
         public static final String NUM_SEQ = "NUM_SEQ";
         /*
-         * Número de ordem sequencial do modal
+         * NÃºmero de ordem sequencial do modal
          */
         public static final String IND_EMIT = "IND_EMIT";
         /*
          * Indicador do emitente do documento fiscal:
-            0- Emissão própria;
+            0- EmissÃ£o prÃ³pria;
             1- Terceiros
          */
         public static final String CNPJ_CPF_EMIT = "CNPJ_CPF_EMIT";
@@ -33,54 +33,54 @@ public class RD180 extends LineArchetype{
          */
         public static final String UF_EMIT = "UF_EMIT";
         /*
-         * Sigla da unidade da federação do participante
+         * Sigla da unidade da federaÃ§Ã£o do participante
            emitente do modal
          */
         public static final String IE_EMIT = "IE_EMIT";
         /*
-         * Inscrição Estadual do participante emitente do modal
+         * InscriÃ§Ã£o Estadual do participante emitente do modal
          */
         public static final String COD_MUN_ORIG = "COD_MUN_ORIG";
         /*
-         * Código do município de origem do serviço,conforme a tabela IBGE
+         * CÃ³digo do municÃ­pio de origem do serviÃ§o,conforme a tabela IBGE
          * (Preencher com 9999999,se Exterior)
          */
         public static final String CNPJ_CPF_TOM = "CNPJ_CPF_TOM";
         /*
-         * CNPJ/CPF do participante tomador do serviço
+         * CNPJ/CPF do participante tomador do serviÃ§o
          */
         public static final String UF_TOM = "UF_TOM";
         /*
-         * Sigla da unidade da federação do participante tomador do serviço
+         * Sigla da unidade da federaÃ§Ã£o do participante tomador do serviÃ§o
          */
         public static final String IE_TOM = "IE_TOM";
         /*
-         * Inscrição Estadual do participante tomador do serviço
+         * InscriÃ§Ã£o Estadual do participante tomador do serviÃ§o
          */
         public static final String COD_MUN_DEST = "COD_MUN_DEST";
         /*
-         * Código do município de destino, conforme a tabela IBGE
+         * CÃ³digo do municÃ­pio de destino, conforme a tabela IBGE
          * (Preencher com 9999999, se Exterior)
          */
         public static final String COD_MOD = "COD_MOD";
         /*
-         * Código do modelo do documento fiscal, conforme a Tabela 4.1.1
+         * CÃ³digo do modelo do documento fiscal, conforme a Tabela 4.1.1
          */
         public static final String SER = "SER";
         /*
-         * Série do documento fiscal
+         * SÃ©rie do documento fiscal
          */
         public static final String SUB = "SUB";
         /*
-         *Subsérie do documento fiscal 
+         *SubsÃ©rie do documento fiscal 
          */
         public static final String NUM_DOC = "NUM_DOC" ;
         /*
-         * Número do documento fiscal
+         * NÃºmero do documento fiscal
          */
         public static final String DT_DOC = "DT_DOC";
         /*
-         * Data da emissão do documento fiscal
+         * Data da emissÃ£o do documento fiscal
          */
         public static final String VL_DOC = "VL_DOC";
         /*

@@ -23,47 +23,47 @@ public class RC190 extends LineArchetype {
      */
     public static final String REGISTRO = "REG";
     /**
-     * 2 -  CÛdigo da SituaÁ„o Tribut·ria, conforme a Tabela indicada no item 4.3.1
+     * 2 -  C√≥digo da Situa√ß√£o Tribut√°ria, conforme a Tabela indicada no item 4.3.1
      */
     public static final String CST_ICMS = "CST_ICMS";
     /**
-     * 3 -   CÛdigo Fiscal de OperaÁ„o e PrestaÁ„o do agrupamento de itens
+     * 3 -   C√≥digo Fiscal de Opera√ß√£o e Presta√ß√£o do agrupamento de itens
      */
     public static final String CFOP = " CFOP";
     /**
-     * 4 -   AlÌquota do ICMS
+     * 4 -   Al√≠quota do ICMS
      */
     public static final String ALIQ_ICMS = " ALIQ_ICMS";
     /**
-     * 5 -   Valor da operaÁ„o na combinaÁ„o de CST_ICMS, CFOP e alÌquota do ICMS, correspondente ao somatÛrio do valor das mercadorias, despesas acessÛrias (frete, seguros e outras despesas acessÛrias), ICMS_ST  e IPI.
+     * 5 -   Valor da opera√ß√£o na combina√ß√£o de CST_ICMS, CFOP e al√≠quota do ICMS, correspondente ao somat√≥rio do valor das mercadorias, despesas acess√≥rias (frete, seguros e outras despesas acess√≥rias), ICMS_ST  e IPI.
      */
     public static final String VL_OPR = " VL_OPR";
     /**
-     * 6 -  Parcela correspondente ao "Valor da base de c·lculo do ICMS" referente ‡ combinaÁ„o de CST_ICMS, CFOP e alÌquota do ICMS.
+     * 6 -  Parcela correspondente ao "Valor da base de c√°lculo do ICMS" referente √† combina√ß√£o de CST_ICMS, CFOP e al√≠quota do ICMS.
      */
     public static final String VL_BC_ICMS = "VL_BC_ICMS";
     /**
-     * 7 -   Parcela correspondente ao "Valor do ICMS" referente ‡ combinaÁ„o de CST_ICMS, CFOP e alÌquota do ICMS.
+     * 7 -   Parcela correspondente ao "Valor do ICMS" referente √† combina√ß√£o de CST_ICMS, CFOP e al√≠quota do ICMS.
      */
     public static final String VL_ICMS = "VL_ICMS";
     /**
-     * 8 -   Parcela correspondente ao "Valor da base de c·lculo do ICMS" da substituiÁ„o tribut·ria referente ‡ combinaÁ„o de CST_ICMS, CFOP e alÌquota do ICMS. 
+     * 8 -   Parcela correspondente ao "Valor da base de c√°lculo do ICMS" da substitui√ß√£o tribut√°ria referente √† combina√ß√£o de CST_ICMS, CFOP e al√≠quota do ICMS. 
      */
     public static final String VL_BC_ICMS_ST = " VL_BC_ICMS_ST";
     /**
-     * 9 -    Parcela correspondente ao valor creditado/debitado do ICMS da substituiÁ„o tribut·ria, referente ‡ combinaÁ„o de CST_ICMS, CFOP, e alÌquota do ICMS.
+     * 9 -    Parcela correspondente ao valor creditado/debitado do ICMS da substitui√ß√£o tribut√°ria, referente √† combina√ß√£o de CST_ICMS, CFOP, e al√≠quota do ICMS.
      */
     public static final String VL_ICMS_ST = " VL_ICMS_ST";
     /**
-     * 10 -    Valor n„o tributado em funÁ„o da reduÁ„o da base de c·lculo do ICMS, referente ‡ combinaÁ„o de CST_ICMS, CFOP e alÌquota do ICMS. 
+     * 10 -    Valor n√£o tributado em fun√ß√£o da redu√ß√£o da base de c√°lculo do ICMS, referente √† combina√ß√£o de CST_ICMS, CFOP e al√≠quota do ICMS. 
      */
     public static final String VL_RED_BC = " VL_RED_BC";
     /**
-     * 11 -    Parcela correspondente ao "Valor do IPI" referente ‡ combinaÁ„o CST_ICMS, CFOP e alÌquota do ICMS.
+     * 11 -    Parcela correspondente ao "Valor do IPI" referente √† combina√ß√£o CST_ICMS, CFOP e al√≠quota do ICMS.
      */
     public static final String VL_IPI = " VL_IPI";
     /**
-     * 12 -   CÛdigo da observaÁ„o do lanÁamento fiscal (campo 02 do Registro 0460)
+     * 12 -   C√≥digo da observa√ß√£o do lan√ßamento fiscal (campo 02 do Registro 0460)
      */
     public static final String COD_OBS = " COD_OBS";
 

@@ -18,7 +18,7 @@ public class RC310 extends LineArchetype{
      */
     public static final String NUM_DOC_CANC = "NUM_DOC_CANC";
     /*
-     * Número do documento fiscal cancelado
+     * NÃºmero do documento fiscal cancelado
      */
 
     public RC310() {

@@ -18,14 +18,14 @@ public class RE100 extends LineArchetype {
      
      
       /*
-      * 2 - Data inicial a que a apuração se refere
+      * 2 - Data inicial a que a apuraÃ§Ã£o se refere
 
       */ 
      public static final String DT_INI = "DT_INI";
      
    
      /*
-      * 3 - Data final a que a apuração se refere
+      * 3 - Data final a que a apuraÃ§Ã£o se refere
 
       */ 
      

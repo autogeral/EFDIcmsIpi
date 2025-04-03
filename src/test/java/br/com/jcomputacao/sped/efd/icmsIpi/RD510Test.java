@@ -13,7 +13,7 @@ import org.junit.Test;
 public class RD510Test {
 
      @Test
-    public void RD510Test2() {// Somente itens obrigatórios
+    public void RD510Test2() {// Somente itens obrigatÃ³rios
         
         RD510 r = new RD510();
               

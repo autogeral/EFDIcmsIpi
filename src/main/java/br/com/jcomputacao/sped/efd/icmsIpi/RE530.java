@@ -21,7 +21,7 @@ public class RE530 extends LineArchetype {
     public static final String REGISTRO = "REG";
     
     /*
-      * 2 -  Indicador do tipo de ajuste: 0- Ajuste a débito; 1- Ajuste a crédito
+      * 2 -  Indicador do tipo de ajuste: 0- Ajuste a dÃ©bito; 1- Ajuste a crÃ©dito
       */
     public static final String IND_AJ = "IND_AJ";
   /*
@@ -30,7 +30,7 @@ public class RE530 extends LineArchetype {
     public static final String VL_AJ = "VL_AJ";
     
     /*
-      * 4 -   Código do ajuste da apuração, conforme a Tabela indicada no item 4.5.4.
+      * 4 -   CÃ³digo do ajuste da apuraÃ§Ã£o, conforme a Tabela indicada no item 4.5.4.
 
       */ 
     public static final String COD_AJ = "COD_AJ";
@@ -42,7 +42,7 @@ public class RE530 extends LineArchetype {
     public static final String  IND_DOC = " IND_DOC";
     
     /*
-      * 6 -  Número do documento / processo / declaração ao qual o ajuste está vinculado, se houver
+      * 6 -  NÃºmero do documento / processo / declaraÃ§Ã£o ao qual o ajuste estÃ¡ vinculado, se houver
 
 
       */ 
@@ -50,7 +50,7 @@ public class RE530 extends LineArchetype {
     
     
     /*
-      * 7 -   Descrição detalhada do ajuste, com citação dos documentos fiscais.
+      * 7 -   DescriÃ§Ã£o detalhada do ajuste, com citaÃ§Ã£o dos documentos fiscais.
 
 
       */

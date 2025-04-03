@@ -18,7 +18,7 @@ public class RE112 extends LineArchetype {
     
     
       /*
-      * 2 - Número do documento de arrecadação estadual, se houver
+      * 2 - NÃºmero do documento de arrecadaÃ§Ã£o estadual, se houver
       */
     public static final String NUM_DA = "NUM_DA";
     
@@ -26,7 +26,7 @@ public class RE112 extends LineArchetype {
     
      /*
       *   
-      * 3 - Número do documento de arrecadação estadual, se houver
+      * 3 - NÃºmero do documento de arrecadaÃ§Ã£o estadual, se houver
       */
       public static final String NUM_PROC = "NUM_PROC";
       
@@ -35,7 +35,7 @@ public class RE112 extends LineArchetype {
        /*
       *   
       * 4 -  Indicador da origem do processo: 
-      * 0- Sefaz; 1- Justiça Federal; 2- Justiça Estadual; 9- Outros 
+      * 0- Sefaz; 1- JustiÃ§a Federal; 2- JustiÃ§a Estadual; 9- Outros 
       */
       public static final String IND_PROC = "IND_PROC";
       
@@ -43,7 +43,7 @@ public class RE112 extends LineArchetype {
       
        /*
       *   
-      * 5 -  Descrição resumida do processo que embasou o lançamento
+      * 5 -  DescriÃ§Ã£o resumida do processo que embasou o lanÃ§amento
       */
       public static final String PROC = "PROC";
       
@@ -51,7 +51,7 @@ public class RE112 extends LineArchetype {
       
         /*
       *   
-      * 6 -  Descrição complementar
+      * 6 -  DescriÃ§Ã£o complementar
       */
       public static final String TXT_COMPl = "TXT_COMPl";
       

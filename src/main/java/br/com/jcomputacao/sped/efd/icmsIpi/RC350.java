@@ -18,23 +18,23 @@ public static final String REGISTRO = "REG";
  */
 public static final String SER = "SER";
 /*
- * S�rie do documento fiscal
+ * Sï¿½rie do documento fiscal
  */
 public static final String SUB_SER = "SUB_SER";
 /*
- * Subs�rie do documento fiscal
+ * Subsï¿½rie do documento fiscal
  */
 public static final String NUM_DOC = "NUM_DOC";
 /*
- * N�mero do documento fiscal
+ * Nï¿½mero do documento fiscal
  */
 public static final String DT_DOC = "DT_DOC";
 /*
- * Data da emissão do documento fiscal
+ * Data da emissÃ£o do documento fiscal
  */
 public static final String CNPJ_CPF = "CNPJ_CPF";
 /*
- * CNPJ ou CPF do destinat�rio
+ * CNPJ ou CPF do destinatï¿½rio
  */
 public static final String VL_MERC = "VL_MERC";
 /*
@@ -58,7 +58,7 @@ public static final String VL_COFINS = "VL_COFINS";
  */
 public static final String COD_CTA = "COD_CTA";
 /*
- * Código da conta anal�tica cont�bil debitada/creditada
+ * CÃ³digo da conta analï¿½tica contï¿½bil debitada/creditada
  */
 
     public RC350() {

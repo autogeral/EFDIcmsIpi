@@ -18,15 +18,15 @@ public class RC170 extends LineArchetype {
      */
     public static final String REGISTRO = "REG"; //1
     /**
-     * N˙mero sequencial do item no documento fiscal
+     * N√∫mero sequencial do item no documento fiscal
      */
     public static final String NUM_ITEM = "NUM_ITEM"; //2
     /**
-     * CÛdigo do item (campo 02 do Registro 0200)
+     * C√≥digo do item (campo 02 do Registro 0200)
      */
     public static final String COD_ITEM = "COD_ITEM"; //3
     /**
-     * DescriÁ„o complementar do item como adotado no documento fiscal
+     * Descri√ß√£o complementar do item como adotado no documento fiscal
      */
     public static final String DESCR_COMPL = "DESCR_COMPL"; //4
     /**
@@ -38,7 +38,7 @@ public class RC170 extends LineArchetype {
      */
     public static final String UNID = "UNID"; //6
     /**
-     * Valor total do item (mercadorias ou serviÁos)
+     * Valor total do item (mercadorias ou servi√ßos)
      */
     public static final String VL_ITEM = "VL_ITEM";//7
     /**
@@ -46,28 +46,28 @@ public class RC170 extends LineArchetype {
      */
     public static final String VL_DESC = "VL_DESC";//8
     /**
-     * MovimentaÁ„o fÌsica do ITEM/PRODUTO: 0. SIM 1. N√O
+     * Movimenta√ß√£o f√≠sica do ITEM/PRODUTO: 0. SIM 1. N√ÉO
      */
     public static final String IND_MOV = "IND_MOV";//9
     /**
-     * CÛdigo da SituaÁ„o Tribut·ria referente ao ICMS, conforme a Tabela
+     * C√≥digo da Situa√ß√£o Tribut√°ria referente ao ICMS, conforme a Tabela
      * indicada no item 4.3.1
      */
     public static final String CST_ICMS = "CST_ICMS";//10
     /**
-     * CÛdigo Fiscal de OperaÁ„o e PrestaÁ„o
+     * C√≥digo Fiscal de Opera√ß√£o e Presta√ß√£o
      */
     public static final String CFOP = "CFOP";//11
     /**
-     * CÛdigo da natureza da operaÁ„o (campo 02 do Registro 0400)
+     * C√≥digo da natureza da opera√ß√£o (campo 02 do Registro 0400)
      */
     public static final String COD_NAT = "COD_NAT";//12
     /**
-     * Valor da base de c·lculo do ICMS
+     * Valor da base de c√°lculo do ICMS
      */
     public static final String VL_BC_ICMS = "VL_BC_ICMS";//13
     /**
-     * AlÌquota do ICMS
+     * Al√≠quota do ICMS
      */
     public static final String ALIQ_ICMS = "ALIQ_ICMS";//14
     /**
@@ -75,38 +75,38 @@ public class RC170 extends LineArchetype {
      */
     public static final String VL_ICMS = "VL_ICMS";//15
     /**
-     * Valor da base de c·lculo referente ‡ substituiÁ„o tribut·ria
+     * Valor da base de c√°lculo referente √† substitui√ß√£o tribut√°ria
      */
     public static final String VL_BC_ICMS_ST = "VL_BC_ICMS_ST";//16
     /**
-     * AlÌquota do ICMS da substituiÁ„o tribut·ria na unidade da federaÁ„o de
+     * Al√≠quota do ICMS da substitui√ß√£o tribut√°ria na unidade da federa√ß√£o de
      * destino
      */
     public static final String ALIQ_ST = "ALIQ_ST";//17
     /**
-     * Valor do ICMS referente ‡ substituiÁ„o tribut·ria
+     * Valor do ICMS referente √† substitui√ß√£o tribut√°ria
      */
     public static final String VL_ICMS_ST = "VL_ICMS_ST";//18
     /**
-     * Indicador de perÌodo de apuraÁ„o do IPI: 0 - Mensal; 1 - Decendial
+     * Indicador de per√≠odo de apura√ß√£o do IPI: 0 - Mensal; 1 - Decendial
      */
     public static final String IND_APUR = "IND_APUR";//19
     /**
-     * CÛdigo da SituaÁ„o Tribut·ria referente ao IPI, conforme a Tabela
+     * C√≥digo da Situa√ß√£o Tribut√°ria referente ao IPI, conforme a Tabela
      * indicada no item 4.3.2.
      */
     public static final String CST_IPI = "CST_IPI";//20
     /**
-     * CÛdigo de enquadramento legal do IPI, conforme tabela indicada no item
+     * C√≥digo de enquadramento legal do IPI, conforme tabela indicada no item
      * 4.5.3.
      */
     public static final String COD_ENQ = "COD_ENQ";//21
     /**
-     * Valor da base de c·lculo do IPI
+     * Valor da base de c√°lculo do IPI
      */
     public static final String VL_BC_IPI = "VL_BC_IPI";//22
     /**
-     * AlÌquota do IPI
+     * Al√≠quota do IPI
      */
     public static final String ALIQ_IPI = "ALIQ_IPI";//23
     /**
@@ -114,15 +114,15 @@ public class RC170 extends LineArchetype {
      */
     public static final String VL_IPI = "VL_IPI";//24
     /**
-     * CÛdigo da SituaÁ„o Tribut·ria referente ao PIS
+     * C√≥digo da Situa√ß√£o Tribut√°ria referente ao PIS
      */
     public static final String CST_PIS = "CST_PIS";//25
     /**
-     * Valor da base de c·lculo do PIS
+     * Valor da base de c√°lculo do PIS
      */
     public static final String VL_BC_PIS = "VL_BC_PIS";//26
     /**
-     * AlÌquota do PIS (em percentual)
+     * Al√≠quota do PIS (em percentual)
      */
     public static final String ALIQ_PIS_PORC = "ALIQ_PIS_PORC";//27
     /**
@@ -130,7 +130,7 @@ public class RC170 extends LineArchetype {
      */
     public static final String QUANT_BC_PIS = "QUANT_BC_PIS";//28
     /**
-     * AlÌquota do PIS (em reais)
+     * Al√≠quota do PIS (em reais)
      */
     public static final String ALIQ_PIS_REAIS = "ALIQ_PIS_REAIS"; //29
     /**
@@ -138,23 +138,23 @@ public class RC170 extends LineArchetype {
      */
     public static final String VL_PIS = "VL_PIS";//30
     /**
-     * CÛdigo da SituaÁ„o Tribut·ria referente ao COFINS.
+     * C√≥digo da Situa√ß√£o Tribut√°ria referente ao COFINS.
      */
     public static final String CST_COFINS = "CST_COFINS";//31
     /**
-     * Valor da base de c·lculo da COFINS
+     * Valor da base de c√°lculo da COFINS
      */
     public static final String VL_BC_COFINS = "VL_BC_COFINS";//32
     /**
-     * AlÌquota do COFINS (em percentual)
+     * Al√≠quota do COFINS (em percentual)
      */
     public static final String ALIQ_COFINS_PORC = "ALIQ_COFINS_PORC";//33
     /**
-     * Quantidade ? Base de c·lculo COFINS
+     * Quantidade ? Base de c√°lculo COFINS
      */
     public static final String QUANT_BC_COFINS = "QUANT_BC_COFINS";//34
     /**
-     * AlÌquota da COFINS (em reais)
+     * Al√≠quota da COFINS (em reais)
      */
     public static final String ALIQ_COFINS_REAIS = "ALIQ_COFINSS_REAIS";//35
     /**
@@ -162,7 +162,7 @@ public class RC170 extends LineArchetype {
      */
     public static final String VL_COFINS = "VL_COFINS";//36
     /**
-     * CÛdigo da conta analÌtica cont·bil debitada/creditada
+     * C√≥digo da conta anal√≠tica cont√°bil debitada/creditada
      */
     public static final String COD_CTA = "COD_CTA";//37
 

@@ -22,40 +22,40 @@ public class R1200 extends LineArchetype{
     
     public static final String COD_AJ_APUR = "COD_AJ_APUR";
     /*
-     * Código de ajuste, conforme informado na Tabela
+     * CÃ³digo de ajuste, conforme informado na Tabela
         indicada no item 5.1.1.
      */
     
     
     public static final String SLD_CRED = "SLD_CRED";
     /*
-     * Saldo de créditos fiscais de períodos anteriores
+     * Saldo de crÃ©ditos fiscais de perÃ­odos anteriores
      */
     
     
     public static final String CRED_APR = "CRED_APR";
     /*
-     * Total de crédito apropriado no mês
+     * Total de crÃ©dito apropriado no mÃªs
      */
     
     
     public static final String CRED_RECEB = "CRED_RECEB";
     /*
-     * Total de créditos recebidos por transfer�ncia
+     * Total de crÃ©ditos recebidos por transferï¿½ncia
      */
     
     
     public static final String CRED_UTIL = "CRED_UTIL";
     /*
-     * Total de créditos utilizados no período
+     * Total de crÃ©ditos utilizados no perÃ­odo
      */
     
     
     
     public static final String SLD_CRED_FIM = "SLD_CRED_FIM";
     /*
-     * Saldo de crédito fiscal acumulado a transportar 
-     * para o período seguinte
+     * Saldo de crÃ©dito fiscal acumulado a transportar 
+     * para o perÃ­odo seguinte
     */
 
     

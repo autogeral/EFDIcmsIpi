@@ -16,21 +16,21 @@ public class RE200 extends LineArchetype {
     public static final String  REGISTRO = "REG";
     
  /*
-      * 2 - Sigla da unidade da federação a que se refere a apuração do ICMS ST
+      * 2 - Sigla da unidade da federaÃ§Ã£o a que se refere a apuraÃ§Ã£o do ICMS ST
    
       */ 
     public static final String UF = "UF";
     
  
     /*
-      * 3 - Data inicial a que a apuração se refere
+      * 3 - Data inicial a que a apuraÃ§Ã£o se refere
    
       */ 
     public static final String DT_INI = "DT_INI";
     
     
      /*
-      * 4 - Data final a que a apuração se refere
+      * 4 - Data final a que a apuraÃ§Ã£o se refere
    
       */ 
     public static final String DT_FIN = "DT_FIN";

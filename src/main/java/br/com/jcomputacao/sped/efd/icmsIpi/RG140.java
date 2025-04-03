@@ -19,11 +19,11 @@ public class RG140 extends LineArchetype {
      public static final String REGISTRO  = "REGISTRO ";
      
       /*
-     * 2 -  Número sequencial do item no documento fiscal 
+     * 2 -  NÃºmero sequencial do item no documento fiscal 
      */
       public static final String  NUM_ITEM   = " NUM_ITEM  ";
        /*
-     * 3 -  Código correspondente do bem no documento fiscal (campo 02 do registro 0200)
+     * 3 -  CÃ³digo correspondente do bem no documento fiscal (campo 02 do registro 0200)
      */
        public static final String  COD_ITEM   = " COD_ITEM ";
 

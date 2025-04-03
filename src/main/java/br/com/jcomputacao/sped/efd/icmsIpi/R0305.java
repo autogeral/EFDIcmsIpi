@@ -19,7 +19,7 @@ public class R0305 extends LineArchetype {
      */
     private static final String COD_CCUS = "COD_CCUS";
     /**
-     * Descrição sucinta da função do bem na atividade do estabelecimento
+     * DescriÃ§Ã£o sucinta da funÃ§Ã£o do bem na atividade do estabelecimento
      */
     private static final String FUNC = "FUNC";
     /**

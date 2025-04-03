@@ -14,9 +14,9 @@ public class RC105 extends LineArchetype {
 
     public static final String REGISTRO = "REG";
     /**
-     * Indicador do tipo de operação:
-     * 0- Combustíveis e Lubrificantes;
-     * 1- leasing de veículos ou faturamento direto.
+     * Indicador do tipo de operaÃ§Ã£o:
+     * 0- CombustÃ­veis e Lubrificantes;
+     * 1- leasing de veÃ­culos ou faturamento direto.
      */
     public static final String OPER = "OPER";
     /**

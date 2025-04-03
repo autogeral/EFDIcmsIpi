@@ -23,14 +23,14 @@ public static final String IND_ARM = "IND_ARM";
  */
 public static final String NUM_ARM = "NUM_ARM";
 /*
- * Numeração de série de fabricação da arma
+ * NumeraÃ§Ã£o de sÃ©rie de fabricaÃ§Ã£o da arma
  */
 public static final String DESCR_COMPL = "DESCR_COMPL";
 /*
- * Descrição da arma, compreendendo: número do cano, calibre, marca, 
+ * DescriÃ§Ã£o da arma, compreendendo: nÃºmero do cano, calibre, marca, 
  * capacidade de cartuchos,tipo de funcionamento, quantidade de canos,
  *comprimento, tipo de alma, quantidade e sentido das raias 
- * e demais elementos que permitam sua perfeita identificação
+ * e demais elementos que permitam sua perfeita identificaÃ§Ã£o
  */
 
     public RC174() {

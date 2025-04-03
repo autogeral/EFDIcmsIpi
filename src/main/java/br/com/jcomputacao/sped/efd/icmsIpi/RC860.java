@@ -19,23 +19,23 @@ public class RC860 extends LineArchetype{
      */
     public static final String COD_MOD = "COD_MOD";
     /*
-     * Código do modelo do documento fiscal, conforme a Tabela 4.1.1
+     * CÃ³digo do modelo do documento fiscal, conforme a Tabela 4.1.1
      */
     public static final String NR_SAT = "NR_SAT";
     /*
-     * Número de Série do equipamento SAT
+     * NÃºmero de SÃ©rie do equipamento SAT
      */
     public static final String DT_DOC = "DT_DOC";
     /*
-     * Data de emissão dos documentos fiscais
+     * Data de emissÃ£o dos documentos fiscais
      */
     public static final String DOC_INI = "DOC_INI";
     /*
-     * Número do documento inicial
+     * NÃºmero do documento inicial
      */
     public static final String DOC_FIM = "DOC_FIM";
     /*
-     * Número do documento final
+     * NÃºmero do documento final
      */
 
     public RC860() {

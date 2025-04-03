@@ -20,7 +20,7 @@ public class RH005 extends LineArchetype {
      */
    public static final String REGISTRO  = "REGISTRO ";
    /*
-     * 2 -  Data do invent·rio" 
+     * 2 -  Data do invent√°rio" 
      */
    public static final String DT_INV  = " DT_INV ";
    /*
@@ -28,7 +28,7 @@ public class RH005 extends LineArchetype {
      */
    public static final String VL_INV  = "VL_INV";
    /*
-     * 4 -  Informe o motivo do Invent·rio: 01 ? No final no perÌodo; 02 ? Na mudanÁa de forma de tributaÁ„o da mercadoria (ICMS); 03 ? Na solicitaÁ„o da baixa cadastral, paralisaÁ„o tempor·ria e outras situaÁıes; 04 ? Na alteraÁ„o de regime de pagamento ? condiÁ„o do contribuinte; 05 ? Por determinaÁ„o dos fiscos.
+     * 4 -  Informe o motivo do Invent√°rio: 01 ? No final no per√≠odo; 02 ? Na mudan√ßa de forma de tributa√ß√£o da mercadoria (ICMS); 03 ? Na solicita√ß√£o da baixa cadastral, paralisa√ß√£o tempor√°ria e outras situa√ß√µes; 04 ? Na altera√ß√£o de regime de pagamento ? condi√ß√£o do contribuinte; 05 ? Por determina√ß√£o dos fiscos.
  
      */
    public static final String  MOT_INV   = " MOT_INV  ";

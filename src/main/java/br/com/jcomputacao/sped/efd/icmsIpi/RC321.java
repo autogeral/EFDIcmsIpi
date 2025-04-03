@@ -21,7 +21,7 @@ public class RC321 extends LineArchetype{
      */
     public static final String COD_ITEM = "COD_ITEM";
     /*
-     * Código do item (campo 02 do Registro 0200)
+     * CÃ³digo do item (campo 02 do Registro 0200)
      */
     public static final String QTD = "QTD";
     /*
@@ -41,7 +41,7 @@ public class RC321 extends LineArchetype{
      */
     public static final String VL_BC_ICMS = "VL_BC_ICMS";
     /*
-     * Valor acumulado da base de c�lculo do ICMS
+     * Valor acumulado da base de cï¿½lculo do ICMS
      */
     public static final String VL_ICMS = "VL_ICMS"; 
     /*

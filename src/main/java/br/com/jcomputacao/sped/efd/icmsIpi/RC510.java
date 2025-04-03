@@ -17,17 +17,17 @@ public class RC510 extends LineArchetype {
     public static final String REGISTRO = "REGISTRO";
     
     /**
-     * 2 -  N˙mero sequencial do item no documento fiscal
+     * 2 -  N√∫mero sequencial do item no documento fiscal
      */
     public static final String NUM_ITEM = "NUM_ITEM";
      
     /**
-     * 3 -   CÛdigo do item (campo 02 do Registro 0200)
+     * 3 -   C√≥digo do item (campo 02 do Registro 0200)
      */
     public static final String  COD_ITEM = " COD_ITEM";
      
     /**
-     * 4 -   CÛdigo de classificaÁ„o do item de energia elÈtrica, conforme a Tabela 4.4.1
+     * 4 -   C√≥digo de classifica√ß√£o do item de energia el√©trica, conforme a Tabela 4.4.1
      */
     public static final String  COD_CLASS  = " COD_CLASS ";
       
@@ -52,22 +52,22 @@ public class RC510 extends LineArchetype {
     public static final String  VL_DESC = " VL_DESC";
          
     /**
-     * 9 -  CÛdigo da SituaÁ„o Tribut·ria, conforme a Tabela indicada no item 4.3.1
+     * 9 -  C√≥digo da Situa√ß√£o Tribut√°ria, conforme a Tabela indicada no item 4.3.1
      */
     public static final String  CST_ICMS  = " CST_ICMS ";
           
     /**
-     * 10 -  CÛdigo Fiscal de OperaÁ„o e PrestaÁ„o 
+     * 10 -  C√≥digo Fiscal de Opera√ß√£o e Presta√ß√£o 
      */
     public static final String CFOP = "CFOP";
            
     /**
-     * 11 -  Valor da base de c·lculo do ICMS 
+     * 11 -  Valor da base de c√°lculo do ICMS 
      */
     public static final String VL_BC_ICMS = "VL_BC_ICMS";
             
     /**
-     * 12 -  AlÌquota do ICMS
+     * 12 -  Al√≠quota do ICMS
      */
     public static final String  ALIQ_ICMS = " ALIQ_ICMS";
              
@@ -77,22 +77,22 @@ public class RC510 extends LineArchetype {
     public static final String  VL_ICMS = " VL_ICMS";
               
     /**
-     * 14 -  Valor da base de c·lculo referente ‡ substituiÁ„o tribut·ria
+     * 14 -  Valor da base de c√°lculo referente √† substitui√ß√£o tribut√°ria
      */
     public static final String VL_BC_ICMS_ST = "VL_BC_ICMS_ST";
                
     /**
-     * 15 -  AlÌquota do ICMS da substituiÁ„o tribut·ria na unidade da federaÁ„o de destino
+     * 15 -  Al√≠quota do ICMS da substitui√ß√£o tribut√°ria na unidade da federa√ß√£o de destino
      */
     public static final String ALIQ_ST = "ALIQ_ST";
                 
     /**
-     * 16 -  Valor do ICMS referente ‡ substituiÁ„o tribut·ria
+     * 16 -  Valor do ICMS referente √† substitui√ß√£o tribut√°ria
      */
     public static final String VL_ICMS_ST = "VL_ICMS_ST";
                  
     /**
-     * 17 -  Indicador do tipo de receita: 0- Receita prÛpria; 1- Receita de terceiros
+     * 17 -  Indicador do tipo de receita: 0- Receita pr√≥pria; 1- Receita de terceiros
      */
     public static final String  IND_REC  = " IND_REC "; 
                   
@@ -112,12 +112,12 @@ public class RC510 extends LineArchetype {
     public static final String  VL_COFINS = " VL_COFINS";   
        
      /*
-     * 21 - CÛdigo da conta analÌtica cont·bil debitada/creditada
+     * 21 - C√≥digo da conta anal√≠tica cont√°bil debitada/creditada
      */   
     public static final String   COD_CTA  = " COD_CTA ";
     
     public RC510() {
-        setName(" REGISTRO C510: ITENS DO DOCUMENTO NOTA FISCAL/CONTA ENERGIA EL…TRICA (C”DIGO 06), NOTA FISCAL/CONTA DE FORNECIMENTO D'¡GUA CANALIZADA (C”DIGO 29) E NOTA FISCAL/CONTA DE FORNECIMENTO DE G¡S (C”DIGO 28). ");
+        setName(" REGISTRO C510: ITENS DO DOCUMENTO NOTA FISCAL/CONTA ENERGIA EL√âTRICA (C√ìDIGO 06), NOTA FISCAL/CONTA DE FORNECIMENTO D'√ÅGUA CANALIZADA (C√ìDIGO 29) E NOTA FISCAL/CONTA DE FORNECIMENTO DE G√ÅS (C√ìDIGO 28). ");
         setDelimiter("|");
         FormatWrapper fw = FormatFactory.getFormat(FormatType.DECIMAL);
         fw.setReplaceComa(false);

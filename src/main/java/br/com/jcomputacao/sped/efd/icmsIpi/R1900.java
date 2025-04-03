@@ -24,7 +24,7 @@ public class R1900 extends LineArchetype {
     
      
     /*
-     * 3 - Descrição complementar de Outra Apuração do ICMS
+     * 3 - DescriÃ§Ã£o complementar de Outra ApuraÃ§Ã£o do ICMS
 
      */
     public static final String DESCR_COMPL_OUT_APUR = "DESCR_COMPL_OUT_APUR";

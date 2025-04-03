@@ -17,45 +17,45 @@ public class RG126 extends LineArchetype {
     public static final String REGISTRO = "REGISTRO";
     
     /*
-     * 2 -  Data inicial do perÌodo de apuraÁ„o 
+     * 2 -  Data inicial do per√≠odo de apura√ß√£o 
      */
    public static final String  DT_INI  = " DT_INI ";
    
    /*
-    * 3 - Data final do perÌodo de apuraÁ„o
+    * 3 - Data final do per√≠odo de apura√ß√£o
     */
    public static final String  DT_FIM = " DT_FIM";
    
    /*
-    * 4 - N˙mero da parcela do ICMS 
+    * 4 - N√∫mero da parcela do ICMS 
     */
    public static final String  NUM_PARC = " NUM_PARC";
    
    /*
-    * 5 -  Valor da parcela de ICMS passÌvel de apropriaÁ„o  - antes da aplicaÁ„o da participaÁ„o percentual do valor das saÌdas tributadas/exportaÁ„o sobre as saÌdas totais 
+    * 5 -  Valor da parcela de ICMS pass√≠vel de apropria√ß√£o  - antes da aplica√ß√£o da participa√ß√£o percentual do valor das sa√≠das tributadas/exporta√ß√£o sobre as sa√≠das totais 
 
     */
    public static final String  VL_PARC_PASS = " VL_PARC_PASS";
    
    /*
-    * 6 - Valor do somatÛrio das saÌdas tributadas e saÌdas para exportaÁ„o no perÌodo indicado neste registro
+    * 6 - Valor do somat√≥rio das sa√≠das tributadas e sa√≠das para exporta√ß√£o no per√≠odo indicado neste registro
 
     */
    public static final String  VL_TRIB_OC = " VL_TRIB_OC";
    
    /*
-    *  7 -  Valor total de saÌdas no perÌodo indicado neste registro 
+    *  7 -  Valor total de sa√≠das no per√≠odo indicado neste registro 
     */
    public static final String VL_TOTAL = "VL_TOTAL";
    
    /*
-    *  8 -  Õndice de participaÁ„o do valor do somatÛrio das saÌdas tributadas e saÌdas para exportaÁ„o no valor total de saÌdas (Campo 06 dividido pelo campo 07)
+    *  8 -  √çndice de participa√ß√£o do valor do somat√≥rio das sa√≠das tributadas e sa√≠das para exporta√ß√£o no valor total de sa√≠das (Campo 06 dividido pelo campo 07)
 
     */
    public static final String IND_PER_SAI  = "IND_PER_SAI ";
    
     /*
-    *  9 - Valor de outros crÈditos de ICMS a ser apropriado na apuraÁ„o (campo 05 vezes o campo 08) 
+    *  9 - Valor de outros cr√©ditos de ICMS a ser apropriado na apura√ß√£o (campo 05 vezes o campo 08) 
 
     */
    public static final String  VL_PARC_APROP = " VL_PARC_APROP";

@@ -26,7 +26,7 @@ public class RD100 extends LineArchetype {
      
      /**
       * Indicador do emitente do documento fiscal:
-      * 0 Emiss„o propria;
+      * 0 Emiss√£o propria;
       * 1 Terceiros
       */
      
@@ -39,72 +39,72 @@ public class RD100 extends LineArchetype {
      //4
      public static final String COD_PART = "COD_PART";
       /**
-         CÛdigo do participante (campo 02 do Registro 0150):
-        - do prestador de serviÁo, no caso de aquisiÁ„o de serviÁo;
-        - do tomador do serviÁo, no caso de prestaÁ„o de serviÁos.
+         C√≥digo do participante (campo 02 do Registro 0150):
+        - do prestador de servi√ßo, no caso de aquisi√ß√£o de servi√ßo;
+        - do tomador do servi√ßo, no caso de presta√ß√£o de servi√ßos.
       */
      
      //5
      public static final String COD_MOD = "COD_MOD";
       /**
-      * CÛdigo do modelo do documento fiscal, conforme a Tabela 4.1.1
+      * C√≥digo do modelo do documento fiscal, conforme a Tabela 4.1.1
       */
      
      //6
      public static  final String COD_SIT = "COD_SIT";
        /**
-        * CÛdigo da situaÁ„o do documento fiscal, conforme a Tabela 4.1.2
+        * C√≥digo da situa√ß√£o do documento fiscal, conforme a Tabela 4.1.2
         */
      
      //7
      public static  final String SER = "SER";
      /**
-      * SÈrie do documento fiscal
+      * S√©rie do documento fiscal
       */
      
      //8
      public static final String SUB= "SUB";
      /**
-      * SubsÈrie do documento fiscal
+      * Subs√©rie do documento fiscal
       */
      
      //9
      public static final String NUM_DOC="NUM_DOC";
      /**
-      * N˙mero do documento fiscal
+      * N√∫mero do documento fiscal
       */
      
      //10
      public static final String CHV_CTE = "CHV_CTE";
      /**
-      * Chave do Conhecimento de Transporte EletrÙnico 
+      * Chave do Conhecimento de Transporte Eletr√¥nico 
       */
      
      //11
      public static final String DT_DOC = "DT_DOC";
      /**
-      * Data da emiss„o do documento fiscal
+      * Data da emiss√£o do documento fiscal
       */
      
      //12
      public static final String DT_A_P = "DT_A_P";
      /*
-      * Data da aquisiÁ„o ou da prestaÁ„o do serviÁo
+      * Data da aquisi√ß√£o ou da presta√ß√£o do servi√ßo
       */
      
      //13
      public static final String TP_CT_e = "TP_CT_e";
      /*
-      * Tipo de Conhecimento de Transporte EletrÙnico conforme
-        definido no Manual de IntegraÁ„o do CT-e
+      * Tipo de Conhecimento de Transporte Eletr√¥nico conforme
+        definido no Manual de Integra√ß√£o do CT-e
       */
      
      //14
      public static final String CHV_CTE_REF = "CHV_CTE_REF";
      /*
-      * Chave do CT-e de referÍncia cujos valores foram
-        complementados (opÁ„o ?1? do campo anterior) ou cujo
-        dÈbito foi anulado(opÁ„o ?2? do campo anterior).
+      * Chave do CT-e de refer√™ncia cujos valores foram
+        complementados (op√ß√£o ?1? do campo anterior) ou cujo
+        d√©bito foi anulado(op√ß√£o ?2? do campo anterior).
       */
      
      //15
@@ -125,27 +125,27 @@ public class RD100 extends LineArchetype {
         * Indicador do tipo do frete:
             0- Por conta de terceiros;
             1- Por conta do emitente;
-            2- Por conta do destinat·rio;
-            9- Sem cobranÁa de frete.
-            Obs.: A partir de 01/07/2012 passar· a ser:
+            2- Por conta do destinat√°rio;
+            9- Sem cobran√ßa de frete.
+            Obs.: A partir de 01/07/2012 passar√° a ser:
         
          Indicador do tipo do frete:
             0- Por conta do emitente;
-            1- Por conta do destinat·rio/remetente;
+            1- Por conta do destinat√°rio/remetente;
             2- Por conta de terceiros;
-            9- Sem cobranÁa de frete.
+            9- Sem cobran√ßa de frete.
        */
        
        //18
        public static final String VL_SERV = "VL_SERV";
        /*
-        * Valor total da prestaÁ„o de serviÁo
+        * Valor total da presta√ß√£o de servi√ßo
         */
        
        //19
        public static final String VL_BC_ICMS = "VL_BC_ICMS"; 
        /*
-        * Valor da base de c·lculo do ICMS
+        * Valor da base de c√°lculo do ICMS
         */
        
        //20
@@ -157,20 +157,20 @@ public class RD100 extends LineArchetype {
        //21
        public static final String VL_NT = "VL_NT";
        /*
-        * Valor n„o-tributado
+        * Valor n√£o-tributado
         */
        
        //22
         public static final String COD_INF= "COD_INF";
         /*
-         * CÛdigo da informaÁ„o complementar do documento fiscal
+         * C√≥digo da informa√ß√£o complementar do documento fiscal
             (campo 02 do Registro 0450)
          */
        
         //23
          public static final String COD_CTA = "COD_CTA";
          /*
-          * CÛdigo da conta analÌtica cont·bil debitada/creditada
+          * C√≥digo da conta anal√≠tica cont√°bil debitada/creditada
           */
          
     public RD100(){

@@ -21,11 +21,11 @@ public class RD370 extends LineArchetype{
      */
     public static final String COD_MUN_ORIG = "COD_MUN_ORIG";
     /*
-     * CÛdigo do municÌpio de origem do serviÁo,conforme a tabela IBGE
+     * C√≥digo do munic√≠pio de origem do servi√ßo,conforme a tabela IBGE
      */
     public static final String VL_SERV = "VL_SERV";
     /*
-     * Valor total da prestaÁ„o de serviÁo
+     * Valor total da presta√ß√£o de servi√ßo
      */
     public static final String QTD_BILH = "QTD_BILH";
     /*
@@ -33,7 +33,7 @@ public class RD370 extends LineArchetype{
      */
     public static final String VL_BC_ICMS = "VL_BC_ICMS";
     /*
-     * Valor total da base de c·lculo do ICMS
+     * Valor total da base de c√°lculo do ICMS
      */
     public static final String VL_ICMS = "VL_ICMS";
     /*

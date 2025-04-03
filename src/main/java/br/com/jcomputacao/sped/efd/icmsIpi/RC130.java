@@ -21,14 +21,14 @@ public class RC130 extends LineArchetype {
   
   
   /*
-     *  1 -  Valor dos serviços sob não-incidência ou não- tributados pelo ICMS
+     *  1 -  Valor dos serviÃ§os sob nÃ£o-incidÃªncia ou nÃ£o- tributados pelo ICMS
      */
   public static final String VL_SERV_NT = "VL_SERV_NT";
   
   
   
   /*
-     *  3 -  Valor da base de cálculo do ISSQN
+     *  3 -  Valor da base de cÃ¡lculo do ISSQN
      */
   public static final String VL_BC_ISSQN = "VL_BC_ISSQN";
   
@@ -43,7 +43,7 @@ public class RC130 extends LineArchetype {
   
   
   /*
-     *  5 - Valor da base de cálculo do Imposto de Renda Retido na Fonte
+     *  5 - Valor da base de cÃ¡lculo do Imposto de Renda Retido na Fonte
 
      */
   public static final String  VL_BC_IRRF = " VL_BC_IRRF";
@@ -60,7 +60,7 @@ public class RC130 extends LineArchetype {
   
   
   /*
-     *  7 - Valor da base de cálculo de retenção da Previdência Social
+     *  7 - Valor da base de cÃ¡lculo de retenÃ§Ã£o da PrevidÃªncia Social
 
      */
   public static final String VL_BC_PREV = "VL_BC_PREV";
@@ -68,7 +68,7 @@ public class RC130 extends LineArchetype {
   
   
   /*
-     *  8 - Valor destacado para retenção da Previdência Social
+     *  8 - Valor destacado para retenÃ§Ã£o da PrevidÃªncia Social
 
      */
   public static final String VL_PREV = "VL_ PREV";

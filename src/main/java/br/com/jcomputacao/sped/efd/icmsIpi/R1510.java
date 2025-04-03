@@ -20,21 +20,21 @@ public class R1510 extends LineArchetype{
 
     public static final String NUM_ITEM = "NUM_ITEM";
     /*
-    * Número sequencial do item no documento fiscal
+    * NÃºmero sequencial do item no documento fiscal
     */
 
 
 
     public static final String COD_ITEM = "COD_ITEM";
     /*
-    * Código do item (campo 02 do Registro 0200)
+    * CÃ³digo do item (campo 02 do Registro 0200)
     */
 
 
 
     public static final String COD_CLASS = "COD_CLASS";
     /*
-    * Código de classificação do item de energia elétrica, conforme a Tabela 4.4.1
+    * CÃ³digo de classificaÃ§Ã£o do item de energia elÃ©trica, conforme a Tabela 4.4.1
     */
 
 
@@ -69,28 +69,28 @@ public class R1510 extends LineArchetype{
 
     public static final String CST_ICMS = "CST_ICMS";
     /*
-    * Código da Situação Tribut�ria, conforme a Tabela indicada no item 4.3.1
+    * CÃ³digo da SituaÃ§Ã£o Tributï¿½ria, conforme a Tabela indicada no item 4.3.1
     */
 
 
 
     public static final String CFOP = "CFOP";
     /*
-    * Código Fiscal de Operação e Prestação
+    * CÃ³digo Fiscal de OperaÃ§Ã£o e PrestaÃ§Ã£o
     */
 
 
 
     public static final String VL_BC_ICMS = "VL_BC_ICMS";
     /*
-    * Valor da base de c�lculo do ICMS
+    * Valor da base de cï¿½lculo do ICMS
     */
 
 
 
     public static final String ALIQ_ICMS = "ALIQ_ICMS";
     /*
-    * Al�quota do ICMS
+    * Alï¿½quota do ICMS
     */
 
 
@@ -104,21 +104,21 @@ public class R1510 extends LineArchetype{
 
     public static final String VL_BC_ICMS_ST = "VL_BC_ICMS_ST";
     /*
-    * Valor da base de c�lculo referente � substituição tribut�ria
+    * Valor da base de cï¿½lculo referente ï¿½ substituiÃ§Ã£o tributï¿½ria
     */
 
 
 
     public static final String ALIQ_ST = "ALIQ_ST";
     /*
-    *Al�quota do ICMS da substituição tribut�ria na unidade da federação de destino 
+    *Alï¿½quota do ICMS da substituiÃ§Ã£o tributï¿½ria na unidade da federaÃ§Ã£o de destino 
     */
 
 
 
     public static final String VL_ICMS_ST = "VL_ICMS_ST";
     /*
-    * Valor do ICMS referente � substituição tribut�ria
+    * Valor do ICMS referente ï¿½ substituiÃ§Ã£o tributï¿½ria
     */
 
 
@@ -126,7 +126,7 @@ public class R1510 extends LineArchetype{
     public static final String IND_REC = "IND_REC";
     /*
     * Indicador do tipo de receita:
-        0- Receita pr�pria;
+        0- Receita prï¿½pria;
         1- Receita de terceiros
     */
 
@@ -134,8 +134,8 @@ public class R1510 extends LineArchetype{
 
     public static final String COD_PART = "COD_PART";
     /*
-    * Código do participante receptor da receita, terceiro da
-    operação (campo 02 do Registro 0150)
+    * CÃ³digo do participante receptor da receita, terceiro da
+    operaÃ§Ã£o (campo 02 do Registro 0150)
     */
 
 
@@ -156,7 +156,7 @@ public class R1510 extends LineArchetype{
 
     public static final String COD_CTA = "COD_CTA";
     /*
-    * Código da conta anal�tica cont�bil debitada/creditada
+    * CÃ³digo da conta analï¿½tica contï¿½bil debitada/creditada
     */
 
 

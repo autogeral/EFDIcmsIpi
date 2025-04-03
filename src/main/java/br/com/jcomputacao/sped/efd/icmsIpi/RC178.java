@@ -19,15 +19,15 @@ public class RC178 extends LineArchetype{
      */
     public static final String CL_ENQ = "CL_ENQ";
     /*
-     * Código da classe de enquadramento do IPI, conforme Tabela 4.5.1.
+     * CÃ³digo da classe de enquadramento do IPI, conforme Tabela 4.5.1.
      */
     public static final String VL_UNID = "VL_UNID";
     /*
-     * Valor por unidade padr�o de tributação
+     * Valor por unidade padrï¿½o de tributaÃ§Ã£o
      */
     public static final String QUANT_PAD = "QUANT_PAD";
     /*
-     * Quantidade total de produtos na unidade padr�o de tributação
+     * Quantidade total de produtos na unidade padrï¿½o de tributaÃ§Ã£o
      */
 
     public RC178() {

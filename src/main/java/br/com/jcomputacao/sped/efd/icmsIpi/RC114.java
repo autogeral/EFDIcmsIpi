@@ -18,35 +18,35 @@ public class RC114 extends LineArchetype{
     
     public static final String COD_MOD = "COD_MOD";
     /*
-     * Código do modelo do documento fiscal, conforme a tabela indicada no item 4.1.1
+     * CÃ³digo do modelo do documento fiscal, conforme a tabela indicada no item 4.1.1
      */
     
     
     
     public static final String ECF_FAB = "ECF_FAB";
     /*
-     * Número de série de fabricação do ECF
+     * NÃºmero de sÃ©rie de fabricaÃ§Ã£o do ECF
      */
     
     
     
     public static final String ECF_CX = "ECF_CX";
     /*
-     * Número do caixa atribuído ao ECF
+     * NÃºmero do caixa atribuÃ­do ao ECF
      */
     
     
     
     public static final String NUM_DOC = "NUM_DOC";
     /*
-     * Número do documento fiscal
+     * NÃºmero do documento fiscal
      */
     
     
     
     public static final String DT_DOC = "DT_DOC";
     /*
-     * Data da emissão do documento fiscal
+     * Data da emissÃ£o do documento fiscal
      */
 
     

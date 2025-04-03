@@ -27,7 +27,7 @@ public class RC790 extends LineArchetype {
     
     
     /*
-     * 2 - CÛdigo da SituaÁ„o Tribut·ria, conforme a tabela indicada no item 4.3.1
+     * 2 - C√≥digo da Situa√ß√£o Tribut√°ria, conforme a tabela indicada no item 4.3.1
 
      */
     public static final String  CST_ICMS = " CST_ICMS";
@@ -39,7 +39,7 @@ public class RC790 extends LineArchetype {
     
     
     /*
-     * 3 - CÛdigo Fiscal de OperaÁ„o e PrestaÁ„o, conforme a tabela indicada no item 4.2.2
+     * 3 - C√≥digo Fiscal de Opera√ß√£o e Presta√ß√£o, conforme a tabela indicada no item 4.2.2
 
      */
     public static final String CFOP = "CFOP";
@@ -52,7 +52,7 @@ public class RC790 extends LineArchetype {
     
     
     /*
-     * 4 - AlÌquota do ICMS
+     * 4 - Al√≠quota do ICMS
      */
     public static final String ALIQ_ICMS = "ALIQ_ICMS";
     
@@ -63,7 +63,7 @@ public class RC790 extends LineArchetype {
     
     
     /*
-     * 5 - Valor da operaÁ„o correspondente ‡ combinaÁ„o de CST_ICMS, CFOP, e alÌquota do ICMS
+     * 5 - Valor da opera√ß√£o correspondente √† combina√ß√£o de CST_ICMS, CFOP, e al√≠quota do ICMS
      */
     public static final String VL_OPR  = "VL_OPR";
     
@@ -73,7 +73,7 @@ public class RC790 extends LineArchetype {
     
     
     /*
-     * 6 - Parcela correspondente ao "Valor da base de c·lculo do ICMS" referente ‡ combinaÁ„o CST_ICMS, CFOP, e alÌquota do ICMS
+     * 6 - Parcela correspondente ao "Valor da base de c√°lculo do ICMS" referente √† combina√ß√£o CST_ICMS, CFOP, e al√≠quota do ICMS
 
      */
     public static final String VL_BC_ICMS = "VL_BC_ICMS";
@@ -85,7 +85,7 @@ public class RC790 extends LineArchetype {
     
     
     /*
-     * 7 - Parcela correspondente ao "Valor do ICMS" referente ‡ combinaÁ„o CST_ICMS,  CFOP e alÌquota do ICMS
+     * 7 - Parcela correspondente ao "Valor do ICMS" referente √† combina√ß√£o CST_ICMS,  CFOP e al√≠quota do ICMS
 
      */
     public static final String  VL_ICMS = " VL_ICMS";
@@ -96,7 +96,7 @@ public class RC790 extends LineArchetype {
     
     
     /*
-     * 8 - Valor da base de c·lculo do ICMS substituiÁ„o tribut·ria
+     * 8 - Valor da base de c√°lculo do ICMS substitui√ß√£o tribut√°ria
 
      */
     public static final String VL_BC_ICMS_ST  = "VL_BC_ICMS_ST" ;
@@ -107,7 +107,7 @@ public class RC790 extends LineArchetype {
     
     
     /*
-     * 9 - Valor do ICMS retido por substituiÁ„o tribut·ria
+     * 9 - Valor do ICMS retido por substitui√ß√£o tribut√°ria
      */
     public static final String VL_ICMS_ST = "VL_ICMS_ST";
     
@@ -119,7 +119,7 @@ public class RC790 extends LineArchetype {
     
   
      /*
-     * 10 - Valor n„o tributado em funÁ„o da reduÁ„o da base de c·lculo do ICMS, referente ‡ combinaÁ„o de CST_ICMS, CFOP e alÌquota do ICMS..
+     * 10 - Valor n√£o tributado em fun√ß√£o da redu√ß√£o da base de c√°lculo do ICMS, referente √† combina√ß√£o de CST_ICMS, CFOP e al√≠quota do ICMS..
 
      */
     public static final String  VL_RED_BC = " VL_RED_BC";
@@ -132,7 +132,7 @@ public class RC790 extends LineArchetype {
     
     
      /*
-     * 11 - CÛdigo da observaÁ„o do lanÁamento fiscal (campo 02 do Registro 0460)
+     * 11 - C√≥digo da observa√ß√£o do lan√ßamento fiscal (campo 02 do Registro 0460)
 
 
      */

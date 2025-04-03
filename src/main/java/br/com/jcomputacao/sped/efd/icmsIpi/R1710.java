@@ -17,14 +17,14 @@ public class R1710 extends LineArchetype {
    
    
    /*
-     * 2 -  Número do dispositivo autorizado (inutilizado) inicial 
+     * 2 -  NÃºmero do dispositivo autorizado (inutilizado) inicial 
      */
    public static final String NUM_DOC_INI = "NUM_DOC_INI";
    
    
    
      /*
-     * 3 - Número do dispositivo autorizado (inutilizado) final
+     * 3 - NÃºmero do dispositivo autorizado (inutilizado) final
      */
    public static final String NUM_DOC_FIN = "NUM_DOC_FIN";
    

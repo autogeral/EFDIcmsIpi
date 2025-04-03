@@ -17,12 +17,12 @@ public class RA111 extends LineArchetype{
     
     public static final String REG = "REG";
     /**
-     * Identificação do processo ou ato concessório
+     * IdentificaÃ§Ã£o do processo ou ato concessÃ³rio
      */
     public static final String NUM_PROC = "NUM_PROC";
     /**
      * Indicador da origem do processo
-     * 1 - Justiça Federal
+     * 1 - JustiÃ§a Federal
      * 3 - Secretaria da Receita Federal do Brasil
      * 9 - Outros
      */

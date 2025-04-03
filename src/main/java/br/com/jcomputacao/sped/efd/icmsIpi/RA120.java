@@ -17,44 +17,44 @@ public class RA120 extends LineArchetype {
     
     public static final String REGISTRO = "REG";
     /**
-     * Valor total do serviço, prestado por pessoa física ou juridica
+     * Valor total do serviÃ§o, prestado por pessoa fÃ­sica ou juridica
      * domiciliada no exterior
      */
     public static final String VL_TOT_SERV = "VL_TOT_SERV";
     /**
-     * Valor da base de calculo da operação PIS/PASEP - Importação
+     * Valor da base de calculo da operaÃ§Ã£o PIS/PASEP - ImportaÃ§Ã£o
      */
     public static final String VL_BC_PIS = "VL_BC_PIS";
     /**
-     * Valor pago/recolhido de PIS/PASEP - Importação
+     * Valor pago/recolhido de PIS/PASEP - ImportaÃ§Ã£o
      */
     public static final String VL_PIS_IMP = "VL_PIS_IMP";
     /**
-     * data de pagamento do PIS/PASEP - Importação
+     * data de pagamento do PIS/PASEP - ImportaÃ§Ã£o
      */    
     public static final String DT_PAG_PIS = "DT_PAG_PIS";
     /**
-     * Valor da base de calculo da operação - COFINS- Importação
+     * Valor da base de calculo da operaÃ§Ã£o - COFINS- ImportaÃ§Ã£o
      */
     public static final String VL_BC_COFINS = "VL_BC_COFINS";
     /**
-     * Valor pago/recolhido de COFINS - Importação
+     * Valor pago/recolhido de COFINS - ImportaÃ§Ã£o
      */
     public static final String VL_COFINS_IMP = "VL_COFINS_IMP";
     /**
-     * Data de pagamento do COFINS - Importação
+     * Data de pagamento do COFINS - ImportaÃ§Ã£o
      */
     public static final String DT_PAG_COFINS = "DT_PAG_COFINS";
     /**
-     * Local da execução do serviço
-     * 0 - Executado no País.
-     * 1 - Executado no exterior, cujo resultado se verifique no País.
+     * Local da execuÃ§Ã£o do serviÃ§o
+     * 0 - Executado no PaÃ­s.
+     * 1 - Executado no exterior, cujo resultado se verifique no PaÃ­s.
      */
     public static final String LOC_EXE_SERV = "LOC_EXE_SERV";
 
     public RA120() {
          
-        setName("Registro A120 - Informação Complementar - Operações de importação");
+        setName("Registro A120 - InformaÃ§Ã£o Complementar - OperaÃ§Ãµes de importaÃ§Ã£o");
         setDelimiter("|");
         
         FormatWrapper fw = FormatFactory.getFormat(FormatType.DECIMAL);

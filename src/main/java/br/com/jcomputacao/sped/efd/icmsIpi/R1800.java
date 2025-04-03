@@ -22,7 +22,7 @@ public class R1800 extends LineArchetype {
     
     
      /*
-     * 2 - Valor das prestaÁıes cargas (Tributado)
+     * 2 - Valor das presta√ß√µes cargas (Tributado)
      */
     public static final String VL_CARGA = "VL_CARGA";
     
@@ -31,7 +31,7 @@ public class R1800 extends LineArchetype {
     
     
      /*
-     * 3 - Valor das prestaÁıes passageiros/cargas (N„o Tributado) 
+     * 3 - Valor das presta√ß√µes passageiros/cargas (N√£o Tributado) 
      */
     public static final String VL_PASS = "VL_PASS";
     
@@ -47,7 +47,7 @@ public class R1800 extends LineArchetype {
     
     
      /*
-     * 5 -  Õndice para rateio(2 / 4) 
+     * 5 -  √çndice para rateio(2 / 4) 
      */
     public static final String  IND_RAT= "IND_RAT";
     
@@ -56,7 +56,7 @@ public class R1800 extends LineArchetype {
     
     
      /*
-     * 6 - Valor total dos crÈditos do ICMS 
+     * 6 - Valor total dos cr√©ditos do ICMS 
      */
     public static final String  VL_ICMS_ANT = " VL_ICMS_ANT";
     
@@ -64,7 +64,7 @@ public class R1800 extends LineArchetype {
     
     
      /*
-     * 7 -  Valor da base de c·lculo do ICMS 
+     * 7 -  Valor da base de c√°lculo do ICMS 
      */
     public static final String  VL_BC_ICMS = " VL_BC_ICMS";
     
@@ -74,7 +74,7 @@ public class R1800 extends LineArchetype {
     
     
      /*
-     * 8 - Valor do ICMS apurado no c·lculo (5 x 6) 
+     * 8 - Valor do ICMS apurado no c√°lculo (5 x 6) 
      */
     public static final String VL_ICMS_APUR = "VL_ICMS_APUR";
     
@@ -83,7 +83,7 @@ public class R1800 extends LineArchetype {
     
     
      /*
-     * 9 - Valor da base de c·lculo do ICMS apurada (5 x 7)
+     * 9 - Valor da base de c√°lculo do ICMS apurada (5 x 7)
      */
     public static final String VL_BC_ICMS_APUR = "VL_BC_ICMS_APUR";
     
@@ -92,7 +92,7 @@ public class R1800 extends LineArchetype {
     
     
      /*
-     * 10 - Valor da diferenÁa a ser levada a estorno de crÈdito na apuraÁ„o (6 - 8) 
+     * 10 - Valor da diferen√ßa a ser levada a estorno de cr√©dito na apura√ß√£o (6 - 8) 
      */
     public static final String VL_DIF = "VL_DIF";
     
@@ -102,7 +102,7 @@ public class R1800 extends LineArchetype {
     
 
     public R1800() {
-        setName("REGISTRO 1800: DCTA ? DEMONSTRATIVO DE CR…DITO DO ICMS SOBRE TRANSPORTE A…REO ");
+        setName("REGISTRO 1800: DCTA ? DEMONSTRATIVO DE CR√âDITO DO ICMS SOBRE TRANSPORTE A√âREO ");
         setDelimiter("|");
          FormatWrapper fw = FormatFactory.getFormat(FormatType.DECIMAL);
         fw.setReplaceComa(false);

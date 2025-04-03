@@ -14,38 +14,38 @@ public class RG130 extends LineArchetype {
      */
    public static final String REGISTRO  = "REGISTRO ";
    /*
-     * 2 - Indicador do emitente do documento fiscal: 0- Emiss鉶 pr髉ria; 1- Terceiros
+     * 2 - Indicador do emitente do documento fiscal: 0- Emiss茫o pr贸pria; 1- Terceiros
  
      */
     public static final String  IND_EMIT    = " IND_EMIT   ";
     /*
-     * 3 - C骴igo do participante : - do emitente do documento ou do remetente das mercadorias, no caso de entradas; - do adquirente, no caso de sa韉as
+     * 3 - C贸digo do participante : - do emitente do documento ou do remetente das mercadorias, no caso de entradas; - do adquirente, no caso de sa铆das
 
  
      */
    public static final String  COD_PART   = " COD_PART  ";
    /*
-     * 4 - Indicador do emitente do documento fiscal: 0- Emiss鉶 pr髉ria; 1- Terceiros
+     * 4 - Indicador do emitente do documento fiscal: 0- Emiss茫o pr贸pria; 1- Terceiros
  
      */
    public static final String COD_MOD  = "COD_MOD ";
    /*
-     * 5 - S閞ie do documento fiscal 
+     * 5 - S茅rie do documento fiscal 
  
      */
    public static final String SERIE   = "SERIE  ";
    /*
-     * 6 -  N鷐ero de documento fiscal 
+     * 6 -  N煤mero de documento fiscal 
  
      */
    public static final String NUM_DOC  = "NUM_DOC ";
    /*
-     * 7 - Chave do documento fiscal eletr鬾ico
+     * 7 - Chave do documento fiscal eletr么nico
  
      */
    public static final String CHV_NFE_CTE   = "CHV_NFE_CTE  ";
    /*
-     * 8 - Data da emiss鉶 do documento fiscal 
+     * 8 - Data da emiss茫o do documento fiscal 
  
      */
    public static final String  DT_DOC  = " DT_DOC ";

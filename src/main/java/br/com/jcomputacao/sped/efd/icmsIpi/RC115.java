@@ -23,12 +23,12 @@ public class RC115 extends LineArchetype{
     public static final String IND_CARGA = "IND_CARGA";
     /*
      * Indicador do tipo de transporte:
-    0 ? Rodovi·rio;
-    1 ? Ferrovi·rio;
-    2 ? Rodo-Ferrovi·rio;
-    3 ? Aquavi·rio;
-    4 ? Dutovi·rio;
-    5 ? AÈreo;
+    0 ? Rodovi√°rio;
+    1 ? Ferrovi√°rio;
+    2 ? Rodo-Ferrovi√°rio;
+    3 ? Aquavi√°rio;
+    4 ? Dutovi√°rio;
+    5 ? A√©reo;
     9 ? Outros.
      */
     
@@ -36,14 +36,14 @@ public class RC115 extends LineArchetype{
     
     public static final String CNPJ_COL = "CNPJ_COL";
     /*
-     * N˙mero do CNPJ do contribuinte do local de coleta
+     * N√∫mero do CNPJ do contribuinte do local de coleta
      */
     
     
     
     public static final String IE_COL = "IE_COL";
     /*
-     * InscriÁ„o Estadual do contribuinte do local de coleta
+     * Inscri√ß√£o Estadual do contribuinte do local de coleta
      */
     
     
@@ -57,21 +57,21 @@ public class RC115 extends LineArchetype{
     
     public static final String COD_MUN_COL = "COD_MUN_COL";
     /*
-     * CÛdigo do MunicÌpio do local de coleta
+     * C√≥digo do Munic√≠pio do local de coleta
      */
     
     
     
     public static final String CNPJ_ENTG = "CNPJ_ENTG";
     /*
-     * N˙mero do CNPJ do contribuinte do local de entrega
+     * N√∫mero do CNPJ do contribuinte do local de entrega
      */
     
     
     
     public static final String IE_ENTG = "IE_ENTG";
     /*
-     * InscriÁ„o Estadual do contribuinte do local de entrega
+     * Inscri√ß√£o Estadual do contribuinte do local de entrega
      */
     
     
@@ -85,7 +85,7 @@ public class RC115 extends LineArchetype{
     
     public static final String COD_MUN_ENTG = "COD_MUN_ENTG";
     /*
-     * CÛdigo do MunicÌpio do local de entrega
+     * C√≥digo do Munic√≠pio do local de entrega
      */
 
     

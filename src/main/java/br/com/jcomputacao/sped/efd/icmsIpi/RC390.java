@@ -20,42 +20,42 @@ public class RC390 extends LineArchetype{
      */
     public static final String CST_ICMS = "CST_ICMS";
     /*
-     * CÛdigo da SituaÁ„o Tribut·ria, conforme a Tabela indicada no item 4.3.1
+     * C√≥digo da Situa√ß√£o Tribut√°ria, conforme a Tabela indicada no item 4.3.1
      */
     public static final String CFOP = "CFOP";
     /*
-     * CÛdigo Fiscal de OperaÁ„o e PrestaÁ„o
+     * C√≥digo Fiscal de Opera√ß√£o e Presta√ß√£o
      */
     public static final String ALIQ_ICMS = "ALIQ_ICMS";
     /*
-     * AlÌquota do ICMS
+     * Al√≠quota do ICMS
      */
     public static final String VL_OPR = "VL_OPR";
     /*
-     * Valor total acumulado das operaÁıes correspondentes ‡
-       combinaÁ„o de CST_ICMS, CFOP e alÌquota do
-       ICMS, incluÌdas as despesas acessÛrias e acrÈscimos
+     * Valor total acumulado das opera√ß√µes correspondentes √†
+       combina√ß√£o de CST_ICMS, CFOP e al√≠quota do
+       ICMS, inclu√≠das as despesas acess√≥rias e acr√©scimos
      */
     public static final String VL_BC_ICMS = "VL_BC_ICMS";
     /*
-     * Valor acumulado da base de c·lculo do ICMS,
-       referente ‡ combinaÁ„o de CST_ICMS, CFOP, e
-       alÌquota do ICMS.
+     * Valor acumulado da base de c√°lculo do ICMS,
+       referente √† combina√ß√£o de CST_ICMS, CFOP, e
+       al√≠quota do ICMS.
      */
     public static final String VL_ICMS = "VL_ICMS";
     /*
-     * Valor acumulado do ICMS, referente ‡ combinaÁ„o de
-       CST_ICMS, CFOP e alÌquota do ICMS.
+     * Valor acumulado do ICMS, referente √† combina√ß√£o de
+       CST_ICMS, CFOP e al√≠quota do ICMS.
      */
     public static final String VL_RED_BC = "VL_RED_BC";
     /*
-     * Valor n„o tributado em funÁ„o da reduÁ„o da base de
-      c·lculo do ICMS, referente ‡ combinaÁ„o de
-      CST_ICMS, CFOP, e alÌquota do ICMS.
+     * Valor n√£o tributado em fun√ß√£o da redu√ß√£o da base de
+      c√°lculo do ICMS, referente √† combina√ß√£o de
+      CST_ICMS, CFOP, e al√≠quota do ICMS.
      */
     public static final String COD_OBS = "COD_OBS";
     /*
-     * CÛdigo da observaÁ„o do lanÁamento fiscal (campo 02
+     * C√≥digo da observa√ß√£o do lan√ßamento fiscal (campo 02
        do Registro 0460)
      */
 
